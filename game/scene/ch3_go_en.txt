@@ -1,0 +1,76 @@
+; ===========================
+; Chapter 3: Go to meet Emily
+; ===========================
+
+setVar:investigation=investigation+2 -next;
+setVar:trust=trust+1 -next;
+
+changeBg:bg-subway-interior.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:The late-night subway car rattles through the tunnel. Anna grips the overhead bar, swaying with the motion of the train. There are only four other passengers — a nurse in scrubs staring at her phone, two teenagers sharing earbuds, and a man in a suit who appears to be asleep standing up.;
+
+:Anna's reflection stares back from the dark window. She looks scared. She is scared. What exactly is she doing, riding the subway to meet a stranger at midnight based on a cryptic invitation?;
+
+:She tries to construct a rational explanation — field research, intellectual curiosity, the journalistic instinct to follow a lead. None of them feel true. The truth is simpler and more unsettling: she can't stop thinking about it. The glow. The hum. The way Emily looked at her like she already knew something Anna didn't.;
+
+:The train slows. Her stop. She steps onto the platform and the doors close behind her with a hydraulic sigh.;
+
+changeFigure:none -next;
+
+; — The platform at night —
+
+changeBg:bg-subway.jpg -next;
+
+:The station looks different at night — or rather, at this particular hour, in the dead space between late and early. The advertisements on the walls seem faded, their smiling faces ghostly under the flickering fluorescents. The tiled floor gleams with a thin film of moisture that wasn't there before.;
+
+:The vending machine is where she left it, glowing that same impossible yellow. But the platform feels larger somehow, the ceiling higher, the tunnel mouths darker. Sound behaves differently here at this hour — her footsteps carry too far, the echo returning a half-beat too late.;
+
+changeFigure:char-emily.png -right -next;
+
+:Emily is sitting cross-legged on the platform bench, reading a book. A real, physical book — hardcover, no dust jacket, pages yellowed with age. She holds it close to her face, tilted to catch the vending machine's light. She looks utterly at home, as if this subway platform at midnight is her living room.;
+
+changeFigure:char-anna.png -left -next;
+
+:Anna stops a few feet away. Emily doesn't look up immediately. She finishes whatever sentence she's reading, marks her place with a finger, and then raises her eyes.;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:You came.;
+
+:Two words. No surprise, no relief, no judgment. Just acknowledgment — the way you might greet the tide coming in, because that's what tides do.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:I almost didn't.;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:I know.;
+
+:Emily closes the book and sets it beside her on the bench. Anna catches a glimpse of the cover — no title, just a faint embossed symbol she can't make out in the dim light.;
+
+:Emily reaches under the bench and pulls out a manila folder. It's thick, the edges worn soft from handling.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:Sit down. There's something you need to see.;
+
+; Restore brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeScene:ch3_reveal.txt;

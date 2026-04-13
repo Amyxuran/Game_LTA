@@ -1,0 +1,177 @@
+; ===========================
+; Chapter 1: Late Night Subway
+; ===========================
+
+; Initialize variables
+setVar:curiosity=0 -next;
+setVar:rebellion=0 -next;
+setVar:trust=0 -next;
+setVar:investigation=0 -next;
+setVar:humanity=0 -next;
+
+; Opening title
+; intro:Chapter One|Late Night Subway;
+
+; Scene: Subway platform
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=2000 -next;
+
+:11:45 PM, New York City. The last subway train is pulling into the station. The car is nearly empty, filled only with the uneasy hum of fluorescent lights.;
+
+; Show Anna
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:Anna leans against the cold subway door, clutching a psychology thesis draft covered in her advisor's red annotations. Philip's comments cut across every page — "confused logic," "flawed experiment design," "rewrite.";
+
+Anna:(Another rewrite... this is already the fourth draft. At this rate, I'm definitely not graduating on time.);
+
+changeFigure:none -next;
+
+:The train stops at a platform she's never noticed before. The lighting is dim, the station name illegible. But in the center of the platform, something catches her eye—;
+
+; Show vending machine CG
+changeFigure:cg-vending.png -next;
+
+:A bright yellow vending machine, glowing warm and eerie in the darkness. Through the glass, rows of perfect red apples sit in neat lines — each one flawless.;
+
+:The machine's screen scrolls a single line: "An Apple A Day Keeps The Doctor Away.";
+
+changeFigure:none -next;
+
+; Show Anna
+changeFigure:char-anna.png -next;
+
+Anna:(... What? I've never seen this platform before. Who puts a vending machine that only sells apples in a subway station?);
+
+changeFigure:none -next;
+
+; First choice
+choose:Approach the machine for a closer look:label_approach|Ignore it, wait for the next train:label_ignore|Take a photo with your phone:label_photo;
+
+; ---- Approach the machine ----
+label:label_approach;
+setVar:curiosity=curiosity+2 -next;
+changeFigure:char-anna.png -next;
+:Anna steps off the train and walks toward the machine. Up close, the apples look even more surreal — deep wine-red, with a faint luminescence rippling across their surface.;
+changeFigure:none -next;
+jumpLabel:label_vending;
+
+; ---- Ignore it ----
+label:label_ignore;
+changeFigure:char-anna.png -next;
+:Anna turns away. But just as the doors begin to close, a strange fragrance hits her — sweet, crisp, like autumn orchards. Before she knows it, she's stepped off the train.;
+changeFigure:none -next;
+jumpLabel:label_vending;
+
+; ---- Take a photo ----
+label:label_photo;
+setVar:investigation=investigation+1 -next;
+setVar:curiosity=curiosity+1 -next;
+changeFigure:char-anna.png -next;
+:Anna raises her phone, but the viewfinder shows only a blurry glow where the machine should be. No matter how she focuses, it won't resolve. She frowns and decides to get closer.;
+setVar:investigation=investigation+1 -next;
+changeFigure:none -next;
+jumpLabel:label_vending;
+
+; ---- Meet Emily by the vending machine ----
+label:label_vending;
+
+; Show Anna and Emily
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:Next to the machine, a Black girl in a plaid shirt leans against the wall, holding a half-bitten apple. Her expression is impossibly calm.;
+
+; Emily speaks, highlight Emily, dim Anna
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+playEffect:se-dramatic.wav -next;
+Emily:You smelled it too?;
+
+; Anna speaks, highlight Anna, dim Emily
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:... Who are you?;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:I'm Emily. First time at this platform? Don't worry — everyone makes that face the first time they see this machine.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:Did you... put this machine here?;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:Not me. It's always been here. It's just that — you can only see this platform when you need it.;
+
+; Restore both brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:She says this as casually as a weather report. The machine's light flickers across her face.;
+
+; Second choice
+choose:What do you mean, "need it"?:label_ask|You're messing with me, right?:label_skeptic|... Can I buy one?:label_want;
+
+; ---- "Need it" ----
+label:label_ask;
+setVar:curiosity=curiosity+1 -next;
+setVar:trust=trust+1 -next;
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:It means... you're carrying something heavy inside. Something that's crushing you. Am I right?;
+jumpLabel:label_merge;
+
+; ---- Skeptic ----
+label:label_skeptic;
+setVar:investigation=investigation+1 -next;
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:You don't have to believe me. But you did step off the train, didn't you? And that thesis in your hand — you've crumpled it without realizing.;
+jumpLabel:label_merge;
+
+; ---- Buy an apple ----
+label:label_want;
+setVar:rebellion=rebellion+2 -next;
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:... You sure? Most first-timers ask a lot of questions first. You're direct.;
+jumpLabel:label_merge;
+
+; ---- Merge ----
+label:label_merge;
+
+; Restore both brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:A distant horn sounds. The last train is about to leave.;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:Train's leaving. You can get on — pretend tonight never happened. Or...;
+
+:She pulls a coin from her pocket and places it beside the machine's coin slot.;
+
+Emily:Or drop a coin and buy an apple. But I should warn you — people who eat these apples tend to wake up the next morning as completely different people.;
+
+; Restore both brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+; Clear characters
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+; Third choice — jump to different chapters
+choose:Get on the train — tonight is too surreal:ch2_leave.txt|I won't buy, but I want to stay and ask more:ch2_stay.txt|I'm not ready yet... but can I come back?:ch2_refuse.txt;

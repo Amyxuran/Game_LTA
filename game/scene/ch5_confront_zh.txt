@@ -1,0 +1,188 @@
+; ===========================
+; 第五章 · 终局 (质问教授 → 结局D)
+; Chapter 5: Confront Professor → Ending D
+; ===========================
+
+setVar:investigation=investigation+2 -next;
+
+; intro:第五章|终局;
+
+changeBg:bg-office-night.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-philip.png -right -next;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:Philip。我找到了一篇被撤回的论文，通讯作者是Philip Morrison。关于多巴胺回路重置。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:办公室空气凝固。菲利普摘下眼镜，缓缓擦拭镜片，沉默了很久。;
+
+; 菲利普说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+playEffect:se-dramatic.wav -next;
+菲利普:……你查到了多少？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:EDEN计划。EDEN素。地铁站的苹果贩卖机。还有Jonathan——他吃了苹果。;
+
+; 菲利普说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:那是二十年前的事了。当时我和你一样——充满理想主义。EDEN计划的初衷是好的：帮助被焦虑吞噬的人。;
+
+; === 菲利普的回忆 ===
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+changeBg:bg-lab-flashback.jpg -next;
+
+changeFigure:char-philip.png -next;
+
+:二十年前。一间逼仄的大学实验室，荧光灯闪烁不定，桌上堆满了论文和培养皿。年轻的菲利普·莫里森，三十二岁，黑发，眼睛里带着一种近乎偏执的光。;
+
+:他不是为了军方工作。不是为了学术声望。他研究多巴胺回路，是因为他的姐姐——玛格丽特。;
+
+:玛格丽特患有严重的广泛性焦虑障碍。她是一个才华横溢的建筑师，但焦虑像一只看不见的手，时刻掐着她的喉咙。她无法完成项目，无法出门，最后甚至无法从床上起来。当时的药物——SSRIs、苯二氮卓——要么副作用太大，要么只是把症状压下去，像在伤口上贴创可贴。;
+
+:菲利普想找到根本的解决方案。不是抑制症状，而是重置回路本身。;
+
+:发现是偶然的。他在测试一批从南美进口的稀有水果提取物——其中一种热带浆果的化合物意外地展现出对多巴胺D2受体的高度亲和力。低剂量下，它能暂时平息焦虑，让大脑进入一种类似冥想的平静状态。不是麻木，是清明。;
+
+:他在玛格丽特身上测试了。效果超出想象。三天内，她第一次走出房间，站在院子里，抬头看天空，说了一句："天好蓝。"那是她两年来说的第一句与恐惧无关的话。;
+
+:菲利普激动得彻夜未眠。他写了论文，发表在《神经科学前沿》上。那篇论文改变了一切。;
+
+:先是媒体报道。然后是制药公司的电话。最后——是军方。;
+
+:两个穿深色西装的人出现在他的实验室里。他们不需要自我介绍，那种眼神和姿态已经说明了一切。他们说他们对PTSD治疗"很感兴趣"。退伍军人的创伤后应激障碍，是一个巨大的社会问题，对吧？;
+
+:菲利普同意了。他以为自己在做好事。;
+
+:但三个月后，他在一次机密会议上看到了真正的项目计划书。他们不只是想治疗创伤——他们想知道，当高成就者失去竞争动力后会发生什么。这种化合物能不能被武器化？如果敌国的科学家、工程师、军事指挥官都吃了这种东西，他们还会有战斗力吗？;
+
+:菲利普拍了桌子。他说不。;
+
+:他们说好。然后他们撤走了所有资助，撤回了他的论文，抹去了他两年的研究记录。一夜之间，他从学术新星变成了一个简历上有空白期的无名研究员。;
+
+:他花了五年时间重建自己的职业。从零开始。从助教做起。从给本科生改作业开始。他把EDEN的一切埋在了记忆最深处，像埋一具尸体。;
+
+changeBg:bg-office-night.jpg -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+changeFigure:char-anna.png -left -next;
+changeFigure:char-philip.png -right -next;
+
+; 菲利普说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:但有人拿到了我的原始笔记。可能是当年实验室里的某个研究助理，可能是军方留了备份。我不知道是谁。;
+
+菲利普:我以为已经结束了。直到我听说了那台贩卖机。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你姐姐……后来怎么样了？;
+
+:菲利普沉默了很久。;
+
+; 菲利普说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:她现在住在缅因州海边。养了两只猫，每天画水彩画。她很平静。;
+
+:他摘下眼镜，用手揉了揉鼻梁。;
+
+菲利普:她很平静。但她不再画建筑图了。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你骗了我这么久……你一直都知道？;
+
+; 菲利普说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:我试过把一切埋起来。我以为项目已经随着我的辞职一起死了。;
+
+菲利普:每一天走进实验室，看到那些年轻的面孔……我都在想，如果他们知道我做过什么——;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:玛格丽特……她现在真的好吗？;
+
+; 菲利普说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:她很平静。但那种平静……不是她选择的。是我替她选的。;
+
+菲利普:她曾经能徒手画出整栋建筑的结构图。现在她画猫，画海浪。很美，但……那不是她。;
+
+:沉默像一堵墙，横亘在两人之间。窗外传来走廊里学生经过的脚步声，恍如隔世。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:重启实验的人……你知道是谁吗？;
+
+; 菲利普说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:我不确定。但我怀疑是当年的一个研究助理。他……比我更相信EDEN素的潜力。他觉得我放弃是懦弱。;
+
+菲利普:也许他是对的。也许我确实是个懦夫。只不过是一个碰巧做出了危险发现的懦夫。;
+
+:安娜看着眼前这个佝偻的男人——她的导师，EDEN计划的创造者，一个被自己的发明压垮的人。他既是始作俑者，也是受害者。这个认知像一根刺，扎在她心里，拔不出来。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeBg:bg-street-night.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:走出菲利普的办公室，安娜在街头走了很久。;
+
+:她想起Jonathan在公园里把枫叶夹进速写本的样子。想起Marco说"那个人太可怕了，为了多赚百分之零点五可以不眨眼地说谎"时手指无意识拨动琴弦的停顿。想起Lily说"我回不去了"——不是因为苹果，是因为她终于看清了原本就缺失的东西。;
+
+:她手里握着足够毁掉一切的证据。;
+
+安娜:（如果我公开——Jonathan会被写成实验品。Marco和Lily会被当成受害者。他们现在的生活会被放在聚光灯下，被解剖，被质疑，被要求证明自己是否"真的快乐"。）;
+
+安娜:（但如果我不公开——还会有更多人走到那台贩卖机前面。也许是下一个凌晨三点哭着跑数据的人。）;
+
+:没有一个选择是干净的。;
+
+choose:我们必须公开真相，阻止实验继续:label_endD1|但是……那些吃了苹果的人，真的不幸福吗？:label_endD2;
+
+; ---- 结局D：公开真相 ----
+label:label_endD1;
+
+changeScene:ch5_endd_truth.txt;
+
+; ---- 结局E：人文关怀 ----
+label:label_endD2;
+
+changeScene:ch5_ende_humanity.txt;

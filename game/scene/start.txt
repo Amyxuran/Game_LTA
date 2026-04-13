@@ -1,0 +1,3 @@
+; 末班车苹果 - Last Train Apple
+; Language routing enabled
+changeScene:ch1.txt;

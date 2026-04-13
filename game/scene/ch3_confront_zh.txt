@@ -1,0 +1,111 @@
+; ===========================
+; 第三章 · 抉择 (对峙路线)
+; Chapter 3: Confront path
+; ===========================
+
+setVar:rebellion=rebellion+2 -next;
+setVar:humanity=humanity+1 -next;
+
+; intro:第三章|抉择;
+
+changeBg:bg-office.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-philip.png -right -next;
+
+:菲利普还坐在椅子上，键盘敲击声均匀，不疾不徐。安娜站在那里，在嘴里排练了三遍开场白，说出来的是完全不同的话。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:Philip，如果一个人发现自己追求的东西并不是真正想要的，放弃算是失败吗？;
+
+:菲利普的手停在键盘上。他没有立刻回头，屏幕上的光映在他的镜片上，像两片小小的窗户。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:菲利普缓缓转过椅子。他的表情是安娜熟悉的那种——冷静、审视、带着一丝不耐烦。但当他开口的时候，声音比平时低了半度。;
+
+菲利普:……你在说Jonathan的事？还是在说你自己？;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:也许两者都是。;
+
+:她自己都没想到会这么直接。话一出口，办公室里的空气似乎凝固了一瞬。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:Anna，你知道你现在正处于博士项目的关键阶段。这种"存在主义危机"每个研究生都会经历，但能走过来的人不会在这个时候质疑方向。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:Jonathan也经历了这个阶段。然后他走了。你觉得他是走不过来，还是看到了我们没看到的东西？;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:菲利普的下颌收紧了。安娜看到他的手握了一下椅子扶手——很轻，但她注意到了。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:Jonathan是一个有天赋的学生。但天赋不等于毅力。学术需要的不只是聪明，还有……;
+
+:他停顿了。那个停顿不像是在组织语言，更像是什么东西卡在了嗓子里。;
+
+:安娜从未见过菲利普停顿。他是一个总是知道下一句话是什么的人——论文答辩、学术报告、甚至日常对话，他的语言都像预先写好的稿子，精确、流畅、无懈可击。;
+
+:但此刻他停了下来。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:……他离开的时候，来我办公室坐了一个下午。什么都没说。就坐着。;
+
+:这句话的语气和之前完全不同。不是导师对学生的训诫，而是——什么？安娜不确定。遗憾？困惑？还是某种更深的、她不想去猜测的东西？;
+
+:但那个裂缝只持续了一秒。菲利普像重新启动了一样，表情恢复了惯常的严肃。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:Anna，我说这些不是要你同情他。学术界有规则。你可以质疑规则，但你不能一边质疑一边期望规则迁就你。;
+
+菲利普:你的论文初稿下周五之前交。如果你觉得方向有问题，我们可以讨论。但"放弃"不在选项里。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+
+:安娜看着他。在荧光灯下，菲利普的脸上有一些她以前没注意到的细节：太阳穴的白发比上学期多了，眼角的皱纹在他不说话的时候更深，衬衫的领口有一点点起皱——这对一个永远一丝不苟的人来说，几乎是一种呐喊。;
+
+:他也在挣扎。安娜突然意识到了这件事。她不知道他在挣扎什么——也许是Jonathan的离开，也许是别的什么，也许是学术界正在慢慢碾碎每一个人而没有人愿意承认。;
+
+:但她没有说出来。有些话说出来只会让两个人都更难受。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:我知道了。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:教授目光如刀。但那把刀的刃口不像以前那么亮了。;
+
+:安娜转身走向门口。她的手碰到门把手的时候，身后传来了一声很轻的声音——像是叹气，又像是椅子靠背被压下去的声音。;
+
+:她没有回头。;
+
+:走出办公室的那一刻，走廊的荧光灯打在她脸上，白得刺眼。她的脚步在空旷的走廊里回响，每一步都在重复一个问题——;
+
+:如果放弃不在选项里，那她正在走向哪里？;
+
+:她不知道答案。;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeScene:ch3_jonathan.txt;

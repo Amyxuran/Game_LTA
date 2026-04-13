@@ -1,0 +1,72 @@
+; ===========================
+; 第五章 · 觉醒 → 结局A
+; Chapter 5: Resist → Ending A
+; ===========================
+
+setVar:humanity=humanity+2 -next;
+
+; intro:第五章|觉醒;
+
+changeBg:bg-street-night.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+安娜:不对。这不是我的选择。这是苹果替我做的选择。;
+
+:意识到这一点的瞬间，巨大的清醒感冲击着大脑。苹果的效果像薄雾，开始缓缓消散——但"轻松"的感觉也在同时离去。;
+
+:焦虑回来了。论文的压力回来了。但这一次，安娜不再害怕——;
+
+安娜:……我不想要这种轻松。不是这样的。;
+
+changeFigure:none -next;
+
+changeBg:bg-vending-machine.jpg -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:她回到站台。艾米丽看到她的眼神时，微微愣了一下——然后笑了。;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:你抗住了？EDEN素对大部分人的效果是不可逆的。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:也许是因为我从一开始就不完全相信它。苹果能让人忘记痛苦，但它同时也让人忘记了——痛苦存在的意义。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+changeBg:bg-lab.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:安娜回到了办公室，重新拿起论文。但这次，她写的不再是菲利普布置的课题——而是自己真正想研究的方向：人类在压力下的心理韧性与自主选择。;
+
+:论文依然很难写，导师依然严格，延毕依然可能。但安娜不再害怕了。因为这条路是她自己选的。不是苹果选的，不是导师选的，也不是社会选的。;
+
+:是她自己。;
+
+changeFigure:none -next;
+
+changeBg:bg-campus-autumn.jpg -next;
+
+:— 结局A · 觉醒 Awakening —;
+
+:安娜抵抗了苹果的效果，重新拿起了那份论文。路没有变短，但她的脚步不一样了。;
+
+setVar:ending_a=true -global -next;
+end;

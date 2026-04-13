@@ -1,0 +1,50 @@
+; ===========================
+; Chapter 5: Redesign -> Ending C (Emily path)
+; ===========================
+
+setVar:humanity=humanity+1 -next;
+
+changeBg:bg-apartment.jpg -next;
+bgm:bgm-misty.mp3 -enter=2000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:That night, Anna opens her thesis document. But she doesn't follow the professor's instructions — she opens a new file and starts writing what she truly wants. Not for graduation. Not for the degree. But to answer the question that found her on that subway platform: What is true success?;
+
+changeFigure:none -next;
+
+changeBg:bg-city.jpg -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:Six months later, Anna graduates. Not with the highest GPA or the most publications — but with a thesis that left the defense committee silent for three full minutes.;
+
+:On the acknowledgments page, she wrote: "Thanks to a vending machine in a late-night subway station, and a girl named Emily. You taught me that life isn't a multiple-choice test.";
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:You're the smartest person I've ever met — because you learned to make peace with yourself.;
+
+; Restore brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Anna didn't abandon academia, and academia didn't consume her. She found a third path — with passion, with clarity, at her own pace.;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+changeBg:bg-campus.jpg -next;
+
+:— Ending C · Balance —;
+
+:Anna chose to redesign, not simply destroy or expose. She found her own third path. With passion, with clarity, at her own pace. Life isn't a multiple-choice test.;
+
+setVar:ending_c=true -global -next;
+end;

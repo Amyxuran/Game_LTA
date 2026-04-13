@@ -1,0 +1,101 @@
+; ===========================
+; Chapter 3: Confront path
+; ===========================
+
+setVar:rebellion=rebellion+2 -next;
+setVar:humanity=humanity+1 -next;
+
+; intro:Chapter Three|Crossroads;
+
+changeBg:bg-office.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-philip.png -right -next;
+
+:Philip's office smells the way it always does — old paper, cold coffee, and the faint chemical tang of whiteboard markers. The shelves are lined with journals he's published in, their spines facing outward like trophies. A single lamp pools yellow light on the desk.;
+
+:He doesn't look up when Anna enters. He's marking a student paper, his pen moving in quick, surgical strokes. She stands in front of his desk for five full seconds before he acknowledges her.;
+
+; Philip speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Philip:Office hours are Thursday. You know that.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:This won't take long.;
+
+Anna:Philip — if someone realizes what they've been chasing isn't what they truly want, is giving up really failure?;
+
+:The pen stops. Philip looks up. His expression doesn't change, but something shifts behind his eyes — a recalibration, the way a camera adjusts focus.;
+
+; Philip speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Philip:... Are you talking about Jonathan? Or about yourself?;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:Does it matter? Jonathan was one of your best students. Now he's gone and nobody's asking why. Everyone just moved on, like he was a line item that got deleted from a spreadsheet.;
+
+; Philip speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Philip:People leave programs. It happens. The work continues.;
+
+:Something flickers across Philip's face — just for a moment, so brief Anna almost misses it. His jaw tightens. His gaze drops to the desk, to the paper he was marking, to the red ink that suddenly looks like something other than corrections.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Philip:Jonathan made his choice. I can't afford to question every student who decides this path isn't for them.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:Can't afford to? Or won't?;
+
+:The room goes very quiet. The ventilation hums. Philip sets his pen down with deliberate care, aligning it parallel to the edge of the desk. When he speaks again, his voice is lower, and for one disorienting second, Anna thinks she hears something human in it.;
+
+; Philip speaks — briefly vulnerable
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Philip:I've been doing this for twenty-two years, Anna. You think you're the first student to sit in that chair and ask me if it's all worth it?;
+
+:He pauses. His hand moves toward a framed photo on his desk — his own doctoral advisor, Anna realizes, from the faded department photo — then pulls back.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Philip:If I let myself feel the weight of every person who walks away, I wouldn't be able to do the work. And the work matters. Maybe that's cold. But it's how I survive this.;
+
+:The vulnerability lasts exactly three seconds. Then the walls go back up. His posture straightens. His eyes harden.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Philip:Your thesis revision is due Friday. I suggest you spend your energy on that instead of philosophical detours.;
+
+; Restore brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Anna stares at him. She wants to push further, to crack open that three-second window and climb through it. But the window is already sealed.;
+
+:She turns and walks out without another word. The door clicks shut behind her.;
+
+:In the hallway, her hands are shaking. Not from anger — or not only from anger. Something else. The look on Philip's face in that unguarded moment. The way his hand reached for the photo and stopped. The twenty-two years pressing down on his shoulders like geological layers.;
+
+:She doesn't feel victorious. She doesn't feel defeated. She feels like she's just glimpsed something true and terrible — that the system doesn't just grind down the students. It grinds down everyone.;
+
+:Anna walks toward the elevator. Her footsteps echo in the empty corridor. Behind her, the light under Philip's office door stays on.;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeScene:ch3_jonathan.txt;

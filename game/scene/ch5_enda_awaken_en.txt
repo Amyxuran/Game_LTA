@@ -1,0 +1,71 @@
+; ===========================
+; Chapter 5: Resist -> Ending A
+; ===========================
+
+setVar:humanity=humanity+2 -next;
+
+; intro:Chapter Five|Awakening;
+
+changeBg:bg-street.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+Anna:No. This isn't my choice. The apple is choosing for me.;
+
+:The moment she realizes this, a wave of clarity crashes through her mind. The apple's effect begins to dissipate like fog — but the lightness leaves with it.;
+
+:The anxiety returns. The thesis pressure returns. But this time, Anna isn't afraid—;
+
+Anna:True freedom isn't the absence of pain. It's the ability to choose for yourself even when it hurts.;
+
+changeFigure:none -next;
+
+changeBg:bg-subway.jpg -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:She returns to the platform. Emily sees her eyes and pauses — then smiles.;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:You resisted? The EDEN compound is irreversible for most people.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:Maybe because I never fully believed in it. The apple makes you forget pain — but it also makes you forget why pain exists.;
+
+; Restore brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+changeBg:bg-city.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:Anna returns to the office and picks up her thesis. But this time, she's not writing what Philip assigned — she's writing what she truly wants to research: psychological resilience and autonomous choice under pressure.;
+
+:The thesis is still hard. The advisor is still demanding. Delayed graduation is still possible. But Anna isn't afraid anymore. Because this path is hers. Not the apple's. Not the advisor's. Not society's.;
+
+:Hers.;
+
+changeFigure:none -next;
+
+changeBg:bg-city.jpg -next;
+
+:— Ending A · Awakening —;
+
+:Anna resisted the apple's temptation and found herself. True freedom isn't the absence of pain, but the ability to choose for yourself even when it hurts. This path is hers.;
+
+setVar:ending_a=true -global -next;
+end;

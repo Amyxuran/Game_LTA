@@ -1,0 +1,156 @@
+; ===========================
+; 第二章 · 谜团 (留下来问问题)
+; Chapter 2: Mystery (stayed to ask)
+; ===========================
+
+; intro:第二章|谜团;
+
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:末班车呼啸离去。列车带起的风把安娜的蓝色头发吹乱了，几缕落在眼前，她没有去拨。;
+
+:站台陷入了一种超现实的寂静。末班车走后的地铁站像是从时间线上脱落了——没有广播，没有脚步声，甚至没有远处列车的轰鸣。贩卖机的低频嗡鸣成了唯一的背景音，像一颗被放大了的心跳。;
+
+:头顶的荧光灯开始闪烁，一明一灭之间，艾米丽的影子在地面上拉长又缩短，像某种定格动画。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:你真有意思。大部分人要么立刻走，要么立刻吃。你是我见过的第一个"只想聊聊"的人。;
+
+setVar:trust=trust+1 -next;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:这台机器到底是什么？苹果里有什么成分？;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:直接就问配方？你是学理工科的吗？;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:心理学。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:心理学……那你应该很擅长分析别人的动机。那你分析一下——你为什么留下来？;
+
+:安娜愣了一下。这个问题听起来简单，但答案比她预想的要复杂得多。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……好奇心。我只是想知道这是什么。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:好奇心。;
+
+:艾米丽重复了这两个字，语气里带着一丝玩味。;
+
+艾米丽:来这里的大部分人不是因为好奇心。他们是因为走投无路。;
+
+艾米丽:大部分来到这里的人，都在逃避什么。你在逃避什么？;
+
+:荧光灯又闪了一下。安娜看到贩卖机屏幕上的"EDEN"字样在闪烁间隙似乎变了一瞬——但她眨了眨眼，又恢复了原样。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:我没有在逃避。我只是……;
+
+:她停下来。那个"只是"后面的话在舌尖上搅成了一团。只是什么？只是论文写不出来？只是导师对她失望？只是她已经连续三个月没有一天不焦虑？;
+
+安娜:……我的论文卡了很久。导师觉得我的方向有问题。同期的同学都在发论文，而我连一稿都交不出来。;
+
+安娜:我不知道自己在做什么。甚至不确定自己为什么还在读博。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:艾米丽沉默了一会儿。远处的隧道里传来一阵风，像是有列车经过，但什么也没有出现。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:我以前也是这样的。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你？;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:计算机科学。博士后。曾经在一个很好的实验室，做很前沿的项目，每天工作十六个小时，觉得自己在改变世界。;
+
+:她的声音变得很轻，像是在复述一个很久以前的故事。;
+
+艾米丽:苹果没有拯救我。但它让我看清了自己正在淹死。;
+
+:安娜想反驳什么，但话到嘴边又咽了回去。艾米丽的眼神在荧光灯的闪烁中忽明忽暗，像某种正在传递的信号。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:那你现在呢？你看清了之后……怎么样了？;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:艾米丽笑了一下。那个笑容很淡，像水面上的涟漪，一瞬间就消失了。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:我还在这里，不是吗？;
+
+:安娜不知道这算回答还是回避。;
+
+:就在这时，贩卖机的屏幕突然闪了一下——不是荧光灯的干扰，而是屏幕本身。"EDEN"的字样消失了，取而代之的是一行新的文字，亮了不到两秒：;
+
+:「如果你不再恐惧，你会做什么？」;
+
+:安娜瞪大了眼睛，但文字已经消失了，屏幕恢复了正常的"EDEN"显示。她转向艾米丽。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你看到了吗？屏幕上——;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:看到什么？;
+
+:艾米丽的表情完全平静，好像什么都没发生过。;
+
+艾米丽:我该走了。如果你还想聊，下次来的时候找我。我大部分晚上都在。;
+
+setVar:trust=trust+1 -next;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:艾米丽转身走向隧道的另一端，她的身影在荧光灯的明灭中一截一截地消失，像一条正在被擦除的线。;
+
+:安娜独自站在站台上。贩卖机的嗡鸣声忽然变得很大，又忽然变得很远。她盯着屏幕，等待那行字再次出现——但它没有。;
+
+:如果你不再恐惧，你会做什么？;
+
+:她把这句话默念了一遍，然后转身走向出口。夜风从楼梯口灌下来，带着十一月的寒意。她裹紧了外套。;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+; ——回到公寓——
+changeBg:bg-apartment.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:安娜走出地铁站，夜风灌进衣领。她搭上了回程的末班车，穿过空荡荡的车厢，在昏暗的街道上走了十五分钟，终于推开了公寓的门。;
+
+changeFigure:none -next;
+
+changeScene:ch2_night.txt;

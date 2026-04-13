@@ -1,0 +1,4 @@
+; Language router for ch2_refuse
+setVar:_lang=Default_Language -next;
+changeScene:ch2_refuse_en.txt -when=_lang==1;
+changeScene:ch2_refuse_zh.txt;

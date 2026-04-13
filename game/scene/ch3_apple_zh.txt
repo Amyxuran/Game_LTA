@@ -1,0 +1,40 @@
+; ===========================
+; 第三章 · 买苹果路线
+; Chapter 3: Go to buy apple
+; ===========================
+
+setVar:rebellion=rebellion+2 -next;
+setVar:trust=trust+1 -next;
+
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:安娜带着决心回到站台。艾米丽看到她的第一句话：;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:你的眼神和上次不一样了。上次是好奇，这次是……渴望？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:我想试试。这几天的生活让我快窒息了。如果苹果真的能让我解脱……;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:等等。在你做决定之前，有些事我得告诉你。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeScene:ch3_reveal.txt;

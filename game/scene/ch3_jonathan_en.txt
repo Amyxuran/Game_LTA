@@ -1,0 +1,228 @@
+; ===========================
+; Chapter 3: The Painter in the Park
+; ===========================
+
+; Scene: Central Park
+changeBg:bg-park-autumn.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+; Show Anna (left) and Jonathan (right)
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-jonathan.png -right -next;
+
+; placeholder: content
+
+:Central Park in autumn, carpeted in gold and crimson. Anna finds Jonathan near the Bethesda Fountain — sitting on a bench, sketchbook on his knees, pencil whispering against paper.;
+
+:He looks like a different person from three months ago. The Jonathan from the lab always wore a furrowed brow, shirt buttoned to the collar, walked like he was late for a flight. Now he's in a paint-stained hoodie, hair grown out, his expression... Anna can't find the right word. Not happy, not sad. Something she's never seen in academia — stillness.;
+
+; Anna speaks, highlight Anna, dim Jonathan
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:Jonathan?;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:Hey, Anna. Have a seat.;
+
+:He shifts to one side of the bench, casual, as if he'd been expecting someone to come find him.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:You've been... drawing?;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:Yeah. Here, look.;
+
+:He hands over the sketchbook. Anna flips through — a crooked oak tree, pigeons drinking from the fountain, an orange tabby curled under a bench, dappled light filtering through leaves. The technique is modest, but every stroke carries a quiet tenderness.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:These are... pretty good.;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:That's not what you came to say, is it?;
+
+:He smiles — no sarcasm, just knowing.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:... Fine. Jonathan, don't you regret it? Three years of psychology research, and you just walked away?;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:You want the honest answer?;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:Of course.;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:Sometimes I wake up at 3 AM.;
+
+Jonathan:And this thought flashes through my head — "What would the old Jonathan think of you now?" The one who pulled all-nighters crunching data, who was killing himself to get into Nature.;
+
+Jonathan:Those few seconds are rough. Like a voice saying, you're wasting your life.;
+
+; Restore both
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:He pauses, watching a swan glide across the lake in the distance.;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:And then the feeling passes. Like clouds. Drifts in, drifts away.;
+
+Jonathan:I don't know if the old me would be disappointed. But I know the old me... wasn't happy. Deeply unhappy. He was just too busy to admit it.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:... When did you find the vending machine?;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:Emily told me about it. We met in a programming course — she's a CS postdoc. She came to me and said, "If you want, there's a place that can make everything go quiet.";
+
+Jonathan:But she warned me too. She said, "Once you eat it, you can't take it back.";
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:And you didn't hesitate?;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:I hesitated for two full weeks. Then one night I was working late in the lab, and I realized I was crying over a dataset. Not because I'd made a mistake — because I'd gotten the results right and felt absolutely nothing.;
+
+Jonathan:I went to the platform the next day.;
+
+; Restore both
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:An autumn breeze sends maple leaves drifting onto his sketchbook. He carefully tucks them between the pages.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:Do you know if anyone else ate the apples?;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:At least two others. A guy from the business school — used to work in finance. And a girl from the medical school. We're not in the same circles at all, but we each found the machine on our own.;
+
+Jonathan:Funny thing is — the platform seems to choose people. People who are about to break.;
+
+; Restore both
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Anna is silent. In the distance, children laugh as they run across the lawn. A squirrel hangs upside down from a tree trunk, tilting its head to study them.;
+
+; Choice
+choose:Do you think... the person you are now is the real you?:label_identity|The two people you mentioned — can I find them?:label_find|Maybe you're right. Maybe I should let go too.:label_letgo;
+
+; ---- The real you ----
+label:label_identity;
+setVar:curiosity=curiosity+1 -next;
+setVar:humanity=humanity+1 -next;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:... I've asked myself that more times than I can count.;
+
+Jonathan:I'm not sure. But I know the old "me" wasn't the real me either. That person who cared about nothing but publication counts and impact factors — he was trained into existence, not born.;
+
+Jonathan:Maybe there's no such thing as the "real me." Only the me that's here right now. And right now, I want to draw this tree.;
+
+jumpLabel:label_farewell;
+
+; ---- Find them ----
+label:label_find;
+setVar:investigation=investigation+2 -next;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:Sure. The finance guy's name is Marco — he plays guitar on a downtown Manhattan street corner these days. And the med student is Lily. She sells pastries from a cart nearby.;
+
+Jonathan:Go talk to them. Their stories are different from mine. Maybe they'll help you find the answers you're looking for.;
+
+jumpLabel:label_farewell;
+
+; ---- Let go ----
+label:label_letgo;
+setVar:rebellion=rebellion+2 -next;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:... Don't rush into it, Anna.;
+
+Jonathan:Whatever you choose, make sure you've thought it through yourself. Don't pick a path just because someone else looks at peace on it.;
+
+Jonathan:Emily told me something similar. She said this isn't a choice anyone can make for you.;
+
+jumpLabel:label_farewell;
+
+; ---- Farewell ----
+label:label_farewell;
+
+; Restore both
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:The sun begins to sink, painting the park in gold. Jonathan closes his sketchbook and stands.;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:I'm heading over to the birch grove on the west side. The sunset on those white trunks is something else.;
+
+Jonathan:Anna, whatever you decide to do —;
+
+:He thinks for a moment, then smiles.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:Never mind. You know more about big life advice than I do.;
+
+; Restore
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:He waves and walks away down the path. Anna watches — every few steps he pauses, studies something, then flips open his sketchbook and draws a few quick lines.;
+
+:A man who once could work forty-eight hours straight for a shot at a Nature paper, now stopping to sketch a falling leaf.;
+
+; Clear characters
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+:Anna sits on the bench for a long time, until the park lamps flicker on.;
+
+changeScene:ch3_merge.txt;

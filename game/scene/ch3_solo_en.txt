@@ -1,0 +1,45 @@
+; ===========================
+; Chapter 3: Solo investigation
+; ===========================
+
+setVar:investigation=investigation+3 -next;
+
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:Anna doesn't reply. She rides the subway alone, searching for clues. Near an abandoned ventilation shaft, she finds an apple outline drawn in marker on the wall, with a code: "EDEN-0047.";
+
+setVar:investigation=investigation+2 -next;
+
+Anna:(EDEN... like the Garden of Eden? Some kind of project codename?);
+
+setVar:investigation=investigation+2 -next;
+
+changeFigure:none -next;
+
+; Emily appears
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:Footsteps behind her.;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:I knew you'd come looking on your own. You're not ordinary.;
+
+; Restore brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeScene:ch3_reveal.txt;

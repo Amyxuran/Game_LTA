@@ -1,0 +1,59 @@
+; ===========================
+; 第四章 · 平衡路线
+; Chapter 4: Balance path
+; ===========================
+
+setVar:humanity=humanity+3 -next;
+setVar:trust=trust+1 -next;
+
+changeBg:bg-bar.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:我不想变成Jonathan那样。他看起来快乐，但我不确定那是真正的快乐还是一种放弃。但我也不想继续像现在这样活着。;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:所以你想找一个中间地带？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:不是中间地带。是重新定义规则。为什么学术一定意味着痛苦？为什么追求快乐一定意味着放弃？;
+
+setVar:humanity=humanity+1 -next;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:你说的这些话，和我认识的一个人说过的很像。他也不肯吃苹果，也不肯放弃。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:那个人后来怎样了？;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:他……创造了那台贩卖机。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeScene:ch5_endc_balance.txt;

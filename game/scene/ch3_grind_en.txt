@@ -1,0 +1,56 @@
+; ===========================
+; Chapter 3: Grind path
+; ===========================
+
+setVar:rebellion=rebellion-1 -next;
+
+; intro:Chapter Three|Crossroads;
+
+changeBg:bg-library.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+; — Day 1 —
+
+:Day one. The university library, third floor, her usual desk by the window. Anna spreads her notes across the table like a general planning a campaign — highlighters color-coded, laptop charging, noise-canceling earbuds in. She will brute-force her way through this thesis if it kills her.;
+
+:For three hours, it almost works. Words accumulate on the screen, paragraphs take shape, citations slot into place. The familiar rhythm of academic labor wraps around her like armor.;
+
+:Then, around midnight, the cursor stops. She stares at a sentence she's written and realizes she's read it four times without understanding it. Behind the words, in the dark space between thoughts, a yellow glow flickers.;
+
+; — Day 2 —
+
+changeBg:bg-library.jpg -next;
+
+:Day two. The lab. She moves to a different location, thinking a change of scenery will help. The fluorescent lights buzz overhead. She types, deletes, types again. Her coffee grows cold. She microwaves it. It grows cold again.;
+
+:Sometime past one in the morning, her head drops onto her forearm. She sleeps for twenty minutes and dreams of nothing — or rather, she dreams of a hum, low and steady, like a machine running in an empty room.;
+
+:She jolts awake to the sound of her phone buzzing. A notification from the department group chat: Marcus Li has had his paper accepted at a top-tier journal. Three people have already sent congratulations. Anna stares at the screen, then locks it and turns it face-down.;
+
+:In the hallway, she passes another PhD student — someone from the cognitive science cohort. The girl's eyes are glassy, her shirt wrinkled. They exchange a nod, the silent acknowledgment of two soldiers in the same trench.;
+
+; — Day 3 —
+
+changeBg:bg-library.jpg -next;
+
+:Day three. Coffee and instant noodles keep her running like a wound-up machine, but the spring is losing tension. She prints out her thesis outline and tries to reorganize it on the desk, physically moving pages around, hoping the act of touching paper will jumpstart something.;
+
+:The pages blur. Not from tears — from exhaustion. The words swim and rearrange themselves into meaningless patterns. For a fleeting second, she could swear the margin notes rearrange into the shape of an apple.;
+
+:She blinks hard. They're just words again. But the image of the vending machine keeps intruding — that warm yellow light, Emily's calm voice, the impossibly smooth skin of the fruit. It surfaces every time her focus wavers, which is more and more often.;
+
+:At 2 AM on the third night, something clicks. A connection between two theoretical frameworks she hadn't seen before. Her hands fly across the keyboard, excitement flooding her veins like caffeine. For forty-five minutes she writes with a clarity she hasn't felt in months.;
+
+:Then she rereads what she's written. It's circular. The "breakthrough" is an elaborate restatement of her original hypothesis dressed in different vocabulary. She's been running in place.;
+
+:Anna closes her laptop. The lab is silent except for the hum of equipment on standby. She sits in the dark for a long time, listening to that hum, thinking about a different hum in a different underground place.;
+
+changeFigure:none -next;
+
+changeScene:ch3_jonathan.txt;

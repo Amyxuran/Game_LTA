@@ -1,0 +1,113 @@
+; ===========================
+; Chapter 2 merge: Lab scene
+; ===========================
+
+changeBg:bg-lab.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-jonathan.png -right -next;
+
+:The next afternoon, Anna enters the grad student office. The air is thick with coffee and anxiety — except around one person.;
+
+:Jonathan sits by the window, gazing out with a peaceful smile. His psychology research papers are gone, replaced by a sketchbook and colored pencils.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:Jonathan? You're drawing? Didn't you say the experiment data analysis was due this week?;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:Oh, Anna. I'm not doing that anymore.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:... What?;
+
+; Jonathan speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Jonathan:I thought about it all night. Why am I grinding on research I don't care about? I loved drawing as a kid but gave it up because it "had no future." But now I think — who cares about futures?;
+
+; Restore brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Jonathan's eyes are impossibly clear. This isn't madness or breakdown — it's an absolute, unsettling calm.;
+
+:Anna notices an apple core on the corner of his desk — deep red, faintly sweet. Identical to the apples in that machine.;
+
+; Clear characters for choice
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+choose:Ask directly: Did you eat an apple from that vending machine?:label_ask_j|Pretend you didn't notice, but stay alert:label_observe|Support Jonathan's choice — maybe he's not wrong:label_support;
+
+; ---- Ask directly ----
+label:label_ask_j;
+setVar:curiosity=curiosity+1 -next;
+setVar:investigation=investigation+1 -next;
+
+changeFigure:char-jonathan.png -next;
+
+Jonathan:The vending machine? The one in the subway? You've seen it too?;
+
+changeFigure:none -next;
+jumpLabel:label_prof;
+
+; ---- Observe silently ----
+label:label_observe;
+setVar:investigation=investigation+2 -next;
+
+:Anna says nothing, quietly memorizing the details. If Jonathan's change is connected to that machine, this could be bigger than she thought.;
+
+jumpLabel:label_prof;
+
+; ---- Support Jonathan ----
+label:label_support;
+setVar:rebellion=rebellion+1 -next;
+setVar:humanity=humanity+2 -next;
+
+changeFigure:none -next;
+changeFigure:char-anna.png -left -next;
+changeFigure:char-jonathan.png -right -next;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:... Jonathan, if drawing is what you really want to do, then go for it.;
+
+setVar:humanity=humanity+1 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+jumpLabel:label_prof;
+
+; ---- Professor's office ----
+label:label_prof;
+
+changeBg:bg-office.jpg -next;
+
+changeFigure:char-philip.png -next;
+
+:At 4 PM, Anna is summoned to Philip's office.;
+
+Philip:Anna, did you know Jonathan submitted a withdrawal request today?;
+
+:Anna's heart skips. Dropping out? That fast?;
+
+Philip:Three years of work, thrown away just like that. What's wrong with your generation? When I was your age, I worked sixteen hours a day and never complained.;
+
+Philip:I read your fourth draft. Slightly better than the previous three, but still far from acceptable. You have one week — if draft five is no better, start planning for a delayed graduation.;
+
+:His words cut like a dull knife — not a sharp pain, but a slow, grinding pressure.;
+
+changeFigure:none -next;
+
+choose:Endure it — one week, I'll push through:ch3_grind.txt|Push back: "Maybe Jonathan's choice wasn't wrong":ch3_confront.txt|Stay silent, but think about the vending machine:ch3_think.txt;

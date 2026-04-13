@@ -1,0 +1,229 @@
+; ===========================
+; 第三章 · 公园里的画家
+; Chapter 3: The Painter in the Park
+; ===========================
+
+; 场景：中央公园
+changeBg:bg-park-autumn.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+; 显示安娜（左）和Jonathan（右）
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-jonathan.png -right -next;
+
+; placeholder: scene content
+
+:秋天的中央公园铺满了金红色的落叶。安娜在Bethesda Fountain附近找到了Jonathan——他坐在一张长椅上，膝盖上摊着速写本，铅笔在纸面上沙沙地移动。;
+
+:他看起来和三个月前判若两人。实验室里的Jonathan总是皱着眉头，衬衫扣到最上面一颗，走路像赶飞机。现在他穿着一件沾着颜料的旧卫衣，头发比以前长了，表情……安娜找不到合适的词。不是快乐，不是悲伤，是一种她在学术圈里从未见过的东西——安宁。;
+
+; 安娜说话，高亮安娜，暗化Jonathan
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:Jonathan？;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:嘿，Anna。坐吧。;
+
+:他朝长椅的另一端挪了挪，像是早就知道会有人来找他一样自然。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你最近……在画画？;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:嗯。你看。;
+
+:他把速写本递过来。安娜翻了几页——一棵歪歪扭扭的橡树、喷泉边喝水的鸽子、长椅下蜷成一团的橘猫、阳光透过树叶在地上画出的光斑。技法称不上精湛，但每一笔都透着某种专注和柔软。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:画得……挺好的。;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:你想说的不是这个吧。;
+
+:他笑了一下，没有嘲讽的意思，只是了然。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……好吧。Jonathan，你不后悔吗？三年的心理学研究，说放弃就放弃了？;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:你想听真话？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:当然。;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:有时候，凌晨三点，我会突然醒过来。;
+
+乔纳森:脑子里会闪过一个念头——"以前那个Jonathan会怎么看现在的你？"那个熬夜跑数据、拼了命要发Nature的Jonathan。;
+
+乔纳森:那几秒钟会很难受。像是有个声音在说，你在浪费你的人生。;
+
+; 恢复双方亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:他停了一下，看着远处湖面上的一只天鹅慢慢滑过水面。;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:然后那个感觉就过去了。像云。飘过来，又飘走了。;
+
+乔纳森:我不知道以前的我会不会失望。但我知道，以前的我……不快乐。非常不快乐。只是太忙了，没时间承认而已。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……你是什么时候发现那台贩卖机的？;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:是Emily告诉我的。我们在一个编程课上认识——她是计算机系的博士后。她找到我，说："如果你想，有一个地方，可以让一切安静下来。";
+
+乔纳森:不过她也警告过我。她说，"一旦你吃了，就回不去了。";
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你没有犹豫吗？;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:犹豫了。犹豫了整整两个星期。然后有一天晚上我在实验室加班到凌晨，突然发现自己在对着一组数据哭。不是因为做错了，是因为做对了也没有任何感觉。;
+
+乔纳森:第二天我就去了那个站台。;
+
+; 恢复双方亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:一阵秋风吹过，几片枫叶飘落在他的速写本上。他小心翼翼地把叶子夹进书页里。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你知道还有其他人也吃了苹果吗？;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:我知道至少两个。一个是商学院的，以前做金融的；还有一个是医学院的女生。我们不是一个圈子的，但都是各自发现了那台机器。;
+
+乔纳森:说来奇怪——那个站台好像会选人。都是被压得快撑不住的人。;
+
+; 恢复双方亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:安娜沉默了。远处传来孩子们在草坪上奔跑的笑声，一只松鼠从树干上倒挂下来，歪着头看了她们一眼。;
+
+; 选择
+choose:你觉得……你现在是真正的你吗？:label_identity|你说的那两个人，我能找到他们吗？:label_find|也许你是对的。也许我也应该放下。:label_letgo;
+
+; ---- 真正的你 ----
+label:label_identity;
+setVar:curiosity=curiosity+1 -next;
+setVar:humanity=humanity+1 -next;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:……这个问题我也问过自己很多次。;
+
+乔纳森:我不确定。但我知道，以前那个"我"也不是真正的我。那个只会追paper数量和影响因子的人——他是被训练出来的，不是天生的。;
+
+乔纳森:也许没有什么"真正的我"。只有此刻的我。而此刻的我，想画这棵树。;
+
+jumpLabel:label_farewell;
+
+; ---- 找到他们 ----
+label:label_find;
+setVar:investigation=investigation+2 -next;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:可以。那个做金融的叫Marco，他现在经常在曼哈顿下城街头弹吉他。还有那个医学院的女生叫Lily，她在旁边卖甜点。;
+
+乔纳森:你去找他们吧。他们的故事和我的不太一样。也许能帮你找到你想要的答案。;
+
+jumpLabel:label_farewell;
+
+; ---- 也许我也该放下 ----
+label:label_letgo;
+setVar:rebellion=rebellion+2 -next;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:……别急着做决定，Anna。;
+
+乔纳森:不管你选什么，要自己想清楚。不要因为别人看起来很自在，就觉得那条路一定适合你。;
+
+乔纳森:Emily也跟我说过类似的话。她说，这不是一个可以替别人做的选择。;
+
+jumpLabel:label_farewell;
+
+; ---- 告别 ----
+label:label_farewell;
+
+; 恢复双方亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:太阳开始西沉，公园的光线变成了金色。Jonathan合上速写本，站了起来。;
+
+; Jonathan说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:我要去西边那片林子了，落日打在白桦树上特别好看。;
+
+乔纳森:Anna，不管你之后做什么决定——;
+
+:他想了想，笑了。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:算了，不说了。大道理你比我懂。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:他挥了挥手，转身沿着小路走远了。安娜看着他的背影——他走几步就会停下来，对着什么东西端详一会儿，然后翻开速写本快速画几笔。;
+
+:一个曾经为了在Nature上发文可以连续工作四十八小时的人，现在停下来画一片落叶。;
+
+; 清除角色
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+:安娜在长椅上又坐了很久，直到公园的路灯亮了起来。;
+
+changeScene:ch3_merge.txt;

@@ -1,0 +1,41 @@
+; ===========================
+; 第四章 · 吃苹果路线
+; Chapter 4: Eat apple path
+; ===========================
+
+setVar:rebellion=rebellion+3 -next;
+
+changeBg:bg-vending-machine.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-emily.png -right -next;
+
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:记住吃之前的感觉。;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+; 展示苹果CG
+changeFigure:cg-apple.png -next;
+setTransform:{"position":{"x":0,"y":-40},"scale":{"x":0.68,"y":0.68}} -target=fig-center -duration=0 -next;
+unlockCg:cg-apple.png -name=EDEN之果;
+
+:安娜投入硬币。第一口，世界安静了。第二口，焦虑消散了。第三口，论文、导师、延毕——这些词汇的重量急速萎缩，像沙滩上被海水冲淡的字迹。;
+
+setVar:rebellion=rebellion+2 -next;
+
+changeFigure:none -next;
+changeFigure:none -right -next;
+
+changeBg:bg-apartment.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:第二天，安娜没有去办公室。她去了中央公园，坐了一整个下午看树叶落下，觉得那是二十四年人生中见过最美的场景。一周过去了，论文没交，菲利普的电话也没接。;
+
+changeFigure:none -next;
+
+choose:就这样吧——这种轻松才是我一直在找的:ch5_endb_liberate.txt|等等……这真的是我自己的选择吗？还是苹果在替我选？:ch5_enda_awaken.txt;

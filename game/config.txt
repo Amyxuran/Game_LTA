@@ -1,0 +1,6 @@
+Game_name:末班车苹果 Last Train Apple;
+Game_key:ltApple01;
+Title_img:title-screen.jpg;
+Title_bgm:bgm-misty.mp3;
+Enable_Appreciation:true;
+Default_Language:0;

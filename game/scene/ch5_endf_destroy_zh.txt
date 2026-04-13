@@ -1,0 +1,126 @@
+; ===========================
+; 第五章 · 终结 → 结局E
+; Chapter 5: Destroy → Ending E
+; ===========================
+
+setVar:trust=trust+1 -next;
+
+changeBg:bg-city-rain.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+; 艾米丽说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:我知道是谁重启了实验。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:谁？;
+
+; 艾米丽说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:菲利普当年的研究助理。他叫Daniel Reyes。项目被叫停以后，他没有放弃——他相信EDEN素能真正改变世界，只是菲利普太懦弱了没有坚持下去。;
+
+艾米丽:他找到了我。两年前。他想要我的技术支持——我是唯一还活着的、完整参与过那个实验的工程师。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你拒绝了他？;
+
+; 艾米丽说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:我拒绝了他。但他自己找到了另一条路。他在菲利普的旧实验室档案里找到了足够的残留数据，重新合成了EDEN素。贩卖机是他造的。;
+
+艾米丽:他不是坏人，Anna。他只是太相信自己是对的了。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+; === 追查 ===
+changeBg:bg-library.jpg -next;
+
+
+
+:接下来一周，安娜做了她这辈子最像侦探的事。;
+
+:艾米丽给了她Daniel Reyes的档案——一个出现在三篇被撤回论文致谢栏里的名字，一个在学术系统里蒸发了八年的人。但数据不会说谎：他注册过的一个小型生物技术公司，办公地址在布鲁克林，营业执照三个月前刚刚到期。;
+
+:安娜找到了他。不是当面，而是通过一封邮件——措辞精确，附件是她掌握的全部证据：EDEN计划的原始文件、Jonathan的病历记录、Marco和Lily的陈述，还有艾米丽写的技术分析报告，逐条说明EDEN素在没有伦理框架下使用的不可逆风险。;
+
+changeFigure:char-anna.png -next;
+
+安娜:（我没有威胁他。我只是让他看清楚，他相信的那件事，在现实里是什么样的。）;
+
+:她在邮件最后写了一句话：「你想改变世界，但你改变的方式，不会让任何人有机会选择。」;
+
+:回复在第二天早上到了。只有一行字：;
+
+:「我会撤走机器。」;
+
+changeFigure:none -next;
+
+; === 站台 ===
+changeBg:bg-subway-night-deep.jpg -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:她们在黎明前赶到站台。艾米丽从随身的硬盘里调出一个加密文件夹——EDEN计划的全部原始数据：配方、实验记录、菲利普的笔记、所有备份的备份。;
+
+:这是艾米丽一直藏着的东西。以防万一，她说过。;
+
+; 艾米丽说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:删了就真的没了。确定吗？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:确定。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:艾米丽按下删除键。进度条走完的时候，贩卖机的屏幕忽然闪了一下，然后熄灭了。站台陷入完全的黑暗。然后，第一缕晨光从隧道口照了进来。;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+changeBg:bg-subway-dawn.jpg -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:贩卖机不会再分发新的苹果了。那些已经吃过的人——他们的改变不会因为这块数据的消失而复原。;
+
+:她们在空荡荡的站台上看着天光变亮。什么都没说。;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+changeBg:bg-subway-dawn.jpg -next;
+
+:— 结局F · 终结 Ending —;
+
+:安娜和艾米丽终结了EDEN计划。贩卖机的光熄灭了，站台重新成为一个普通的地方。;
+
+setVar:ending_f=true -global -next;
+end;

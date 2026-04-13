@@ -1,0 +1,3 @@
+setVar:_lang=Default_Language -next;
+changeScene:ch2_leave_en.txt -when=_lang==1;
+changeScene:ch2_leave_zh.txt;

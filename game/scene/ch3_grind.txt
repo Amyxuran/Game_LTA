@@ -1,0 +1,3 @@
+setVar:_lang=Default_Language -next;
+changeScene:ch3_grind_en.txt -when=_lang==1;
+changeScene:ch3_grind_zh.txt;

@@ -1,0 +1,153 @@
+; ===========================
+; 第五章 · 告诉Emily → 结局D
+; Chapter 5: Tell Emily → Ending D
+; ===========================
+
+setVar:trust=trust+2 -next;
+setVar:investigation=investigation+1 -next;
+
+changeBg:bg-vending-machine.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:Emily，我查到了——EDEN计划的论文通讯作者是我的导师，Philip Morrison。;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:……我知道。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你知道？那你为什么不告诉我？;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:因为我需要你自己找到真相。只有亲眼看到的东西，你才会真正相信。Anna……Philip不是坏人。他只是一个被自己的发明困住的人。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你从一开始就知道，对不对？你在利用我？;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:我需要一个会自己发现真相的人。因为别人告诉你的真相不会改变你——只有你自己发现的真相才会。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:那我对你来说是什么？实验对象？;
+
+:艾米丽沉默了一会儿。;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:不是实验对象。是我见过的、唯一一个听到真相之后没有逃跑的人。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……所以现在呢？真相在我手里了。然后呢？;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:这是你的决定。不是我的，不是Philip的。你的。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:如果公开……那些吃了苹果的人会怎么样？他们会被当成受害者、实验品。他们现在的平静会被撕碎。;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:但如果不公开……还会有更多的人走到那台机器前面。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+choose:将一切公之于众:label_public|保持沉默，保护所有吃过苹果的人:label_silence;
+
+; ---- 公开真相 → 结局D ----
+label:label_public;
+
+changeScene:ch5_endd_truth.txt;
+
+; ---- 保持沉默 ----
+label:label_silence;
+
+setVar:humanity=humanity+2 -next;
+
+changeBg:bg-vending-machine.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:安娜在站台上站了很久，没有说话。;
+
+:她想起Lily说"我爸妈到现在还以为我在实习"——那双做过上千次缝合练习的手，现在用来裱花。想起Marco凌晨四点因为梦见旋律而醒来，不是惊醒，是高兴地醒来。想起Jonathan把枫叶夹进速写本时的表情——不是满足，是一种更安静的东西。;
+
+:如果真相被公开，这些人会怎样？媒体会把他们变成新闻标题。议员会把他们变成听证会的证据。研究者会把他们变成数据。他们的平静会被人从外部判断是真实的还是被操控的，直到他们自己也开始怀疑。;
+
+安娜:（我没有权利替他们决定要不要知道这件事。但我也没有权利替全世界决定要不要知道。）;
+
+:两种权利都没有。但她必须选一个。;
+
+安娜:（……我选保护眼前已经存在的人。）;
+
+changeFigure:none -next;
+
+changeBg:bg-subway-night-deep.jpg -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:安娜和艾米丽花了一整夜销毁证据。论文的备份、实验记录、菲利普的原始笔记——一切都被删干净了，像从未存在过一样。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:这样做……真的对吗？;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:也许不对。但有时候，保护比揭露需要更大的勇气。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:她们走出地铁站，天刚亮。城市还没醒来。安娜回头看了一眼那台贩卖机所在的角落——明天，它就会被人悄悄搬走，像从未存在过一样。;
+
+:而那些吃了苹果的人，会继续他们平静的生活。不知道有人曾经为他们的命运做过一个艰难的选择。;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+changeBg:bg-subway-night-deep.jpg -next;
+
+:— 结局H · 沉默 Silence —;
+
+:安娜选择了沉默。她和艾米丽带着这个秘密，继续往前走。;
+
+setVar:ending_h=true -global -next;
+end;

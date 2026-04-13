@@ -1,0 +1,76 @@
+; ===========================
+; 第二章 · 裂痕 (选择离开)
+; Chapter 2: Fracture (left on train)
+; ===========================
+
+setVar:investigation=investigation+1 -next;
+
+; intro:第二章|裂痕;
+
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:安娜后退了一步。她不知道自己为什么退缩——是理性，还是恐惧。也许两者之间根本没有区别。;
+
+:远处传来列车进站的隆隆声，铁轨的震动从地面蔓延上来，穿过她的鞋底，一直传到牙齿。末班车。;
+
+:艾米丽没有说话，只是微微侧了一下头，像是早已预料到这个结果。贩卖机屏幕上的"EDEN"字样在她身后静静发光。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:没关系。门永远在这里。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:车门打开了。安娜转身，迈步走进车厢。她的脚刚踏过门槛，身后就传来了关门提示音——短促、尖锐，像某种倒计时归零的声音。;
+
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+
+; ——列车上——
+
+changeBg:bg-subway-interior.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:车门合上的那一刻，她感到一种奇怪的失重感，好像有什么东西被切断了。不是后悔，而是更深层的东西——像一根你从未意识到存在的绳子突然绷紧。;
+
+:她回头望向车窗。站台正在后退，那盏黄色的光越来越小，越来越远，像一颗正在塌缩的星星。艾米丽的身影在光里站了一秒，然后被隧道的黑暗吞没。;
+
+:车厢几乎是空的。对面座位上蜷着一个流浪汉，抱着一个塞满报纸的塑料袋，睡得很沉。他的呼吸声在空旷的车厢里被放大，均匀而缓慢。;
+
+:安娜坐了下来。车窗变成了一面黑色的镜子，她的倒影浮在隧道的深渊之上。那个倒影看起来比她本人更疲惫——眼下的阴影，散乱的蓝色头发，还有某种她不愿承认的茫然。;
+
+:她把视线移开，又忍不住移回去。倒影没有表情，只是跟着列车的节奏微微晃动。;
+
+:她的手不自觉地打开了手机。没有新消息。论文草稿还停留在下午的版本，光标闪烁在一个未完成的句子中间。她盯着那个闪烁的光标，忽然觉得它和贩卖机的屏幕有着某种荒谬的相似。;
+
+:不知道过了多久，列车减速了。到站提示音响起的时候，她才意识到自己坐过了一站。;
+
+changeFigure:none -next;
+
+; ——回到公寓——
+
+changeBg:bg-apartment.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:推开公寓门的瞬间，熟悉的气味涌来——廉价洗衣液、昨天忘记倒的咖啡渣、还有书本的潮气。一切都没变。一切都该让她安心。;
+
+:但她站在玄关，外套都没脱，就这么站了整整两分钟。;
+
+:安娜反复告诉自己那只是一个普通的地铁站，一台普通的贩卖机，一个有点怪的陌生女人。纽约什么都有，这不值得大惊小怪。;
+
+:她终于动了。把包扔在沙发上，走进浴室洗了把脸。冷水让她清醒了一点，但镜子里的那张脸和车窗里的倒影一样陌生。;
+
+changeFigure:none -next;
+
+changeScene:ch2_night.txt;

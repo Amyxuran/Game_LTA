@@ -1,0 +1,79 @@
+; ===========================
+; 第三章 · 赴约路线
+; Chapter 3: Go to meet Emily
+; ===========================
+
+setVar:investigation=investigation+2 -next;
+setVar:trust=trust+1 -next;
+
+changeBg:bg-subway-interior.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:深夜十一点，安娜再次坐上了地铁。;
+
+:车厢里的乘客稀稀落落——一个戴着耳机闭眼的年轻人，两个低声交谈的醉汉，一个抱着大提琴箱的女人。每个人都在各自的世界里漂浮，没有人看她。;
+
+:安娜攥着手机，屏幕上还停着那条短信——「如果你还想知道答案，今晚十一点四十五，同一个站台。——E」。她不知道艾米丽是怎么拿到她号码的。;
+
+:列车在隧道里穿行，灯光一闪一闪。安娜的心跳比平时快。不是恐惧——更像是站在高台跳板边缘的那种感觉，脚趾已经探出去了，身体还没有跟上。;
+
+:她问自己：你在做什么？深更半夜坐地铁去见一个你只说过一次话的陌生人？;
+
+:但另一个声音回答：你已经在这里了。;
+
+changeFigure:none -next;
+
+; ——站台——
+
+changeBg:bg-vending-machine.jpg -next;
+
+:站台在深夜看起来完全不同。白天残留的人气已经散尽，空气冰冷而干燥，带着地下特有的矿物质气味。荧光灯比她记忆中的更暗，有两盏已经彻底熄灭了，在天花板上留下两块长方形的黑色空洞。;
+
+:但贩卖机的光比任何时候都亮。;
+
+:那种黄色——不是LED的白，不是荧光灯的冷——是一种温暖的、几乎有质感的光。它从贩卖机的屏幕上溢出来，在地面上铺开一圈柔软的光晕，像某种发光的水洼。"EDEN"的字样在光中缓缓明灭，节奏和人类的呼吸一致。;
+
+:安娜站在站台入口处，还没有走进那片光里。她看向更远的地方——;
+
+changeFigure:char-emily.png -right -next;
+
+:艾米丽坐在站台的另一端，背靠柱子，双腿盘在身前，膝盖上摊着一本书。她的姿势松弛而自然，像是在自己的客厅里，而不是一个午夜的地铁站台。;
+
+:安娜的脚步声在空旷的站台上回荡。艾米丽抬起头，合上了书。;
+
+:隔着二十米的距离，安娜看到艾米丽笑了。不是客套的微笑，也不是胜利的微笑——是那种"我知道你会来"的表情，安静而笃定。;
+
+changeFigure:char-anna.png -left -next;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:你来了。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你好像一点都不意外。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:不意外。;
+
+:她站了起来，拍了拍裤子上的灰。安娜注意到她今天换了一件深色的外套，领口别着一枚小小的金属胸针——某种logo，但在这个光线下看不清。;
+
+:艾米丽走向贩卖机旁边的一个角落，弯腰从地上拿起一个牛皮纸文件夹。它看起来很旧了，边角磨损，但用一根红色的橡皮筋仔细扎着。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:有些东西我想让你看看。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:贩卖机的光在她们之间缓缓脉动。;
+
+changeScene:ch3_reveal.txt;

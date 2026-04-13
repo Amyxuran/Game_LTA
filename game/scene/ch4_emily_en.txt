@@ -1,0 +1,36 @@
+; ===========================
+; Chapter 4: Emily's backstory path
+; ===========================
+
+setVar:trust=trust+3 -next;
+setVar:humanity=humanity+1 -next;
+
+changeBg:bg-bar-exterior.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-emily.png -next;
+
+Emily:... You're the first person to ask me that.;
+
+Emily:Two years ago, I was NYU's youngest CS postdoc. My research: neural networks and behavioral prediction. My advisor had an... ambitious project.;
+
+Emily:He convinced me to join a classified project — using AI models to design nano-carriers that embed dopamine modulators in natural fruit. We called it "Project EDEN.";
+
+Emily:The original goal was treating severe anxiety and addiction. But then the project was taken over by an organization. They wanted to study "what happens to society when elites collectively lose their competitive drive.";
+
+Emily:That's when I ate my first apple. Not for the experiment — because I was about to break.;
+
+Emily:The effect only lasted three days for me. Maybe because I understood the mechanism too well. But those three days... were the most peaceful of my life.;
+
+Emily:So I stay here. Not to observe the experiment — but to see if anyone can find that peace without the apple.;
+
+setVar:trust=trust+2 -next;
+setVar:humanity=humanity+1 -next;
+
+changeFigure:none -next;
+
+changeScene:ch5_emily.txt;

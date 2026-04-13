@@ -1,0 +1,36 @@
+; ===========================
+; Chapter 4: Eat apple path
+; ===========================
+
+setVar:rebellion=rebellion+3 -next;
+
+changeBg:bg-vending-machine.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-emily.png -right -next;
+
+; Show apple CG
+changeFigure:cg-apple.png -next;
+setTransform:{"position":{"x":0,"y":-40},"scale":{"x":0.68,"y":0.68}} -target=fig-center -duration=0 -next;
+unlockCg:cg-apple.png -name=Fruit of EDEN;
+
+:Anna drops the coin. First bite — the world goes quiet. Second bite — anxiety dissolves. Third bite — thesis, advisor, delayed graduation — these words shrink to nothing, like writing washed away by waves.;
+
+setVar:rebellion=rebellion+2 -next;
+
+changeFigure:none -next;
+changeFigure:none -right -next;
+
+changeBg:bg-apartment.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:The next day, Anna skips the office. She goes to Central Park, sits all afternoon watching leaves fall, and thinks it's the most beautiful thing she's seen in twenty-four years. A week passes. No thesis. No returned calls.;
+
+changeFigure:none -next;
+
+choose:Let it be — this lightness is what I've been searching for:ch5_endb_liberate.txt|Wait... is this really my choice? Or is the apple choosing for me?:ch5_enda_awaken.txt;

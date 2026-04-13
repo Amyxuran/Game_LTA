@@ -1,0 +1,4 @@
+; Router
+setVar:_lang=Default_Language -next;
+changeScene:ch3_jonathan_en.txt -when=_lang==1;
+changeScene:ch3_jonathan_zh.txt;

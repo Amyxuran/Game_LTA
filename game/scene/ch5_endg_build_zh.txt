@@ -1,0 +1,197 @@
+; ===========================
+; 第五章 · 共建 → 结局F (Emily路线)
+; Chapter 5: Build → Ending F
+; ===========================
+
+setVar:humanity=humanity+1 -next;
+
+changeBg:bg-lab-night.jpg -next;
+bgm:bgm-misty.mp3 -enter=2000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:那天晚上，安娜没有打开论文文档。;
+
+:她打开了一个新文件，开始写一份不一样的东西——IRB伦理审查申请书。标题是：《关于多巴胺奖励回路干预的伦理框架与自愿参与实验设计》。;
+
+:她写了整整一夜。;
+
+changeFigure:none -next;
+
+; === 实验室 ===
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:两周后，安娜把申请书发给了艾米丽。;
+
+; 艾米丽说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:你真的要做这件事？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:菲利普做的时候是秘密的，是强迫的，是被人拿去当武器的。我想知道——如果一切都是透明的，参与者是自愿的，结果会不会不一样？;
+
+; 艾米丽说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:也许会。也许不会。你准备好接受"不会"这个答案吗？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:那也是一个答案。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:艾米丽沉默了一会儿。然后她关上了笔记本电脑，把它推到一边。;
+
+; 艾米丽说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:我可以帮你重写纳米载体的配方——这次剂量可控，效果可逆。但有一个条件。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:什么条件？;
+
+; 艾米丽说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:第一个参与者是我。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:安娜愣了一下。艾米丽的表情平静，但眼神里有一种安娜以前没见过的东西，是一个想要真正知道答案的人的眼神。;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+; === 三个月 ===
+changeBg:bg-office.jpg -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-philip.png -right -next;
+
+:安娜去找了菲利普。为了告诉他她在做什么。;
+
+; 菲利普说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:你知道IRB不会轻易批准涉及神经干预的实验吗？光是伦理审查就要三到六个月，还不一定过。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:我知道。;
+
+; 菲利普说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:你的论文怎么办？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:这就是我的论文。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:菲利普沉默了很久。最后他只说了一句话。;
+
+; 菲利普说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+菲利普:我不会帮你。但我也不会阻止你。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+
+changeBg:bg-lab-night.jpg -next;
+changeFigure:char-anna.png -next;
+
+:接下来的两个月，安娜过的是她博士生涯里最奇怪的日子。;
+
+:白天修改IRB申请书——第一稿被打回，说"风险评估不充分"；第二稿被打回，说"知情同意书措辞有歧义"；第三稿等了三周没有回音。晚上和艾米丽在视频里讨论配方，把EDEN素的浓度一次次往下压，直到效果可测但可逆。;
+
+:有一个晚上，安娜对着屏幕发呆，突然觉得这件事也许根本做不成。;
+
+安娜:（菲利普花了两年做出来的东西，最后被军方拿走当武器。我花两年做出来的东西，最后会怎样？）;
+
+:她把这个问题发给了艾米丽。;
+
+:艾米丽回复只有一行：「不知道。但你在做的时候会知道自己为什么做。」;
+
+:安娜盯着这行字看了很久，然后重新打开了申请书的第四稿。;
+
+changeFigure:none -next;
+
+; === 提交申请那天 ===
+changeBg:bg-irb-office.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:三个月后，IRB审查委员会通过了申请。;
+
+changeBg:bg-lab.jpg -next;
+
+
+:安娜坐在研究室里，看着屏幕上的批准邮件，没有欢呼，没有跳起来。她只是把椅子往后推了推，靠着椅背，闭上眼睛。;
+
+:窗外是秋天的校园，有人在踢球，有人坐在长椅上看书。生活照常在发生。;
+
+:手机震动了一下。艾米丽的短信：;
+
+changeFigure:none -next;
+
+:「通过了？」;
+
+:安娜回了两个字：;
+
+:「通过了。」;
+
+:几秒后，艾米丽又发来一条：;
+
+:「那我们开始吧。」;
+
+changeFigure:char-anna.png -next;
+
+:安娜把手机放下，重新打开了电脑。屏幕上是空白的实验记录表，第一行等着填写日期。;
+
+:她想起那台贩卖机第一次出现在站台上的夜晚。想起艾米丽说"只有在你需要它的时候，你才能看到这个站台"。;
+
+:也许她现在不再需要那个站台了。;
+
+:但她还有问题想回答。;
+
+changeFigure:none -next;
+
+changeBg:bg-city-dusk.jpg -next;
+
+:— 结局G · 共建 Build —;
+
+:安娜和艾米丽决定从头来过——透明的，自愿的，可逆的。这不是结束，是第一步。;
+
+setVar:ending_g=true -global -next;
+end;

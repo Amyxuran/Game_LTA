@@ -1,0 +1,48 @@
+; ===========================
+; Chapter 3: Emily reveals the truth
+; ===========================
+
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+playEffect:se-dramatic.wav -next;
+Emily:That machine isn't an ordinary vending machine. The apples contain a substance called "EDEN compound" that resets the brain's dopamine reward pathways.;
+
+Emily:Simply put, it makes you stop feeling excited about socially programmed goals — promotions, publications, money. Instead, you feel the most primal joys — drawing, walking, watching sunsets.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:So it's... a drug? Why disguise it as apples?;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:Because it's an experiment. A social experiment observing what humans do when freed from desire. As for who's behind it—;
+
+; Restore brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Emily stops mid-sentence. The machine's screen flickers.;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:... That's all I know. But you need to make a choice.;
+
+; Restore brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeScene:ch4.txt;

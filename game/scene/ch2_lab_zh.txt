@@ -1,0 +1,120 @@
+; ===========================
+; 第二章 · 实验室汇合
+; Chapter 2 merge: Lab scene
+; ===========================
+
+changeBg:bg-office.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-jonathan.png -right -next;
+
+:第二天下午，安娜走进研究生办公室。空气中弥漫着咖啡和焦虑——除了一个人。;
+
+:乔纳森正坐在窗边发呆，嘴角挂着平和的微笑。他的桌面上，心理学的论文资料全被收了起来，取而代之的是一本素描本和几支彩色铅笔。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:Jonathan？你在画画？你不是说这周要交实验数据分析吗？;
+
+; 乔纳森说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:啊，Anna。我不做那个了。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……什么？;
+
+; 乔纳森说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+乔纳森:我昨天想了一整夜。为什么我要做一份自己完全不感兴趣的研究呢？我小时候最喜欢画画，后来因为"没前途"就放弃了。但现在我觉得——管他什么前途不前途。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:乔纳森的眼神清澈得不像话。这不是疯癫，不是崩溃——而是一种异常彻底的、令人不安的平静。;
+
+:安娜注意到他桌角放着一个苹果核——深红色的，散发着微甜的余香。和那台贩卖机里的苹果一模一样。;
+
+; 清除角色准备选择
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+choose:直接问：你是不是吃了那个贩卖机的苹果？:label_ask_j|假装没看到，但暗中留心:label_observe|支持Jonathan的选择——也许他没有错:label_support;
+
+; ---- 直接问 ----
+label:label_ask_j;
+setVar:curiosity=curiosity+1 -next;
+setVar:investigation=investigation+1 -next;
+
+changeFigure:char-jonathan.png -next;
+
+乔纳森:贩卖机？你是说那个地铁站里的？你也见过？;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……见过。昨晚。;
+
+:两个人沉默了一秒。乔纳森没有再追问，只是点了点头，像是某件事得到了印证。;
+
+changeFigure:none -next;
+jumpLabel:label_prof;
+
+; ---- 暗中留心 ----
+label:label_observe;
+setVar:investigation=investigation+2 -next;
+
+:安娜没有说话，只是默默记下细节。如果乔纳森的变化和那台贩卖机有关，事情可能比她想象的大得多。;
+
+jumpLabel:label_prof;
+
+; ---- 支持乔纳森 ----
+label:label_support;
+setVar:rebellion=rebellion+1 -next;
+setVar:humanity=humanity+2 -next;
+
+changeFigure:none -next;
+changeFigure:char-anna.png -left -next;
+changeFigure:char-jonathan.png -right -next;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……Jonathan，如果画画是你真正想做的事，那就去做吧。;
+
+setVar:humanity=humanity+1 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+jumpLabel:label_prof;
+
+; ---- 教授办公室 ----
+label:label_prof;
+
+changeBg:bg-office.jpg -next;
+
+changeFigure:char-philip.png -next;
+
+:下午四点，安娜被菲利普叫到了办公室。;
+
+菲利普:Anna，你知道Jonathan今天提了退学申请吗？;
+
+:安娜心头一震。退学？动作这么快？;
+
+菲利普:三年的心血，说不要就不要了。他的数据就差最后三个月，论文框架我已经帮他搭好了。他知道自己在丢掉什么吗？;
+
+菲利普:你的论文第四稿我看了。比前三稿好一些，但还差得远。我给你一周时间——第五稿还是这个水平，你可以开始考虑延毕了。;
+
+:菲利普的话像一把钝刀。不是锋利的痛，而是持续的、磨人的压迫感。;
+
+changeFigure:none -next;
+
+choose:忍下来——一周就一周，拼了:ch3_grind.txt|反驳："也许Jonathan的选择没有错":ch3_confront.txt|沉默，但心里想着那台贩卖机:ch3_think.txt;

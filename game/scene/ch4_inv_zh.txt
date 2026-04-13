@@ -1,0 +1,29 @@
+; ===========================
+; 第四章 · 追查路线
+; Chapter 4: Investigation path
+; ===========================
+
+setVar:investigation=investigation+3 -next;
+
+changeBg:bg-library.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:接下来一周，安娜变成了侦探。白天假装写论文，晚上游走于各个地铁站。她在图书馆的一份十年前的期刊里找到一篇被撤回的论文——《多巴胺回路重置与社会行为去编程化》。;
+
+setVar:investigation=investigation+2 -next;
+
+:论文通讯作者栏被涂黑了，但脚注里有一个名字——菲利普·莫里森。那正是菲利普的全名。;
+
+安娜:（……不可能。Philip？他和这件事有关系？）;
+
+:安娜意识到，她需要更多证据。她想起了乔纳森提到的另外两个"改变了的人"——一个商学院的交易员，一个医学院的学生。也许从他们那里能找到更多线索。;
+
+changeFigure:none -next;
+
+changeScene:ch4_others.txt;

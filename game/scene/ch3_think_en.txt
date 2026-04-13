@@ -1,0 +1,51 @@
+; ===========================
+; Chapter 3: Think path
+; ===========================
+
+setVar:curiosity=curiosity+2 -next;
+setVar:rebellion=rebellion+1 -next;
+
+; intro:Chapter Three|Crossroads;
+
+changeBg:bg-street-rain.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:That night, Anna doesn't go home. She takes the subway to Midtown and walks until she finds a bench — one of those uncomfortable metal ones designed to discourage sleeping, bolted to the sidewalk near a shuttered newsstand.;
+
+:She sits. Manhattan at midnight moves around her like a river around a stone. A businesswoman in heels clicks past, phone pressed to her ear, arguing about quarterly projections in a voice that could cut glass. A couple on the opposite corner fights in hushed, vicious whispers. A golden retriever trots by without an owner, tags jingling, perfectly content.;
+
+:A street vendor is packing up his cart — knockoff handbags and scarves folded into a duffel bag with practiced speed. He catches Anna watching and gives her a brief nod, one night-dweller to another.;
+
+:She pulls out her phone. The blurry photo stares back at her — that dense yellow glow at its center, edges bleeding outward like a watercolor left in the rain. She pinches to zoom in for the hundredth time. The shape at the center is still ambiguous. An apple? A light source? A flaw in the lens?;
+
+:She swipes to the photo details again. No GPS. No device model. A filename that looks like someone mashed a keyboard: XR7N_EDEN_0023.;
+
+:Anna locks the phone and tilts her head back. The sky above Manhattan is its usual washed-out amber, too bright for stars. Somewhere a siren wails and fades.;
+
+:She thinks about why she chose psychology. It wasn't the textbooks or the career prospects. It was a specific moment — sophomore year, sitting in a lecture hall, listening to a professor describe how the brain constructs reality from incomplete data. How everything we see is an educated guess. She'd felt the floor shift under her feet that day, and she'd liked it.;
+
+:She wanted to understand people. Not in the abstract, statistical way Philip demanded — not as data points feeding regression models. She wanted to understand the messy, irrational, heartbreaking way people navigate being alive.;
+
+:Somewhere between qualifying exams and methodology seminars, that curiosity got buried under layers of academic machinery. She stopped asking "why do people suffer?" and started asking "is the p-value significant?" The questions got smaller. The wonder dried up. She kept going anyway, because stopping felt like dying.;
+
+:A memory surfaces, unbidden. She's seven years old, crouching in the backyard. A dead bird lies in the grass — a sparrow, tiny and perfect, its eyes like dark beads. She'd run inside to ask her mother why it died.;
+
+:Her mother had knelt beside her, touched the bird's wing with one finger, and said: "Some questions don't have answers, Anna. But that doesn't mean they're not worth asking.";
+
+:Anna had thought about that sentence for weeks. It was, she realizes now, the first time she understood that not-knowing could be its own kind of knowledge.;
+
+:She looks at the blurry photo again. The yellow glow pulses in her memory like a second heartbeat. She doesn't know what the machine is, or what Emily wants, or what any of it means.;
+
+:But she knows the question is worth asking.;
+
+:Anna puts her phone away and watches the city breathe. The couple has stopped fighting. The dog is gone. The street vendor has vanished. Manhattan is quieter now, and so is she.;
+
+changeFigure:none -next;
+
+changeScene:ch3_jonathan.txt;

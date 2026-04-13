@@ -1,0 +1,259 @@
+; ===========================
+; 第四章 · 苹果食者们
+; Chapter 4: The Apple Eaters
+; ===========================
+
+setVar:investigation=investigation+2 -next;
+setVar:humanity=humanity+1 -next;
+
+; ========== 第一部分：街头音乐家 ==========
+changeBg:bg-street-guitar.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+; 显示安娜（左）和Marco（右）
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-trader.png -right -next;
+
+
+:曼哈顿下城，黄昏。街灯刚刚亮起，把人行道染成一片暖黄。;
+
+:安娜老远就听见了吉他声——不是那种地铁站里常见的潦草弹唱，而是一段有层次、有温度的旋律，像秋天的风穿过窄巷。;
+
+:一个男人坐在街角的折叠椅上，面前放着一个打开的吉他箱，里面零星散着几张钞票和硬币。他穿着一件洗得发白的法兰绒衬衫，袖子卷到手肘，手指在琴弦上灵活地跳跃。;
+
+:这就是Marco。Jonathan说的那个前华尔街交易员。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你好……请问你是Marco吗？Jonathan让我来找你的。;
+
+; Marco说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Marco:哦，Jonathan那孩子。他还好吗？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:他……在公园画画。看起来挺好的。;
+
+; Marco说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Marco:那就好。你也是来问"苹果"的事吧？;
+
+:他把吉他靠在椅背上，朝安娜做了个"坐"的手势。旁边正好有一段矮墙。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你以前真的是华尔街的交易员？;
+
+; Marco说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Marco:衍生品交易。年薪三十万美刀。Midtown的公寓，定制西装，每天早上五点起床看亚洲市场。;
+
+Marco:你知道那种生活是什么感觉吗？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……很光鲜？;
+
+; Marco说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Marco:很地狱。;
+
+Marco:我以前凌晨四点会惊醒，因为梦见亚洲市场暴跌。心跳一百八，手心全是汗，摸黑打开手机查行情。即使一切正常，心跳也要半小时才能降下来。;
+
+Marco:现在我也会凌晨四点醒。但那是因为梦见了一段旋律，想赶紧起来把它弹出来。;
+
+; 恢复双方亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:他说这话的时候笑了，不是苦笑，是那种发自内心的、皱纹都在微笑的笑。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你是怎么发现那台贩卖机的？也是Emily告诉你的吗？;
+
+; Marco说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Marco:不是。我那时候不认识Emily。三个月前的一个深夜，加班到快十二点，坐末班地铁回家。车到一个奇怪的站台就停了——我以前从没见过那一站。;
+
+Marco:站台上只有那台贩卖机。我也不知道为什么，像着了魔一样走过去，投了一枚硬币。吃了一个。;
+
+Marco:然后又投了一枚。又吃了一个。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:两个？效果……会叠加吗？;
+
+; Marco说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Marco:我不知道。我只知道效果是立刻的。那天晚上回家，我第一次在没有闹钟的情况下安安稳稳睡了一整夜。周一早上走进办公室，看着那六块屏幕上跳动的数字，感觉像在看外语——认识每个字母，但完全不理解为什么那些数字曾经让我兴奋到发抖。;
+
+Marco:我当天就递了辞呈。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你有……想念过以前的生活吗？;
+
+; Marco说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Marco沉默了几秒，手指无意识地在吉他弦上拨了两下。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Marco:有时候……我会想念那种冲劲。一笔好的交易做成的时候，整个人像通了电一样。那种肾上腺素的快感——说实话，没有任何东西可以替代。;
+
+Marco:但我不想念处于那种快感中的自己。那个人太可怕了。为了多赚百分之零点五，可以不眨眼地说谎。;
+
+; 恢复双方亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:街灯下，有人路过往吉他箱里扔了一张五美元。Marco点头致谢，然后转回头看着安娜。;
+
+; ========== 第二部分：甜点师 ==========
+changeBg:bg-dessert-cart.jpg -next;
+
+; Marco说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Marco:对了，你想认识Lily吗？她就在前面那个路口。来，我带你过去。;
+
+; 清除角色，过渡
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+:安娜跟着Marco走了不到五十米，在一个被暖光小灯串装饰的甜品推车前停了下来。推车后面站着一个亚裔女孩，正用裱花袋在一块蛋糕上画樱花的图案。她的动作专注而流畅，就像在做一台手术。;
+
+; 显示安娜（左）和Lily（右）
+changeFigure:char-anna.png -left -next;
+changeFigure:char-baker.png -right -next;
+
+; Marco介绍（旁白）
+:Marco朝Lily挥了挥手："Lily，这是安娜。Jonathan的朋友。她想聊聊。"然后他拿起吉他，退回了自己的街角。;
+
+; Lily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Lily:你好。要来一块肉桂苹果蛋糕吗？自己做的。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:谢谢……你以前是学医的？;
+
+; Lily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Lily:医学院三年级。全班第一。;
+
+:她说这话的时候没有任何骄傲，也没有任何遗憾，只是在陈述一个事实。;
+
+Lily:两年没睡超过四个小时了。每天早上六点进医院，晚上十一点回家，凌晨两点还在背解剖学。;
+
+Lily:你知道第一个学期结束后我做了什么吗？我在宿舍浴室里坐了三个小时，一动不动。室友以为我是在冥想。其实我只是忘了怎么站起来。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……你怎么发现那台贩卖机的？;
+
+; Lily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Lily:一个朋友的朋友告诉我的。说有一种东西能让你"不再痛苦"。我当时以为是什么新型抗抑郁药。结果到了那个站台一看——是台卖苹果的机器。;
+
+Lily:我当时想，管它是什么呢。反正再这样下去我不是猝死就是崩溃。;
+
+; 恢复双方亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Lily把裱好花的蛋糕小心地放进展示架。她的手很稳——那是做过上千次缝合练习的手。;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:你现在……快乐吗？;
+
+; Lily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Lily没有立刻回答。她低头整理着推车上的甜品，好一会儿才开口。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Lily:大部分时候，是的。做甜点让我很平静。有人吃了我的蛋糕笑起来，我会觉得很满足。;
+
+Lily:但是……;
+
+:她的声音低了下去。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Lily:我爸妈花了所有积蓄供我上医学院。他们到现在还以为我在实习。我不敢告诉他们。;
+
+Lily:有时候半夜我会想——我是不是太自私了？他们牺牲了那么多，而我为了自己"快乐"就全扔了？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……;
+
+; Lily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Lily:但我回不去了。不是因为苹果让我回不去——是因为我终于看清了一件事。;
+
+Lily:那个苹果没有从我身上拿走任何东西。它只是让我看到了原本就缺失的东西。;
+
+; 恢复双方亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:这句话像一根针，轻轻刺进了安娜的某个地方。;
+
+; 清除角色
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+; ========== 结尾 ==========
+
+
+:安娜和他们道了别。走在曼哈顿的街道上，身后Marco的吉他声渐渐远去，混进了城市的噪音里。;
+
+changeFigure:char-anna.png -next;
+
+:她开始在脑中整理这些天收集的碎片——Jonathan、Marco、Lily。三个完全不同领域的人，三种完全不同的人生轨迹，但有一个共同点：他们都是在极端压力下崩溃的人。;
+
+安娜:（心理学研究生、华尔街交易员、医学院尖子生……都是被压到快断了的人。然后那台贩卖机出现了，像一个出口。）;
+
+安娜:（他们都说自己更快乐了。可是……Lily的眼睛里明明还有愧疚。Marco说不想念那个冲劲的时候，手指停顿了一下。Jonathan凌晨三点还是会醒过来。）;
+
+changeFigure:none -next;
+
+:更大的问题是——这台贩卖机是谁造的？为什么会出现在一个隐形的站台上？艾米丽知道多少？还有那篇被撤回的论文……菲利普的名字。;
+
+:安娜的步伐不自觉地加快了。
+
+choose:直接去找Philip对质:ch5_confront.txt|先告诉Emily这个发现:ch5_tell_e.txt;

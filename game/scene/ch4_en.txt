@@ -1,0 +1,37 @@
+; ===========================
+; Chapter 4: The Abyss
+; ===========================
+
+; intro:Chapter Four|The Abyss;
+
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=2000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:The subway platform is quiet in a way that feels intentional, as if the city has drawn a breath and is holding it. Night wind blows from deep in the tunnel, carrying a cocktail of rust, damp concrete, and something sweeter — the faint, impossible scent of apples.;
+
+:The vending machine pulses. Not flickering — pulsing, with the slow, steady rhythm of a heartbeat. Its yellow light swells and dims, swells and dims, casting Anna's shadow long across the tiles, then pulling it close again. The word "EDEN" glows at its center, patient and eternal.;
+
+:Anna stands before it. She thinks about everything that has led her here — the thesis that feels like a prison sentence, Jonathan's hollow smile, Philip's three seconds of vulnerability, the blurry photo that appeared on her phone like a message from nowhere. Emily's calm, knowing eyes.;
+
+:She thinks about the apple. The weight of it. The warmth. The silence it promises.;
+
+:She thinks about the truth. The manila folder, the redacted documents, the scope of something much larger than one vending machine in one subway station.;
+
+:She thinks about balance — the possibility that there's a path between surrender and obsession, between the apple and the abyss.;
+
+:And she thinks about Emily. The woman who stands at the threshold every night, guarding a door she won't walk through herself.;
+
+:The vending machine pulses. Anna's reflection stares back from its screen, superimposed over the golden glow. She barely recognizes herself. She looks older. She looks awake.;
+
+:It's time to choose.;
+
+changeFigure:none -next;
+
+; Four choices, last one requires trust>=3
+choose:I'm going all the way — the truth about EDEN must be exposed:ch4_inv.txt|Give me an apple — I'm ready:ch4_eat.txt|I don't want the apple or the investigation. I want to find balance:ch4_bal.txt|(trust>2)->Emily — what about you? Why are you always here?:ch4_emily.txt;

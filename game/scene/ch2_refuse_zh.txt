@@ -1,0 +1,68 @@
+; ===========================
+; 第二章 · 裂痕 (拒绝苹果)
+; Chapter 2: Fracture (refused the apple)
+; ===========================
+
+setVar:curiosity=curiosity+2 -next;
+setVar:rebellion=rebellion+1 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:安娜的目光落在那颗苹果上。光滑的表皮反射着贩卖机的黄光，深红色在光里显得更浓，更不像真实的东西。她的手抬起来，又放下了。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:……不了。我不吃陌生人给的东西。;
+
+:她说这话的时候声音并不坚定。那颗苹果散发的甜香像一只无形的手，抓着她的脚踝不放。;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:这不是"给"。这是你自己选择要不要拿。;
+
+:艾米丽的语气里没有失望，也没有催促。她只是陈述了一个事实，然后把苹果放回了贩卖机的托盘里。机器发出一声轻响，像叹了一口气。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:如果我改变主意了呢？我还能回来吗？;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:站台会在你需要它的时候出现。;
+
+:艾米丽笑了一下。那个笑容很浅，像水面上一圈涟漪，还没扩散就消失了。;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:安娜最后看了一眼那些苹果。它们整齐地排列在贩卖机里，每一颗都完美无瑕，像一排沉默的承诺。她把这个画面刻进记忆里，然后转身向出口走去。;
+
+changeFigure:none -right -next;
+
+:走到楼梯口的时候，她下意识地抬头看了一眼站名牌。上面的字依然模糊不清，像被什么东西擦掉了一半，又像是从一开始就没有写完。;
+
+:但她记住了来时的路——三号线，倒数第二站，往南出口上楼梯，左转。她在心里默念了一遍，又念了一遍，像背诵一段咒语。;
+
+:隧道深处传来风声。末班车快到了。;
+
+changeFigure:none -left -next;
+changeFigure:none -next;
+
+; ——回到公寓——
+changeBg:bg-apartment.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:安娜搭上末班车回到了公寓。推开门的瞬间，熟悉的气味涌来——廉价洗衣液、旧书的潮气。她没开大灯，在黑暗中站了一会儿，脑海里全是那台贩卖机和艾米丽的话。;
+
+changeFigure:none -next;
+
+changeScene:ch2_night.txt;

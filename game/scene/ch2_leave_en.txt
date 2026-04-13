@@ -1,0 +1,97 @@
+; ===========================
+; Chapter 2: Fracture (left on train)
+; ===========================
+
+setVar:investigation=investigation+1 -next;
+
+; intro:Chapter Two|Fracture;
+
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:Anna takes a step back. She doesn't know why she's retreating — reason or fear. Maybe there's no difference between the two.;
+
+:From deep in the tunnel comes the rumble of an approaching train. The vibration travels up through the concrete, through the soles of her shoes, all the way to her teeth. The last train.;
+
+:Emily says nothing. She only tilts her head slightly, as though she predicted this outcome long ago. The word "EDEN" glows quietly on the vending machine screen behind her.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:It's alright. The door is always here.;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:The train doors open. Anna turns and steps into the car. The moment her foot crosses the threshold, the closing chime sounds behind her — short, sharp, like a countdown reaching zero.;
+
+changeFigure:none -right -next;
+changeFigure:none -left -next;
+
+; — On the train —
+
+changeBg:bg-subway-interior.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:The instant the doors seal shut, she feels a strange weightlessness, as if something has been severed. Not regret — something deeper. Like a rope she never knew existed suddenly pulling taut.;
+
+:She turns to look through the window. The platform is receding, that yellow glow shrinking, growing distant, like a collapsing star. Emily's silhouette stands in the light for one second, then the tunnel's darkness swallows her whole.;
+
+:The car is nearly empty. On the opposite bench, a homeless man lies curled around a plastic bag stuffed with newspapers, sleeping deeply. His breathing fills the hollow car, slow and even, like some ancient metronome.;
+
+:Anna sits down. The window becomes a black mirror, her reflection floating above the abyss of the tunnel. That reflection looks more exhausted than she feels — the shadows under her eyes, her disheveled blue hair, and a certain blankness she refuses to acknowledge.;
+
+:She looks away. Then looks back. The reflection has no expression; it only sways gently with the rhythm of the train, like a person drifting on the surface of dark water.;
+
+:The train hurtles through the tunnel. Each time it passes an emergency light, the window flashes white, slicing her reflection apart and reassembling it. She starts counting the lights — one, two, three — but gives up by the seventh.;
+
+:Her hand reaches for her phone without thinking. No new messages. The thesis draft is still frozen on this afternoon's version, the cursor blinking in the middle of an unfinished sentence. She stares at that blinking cursor and feels a sudden, absurd kinship between it and the vending machine's screen.;
+
+:The homeless man mumbles something in his sleep and rolls over. The newspapers in his bag rustle softly. Anna thinks: did he also make some choice that led him here?;
+
+:She looks out the window again. Graffiti flashes by on the tunnel walls — a smiley face, an illegible phrase in English, an arrow pointing toward nowhere.;
+
+:She doesn't know how long it's been when the train finally slows. The arrival chime sounds, and she realizes she's ridden one stop past hers.;
+
+changeFigure:none -next;
+
+; — Back at the apartment —
+
+changeBg:bg-apartment.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:The moment she pushes open her apartment door, familiar smells flood in — cheap laundry detergent, yesterday's coffee grounds she forgot to throw out, the damp mustiness of books. Nothing has changed. Everything should feel reassuring.;
+
+:But she stands in the entryway, coat still on, and just stays there for a full two minutes.;
+
+:Anna tells herself over and over: it was just an ordinary subway station, an ordinary vending machine, a slightly strange woman. New York has everything. It's not worth getting worked up about.;
+
+:She finally moves. Tosses her bag on the couch, walks to the bathroom and splashes cold water on her face. It sharpens her a little, but the face in the mirror looks just as alien as the reflection in the train window.;
+
+:She picks up her phone to set an alarm — and freezes.;
+
+:There's a new photo in her gallery.;
+
+:The timestamp says twenty-three minutes ago. The image is so blurry it's almost unreadable, but at the center is a dense yellow glow, its edges spreading outward, like something alive and breathing.;
+
+:Anna doesn't remember taking this photo. She taps into the details — no GPS data, no device model, and the filename is a string of code she can't decipher.;
+
+:She pinches to zoom in. At the center of the glow there's a faint outline — round, smooth, like... an apple?;
+
+:Anna places her phone face-down on the desk.;
+
+:Then picks it up and looks again.;
+
+setVar:investigation=investigation+1 -next;
+
+changeFigure:none -next;
+
+changeScene:ch2_night.txt;

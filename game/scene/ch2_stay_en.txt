@@ -1,0 +1,135 @@
+; ===========================
+; Chapter 2: Mystery (stayed to ask)
+; ===========================
+
+; intro:Chapter Two|Mystery;
+
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:The last train roars away, its taillights shrinking into the tunnel like the eyes of a retreating animal. The platform sinks into a surreal silence. The only sound left is the low, persistent hum of the vending machine — not quite electrical, not quite organic, hovering somewhere in between.;
+
+:The overhead fluorescent lights flicker once, casting their faces into momentary shadow. When the light returns, neither of them has moved.;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:You're interesting. Most people either run or eat immediately. You're the first person I've met who just wants to talk.;
+
+setVar:trust=trust+1 -next;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:What exactly is this machine? What's in the apples?;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:I don't know the full truth. But those apples let people release their obsessions. The people who eat them don't lose something — they suddenly see clearly.;
+
+Emily:But some say... the apples steal the most important thing of all — the drive to not give up.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:That sounds like a drug. Or a lobotomy wrapped in fruit skin.;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:Maybe. Or maybe it's the opposite — maybe what we call ambition is the real drug, and the apple is just the antidote.;
+
+:A distant train rumbles through a parallel tunnel. The platform vibrates faintly beneath their feet. The fluorescent lights flicker again — longer this time, almost deliberate, as if the station itself is breathing.;
+
+; Emily asks the deeper question
+Emily:Can I ask you something?;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:You're the one standing next to a mysterious vending machine at midnight. I think I should be asking the questions.;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:Fair enough. But I'll ask anyway — what are you running from?;
+
+:The question lands harder than it should. Anna opens her mouth, closes it. The hum of the vending machine fills the silence.;
+
+; Anna gradually opens up
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:I'm not running from anything. I'm running toward a degree. A career. A version of myself that's supposed to be worth something.;
+
+Anna:My advisor wants the thesis draft by Friday. I've rewritten the methodology section four times. Each time he sends it back with more red ink than the last.;
+
+Anna:I haven't slept more than five hours a night in three weeks. I keep telling myself it's temporary. That it'll be worth it. That the version of me on the other side of this will be grateful.;
+
+; Anna pauses
+Anna:But lately I'm not sure that person exists.;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:Hmm.;
+
+:Emily is quiet for a long moment. She looks at the vending machine, then back at Anna, as if weighing something.;
+
+Emily:I used to work in a lab too. Different field. Different city. Same feeling of the walls closing in.;
+
+Emily:One day I realized I'd spent so long optimizing my path that I forgot to ask where it was going.;
+
+; Anna speaks
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:Is that why you're here? Standing guard over a vending machine?;
+
+; Emily speaks
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:Something like that.;
+
+:Emily's expression shifts — something guarded passing behind her eyes, like a door briefly opened and then pulled shut.;
+
+Emily:I'm here because someone has to be. That's all I can say for now.;
+
+:The vending machine's screen flickers. For a split second, the "EDEN" logo is replaced by a line of text — white letters on black, like a terminal prompt.;
+
+:Anna reads it before it vanishes: "What would you do if you weren't afraid?";
+
+:She blinks. The screen shows "EDEN" again, steady and golden. She turns to Emily, but Emily is already looking at her with that same unreadable expression.;
+
+; Emily speaks
+Emily:It does that sometimes.;
+
+; Restore brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Anna doesn't know how long they've been standing there. The air in the station feels different now — thicker, warmer, charged with something she can't name. The fluorescent lights have stopped flickering. Even the vending machine's hum has settled into a deeper, steadier frequency.;
+
+:She didn't get answers tonight. But she got something else — the unsettling sense that the questions she should be asking aren't about the machine at all.;
+
+; Clear characters
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+; — Back at the apartment —
+changeBg:bg-apartment.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:Anna walks out of the subway station into the night air. She catches the return train, rides through empty cars, and walks fifteen minutes through dim streets before finally pushing open her apartment door.;
+
+changeFigure:none -next;
+
+changeScene:ch2_night.txt;

@@ -1,0 +1,42 @@
+; ===========================
+; 第三章 · 独自调查路线
+; Chapter 3: Solo investigation
+; ===========================
+
+setVar:investigation=investigation+3 -next;
+
+changeBg:bg-vending-machine.jpg -next;
+bgm:bgm-misty.mp3 -enter=1000 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:安娜没有回复短信。她自己坐地铁寻找那个神秘站台的线索。在一处废弃通风管道旁，她发现墙上用记号笔画了一个苹果轮廓，旁边写着编号："EDEN-0047"。;
+
+setVar:investigation=investigation+2 -next;
+
+安娜:（EDEN……伊甸？某个项目的代号？）;
+
+setVar:investigation=investigation+2 -next;
+
+changeFigure:none -next;
+
+; Emily出现
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:身后传来脚步声。;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+艾米丽:我就知道你会自己来找。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeScene:ch3_reveal.txt;
