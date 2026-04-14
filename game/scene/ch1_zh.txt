@@ -17,7 +17,7 @@ setVar:humanity=0 -next;
 changeBg:bg-subway.jpg -next;
 bgm:bgm-misty.mp3 -enter=2000 -next;
 
-:晚上十一点四十五分，纽约。末班地铁还有几分钟进站。荧光灯在头顶嗡鸣，发出令人不安的低频振动，像某种快要断掉的信号。;
+:晚上十一点四十五分。末班地铁还有几分钟进站。白炽灯在安娜的头顶嗡鸣，发出令人不安的振动。;
 
 ; 显示安娜
 changeFigure:none -left -next;
@@ -26,18 +26,18 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-:安娜靠在站台的柱子上，手里攥着一份被导师反复批注的心理学论文草稿。菲利普的红字像伤口一样布满每一页——"逻辑混乱"、"实验设计有缺陷"、"重写"。;
+:安娜靠在站台的柱子上，手里攥着一份被导师反复批注的论文草稿。菲利普的字像伤口一样布满每一页——"逻辑混乱"、"实验设计有缺陷"、"重写"。;
 
 安娜:（又要重写……这已经是第四稿了。再这样下去，延毕是板上钉钉的事。）;
 
 changeFigure:none -next;
 
-:她抬起头。站台灯光昏暗，站名模糊不清——她在这条线上坐了三年，今晚却像第一次来。但让她真正停下来的，是月台正中央那样东西——;
+:她抬起头。站台灯光昏暗，站名模糊不清……等等，月台正中央那样东西是？;
 
 ; 展示贩卖机CG
 changeFigure:cg-vending.png -next;
 
-:一台明黄色的自动贩卖机，在黑暗中散发着温暖而诡异的光。透过玻璃，能看见整齐排列的红苹果，每颗都完美无瑕。;
+:一台明黄色的自动贩卖机，在地铁站台上散发着温暖的光。透过玻璃，能看见整齐排列的红苹果，每颗都完美无瑕。;
 
 :贩卖机屏幕上滚动着一行英文："An Apple A Day Keeps The Doctor Away.";
 
@@ -49,7 +49,7 @@ changeBg:bg-vending-machine.jpg -next;
 ; 显示安娜
 changeFigure:char-anna.png -next;
 
-安娜:（……什么？这个站台我怎么从来没见过？谁会在地铁站里放一台只卖苹果的贩卖机？）;
+安娜:（……什么？这个我怎么从来没见过？谁会在地铁站里放一台只卖苹果的贩卖机？）;
 
 changeFigure:none -next;
 
@@ -60,14 +60,14 @@ choose:走近贩卖机，仔细看看:label_approach|别管了，等下一班车
 label:label_approach;
 setVar:curiosity=curiosity+2 -next;
 changeFigure:char-anna.png -next;
-:安娜走下车厢，朝贩卖机走去。近距离观察，苹果的颜色更加不真实——深邃的酒红色，表面似乎有微弱的光泽在流动。;
+:安娜朝贩卖机走去。近距离观察，苹果的颜色更加不真实——深邃的酒红色，表面似乎有微弱的光泽在流动。;
 changeFigure:none -next;
 jumpLabel:label_vending;
 
 ; ---- 别管了 ----
 label:label_ignore;
 changeFigure:char-anna.png -next;
-:安娜别过头，不想理会。但就在车门即将关闭的瞬间，一种奇异的香气钻入鼻腔——甜美、清冽，像秋天果园的气息。她不由自主地迈下了车。;
+:安娜别过头，不想理会。但一种奇异的香气钻入鼻腔——甜美、清冽，像秋天果园的气息。她不由自主地走了过去。;
 changeFigure:none -next;
 jumpLabel:label_vending;
 
@@ -88,7 +88,7 @@ label:label_vending;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-:贩卖机旁，一个女孩正靠墙站着，手里拿着一个已经咬了一口的苹果。她的表情平静得出奇，像是在等一件早就知道会发生的事。;
+:贩卖机旁，一个女孩正靠墙站着，手里拿着一个已经咬了一口的苹果。;
 
 ; Emily说话，高亮Emily，暗化安娜
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
@@ -120,7 +120,7 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:她说这话时声音平静，没有任何解释的意思。贩卖机的光在她脸上映出忽明忽暗的轮廓。;
+:贩卖机的光在她脸上映出忽明忽暗的轮廓。;
 
 ; 第二个选择
 choose:"需要它"是什么意思？:label_ask|你在故弄玄虚吧？:label_skeptic;
@@ -139,7 +139,7 @@ label:label_skeptic;
 setVar:investigation=investigation+1 -next;
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-艾米丽:你不信也没关系。但你确实下了车，不是吗？而且……你手里那份论文，已经被你攥出了褶皱。;
+艾米丽:你不信也没关系。;
 jumpLabel:label_merge;
 
 ; ---- 汇合 ----
@@ -149,7 +149,7 @@ label:label_merge;
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:远处传来地铁鸣笛声。最后一班车要开走了。;
+:远处传来地铁鸣笛声。最后一班车要来了。;
 
 ; Emily说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
@@ -158,7 +158,7 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 :她从口袋里掏出一枚硬币，放在贩卖机投币口旁。;
 
-艾米丽:或者投一枚硬币，买一个苹果。不过我得提前告诉你——吃了这个苹果的人，明天醒来，可能会变成一个完全不同的人。;
+艾米丽:或者买一个苹果。不过我得提前告诉你——吃了这个苹果的人，明天醒来，可能会变成一个完全不同的人。;
 
 ; 恢复双方亮度
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;

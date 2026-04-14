@@ -38,18 +38,14 @@ setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 艾米丽:站台会在你需要它的时候出现。;
 
-:艾米丽笑了一下。那个笑容很浅，像水面上一圈涟漪，还没扩散就消失了。;
-
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:安娜最后看了一眼那些苹果。它们整齐地排列在贩卖机里，每一颗都完美无瑕，像一排沉默的承诺。她把这个画面刻进记忆里，然后转身向出口走去。;
+:安娜最后看了一眼那些苹果。它们整齐地排列在贩卖机里，每一颗都完美无瑕。她把这个画面刻进记忆里。;
 
 changeFigure:none -right -next;
 
-:走到楼梯口的时候，她下意识地抬头看了一眼站名牌。上面的字依然模糊不清，像被什么东西擦掉了一半，又像是从一开始就没有写完。;
-
-:但她记住了来时的路——三号线，倒数第二站，往南出口上楼梯，左转。她在心里默念了一遍，又念了一遍，像背诵一段咒语。;
+:三号线，倒数第二站，往南出口上楼梯，左转。她在心里默念了一遍，又念了一遍，像背诵一段咒语。;
 
 :隧道深处传来风声。末班车快到了。;
 
