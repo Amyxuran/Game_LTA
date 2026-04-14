@@ -16,7 +16,7 @@ changeFigure:char-anna.png -next;
 
 :那天晚上，安娜没有打开论文文档。;
 
-:她打开了一个新文件，开始写一份不一样的东西——IRB伦理审查申请书。标题是：《关于多巴胺奖励回路干预的伦理框架与自愿参与实验设计》。;
+:她打开了一个新文件，开始写一份不一样的东西——提交IRB审查的研究方案。标题是：《关于奖赏相关多巴胺回路干预的伦理框架与自愿参与实验设计》。;
 
 :她写了整整一夜。;
 
@@ -58,7 +58,7 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 ; 艾米丽说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-艾米丽:我可以帮你重写纳米载体的配方——这次剂量可控，效果可逆。但有一个条件。;
+艾米丽:我可以帮你重写纳米递送载体的配方——这次剂量可控，效果可逆。但有一个条件。;
 
 ; 安娜说话
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
@@ -133,7 +133,7 @@ changeFigure:char-anna.png -next;
 
 :接下来的两个月，安娜过的是她博士生涯里最奇怪的日子。;
 
-:白天修改IRB申请书——第一稿被打回，说"风险评估不充分"；第二稿被打回，说"知情同意书措辞有歧义"；第三稿等了三周没有回音。晚上和艾米丽在视频里讨论配方，把EDEN素的浓度一次次往下压，直到效果可测但可逆。;
+:白天修改提交给IRB的材料——第一稿被打回，说"风险评估不充分"；第二稿被打回，说"知情同意书措辞有歧义"；第三稿等了三周没有回音。晚上和艾米丽在视频里讨论配方，把EDEN素的浓度一次次往下压，直到效果可测但可逆。;
 
 :有一个晚上，安娜对着屏幕发呆，突然觉得这件事也许根本做不成。;
 
@@ -152,7 +152,7 @@ changeBg:bg-irb-office.jpg -next;
 
 changeFigure:char-anna.png -next;
 
-:三个月后，IRB审查委员会通过了申请。;
+:三个月后，IRB批准了该研究方案。;
 
 changeBg:bg-lab.jpg -next;
 

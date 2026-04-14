@@ -2,8 +2,7 @@
 ; Chapter 2: Sleepless Night
 ; ===========================
 
-; Scene: Anna's apartment, late night
-changeBg:bg-phone-screen.jpg -next;
+changeBg:bg-apartment-night.jpg -next;
 bgm:bgm-misty.mp3 -enter=2000 -next;
 
 changeFigure:none -left -next;
@@ -12,83 +11,57 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-:1 AM. The apartment is quiet. The desk lamp flickers its dim glow across Anna's exhausted face — the dark circles under her eyes now permanent residents. The desk overflows with thesis drafts, textbooks streaked with highlighter, and three stacked ramen cups. The radiator in the corner ticks intermittently.;
+:1 a.m. in the apartment. The dim desk lamp throws light over Anna's exhausted face. Her desk is piled with paper drafts, textbooks striped with fluorescent highlighter, and three stacked instant noodle cups. The radiator in the corner clicks irregularly.;
+
+changeFigure:none -next;
+changeBg:bg-phone-screen.jpg -next;
+
+:She takes out her phone to set an alarm, then freezes.;
+
+:There is a new photo in her gallery.;
+
+:The timestamp says it was taken forty minutes ago, exactly when she was on that platform. The image is so blurred it is almost unreadable, but in the center there is a dense yellow flare, pulsing at the edges.;
+
+:Anna does not remember taking this picture.;
+
+:She zooms in with two fingers. In the middle of the flare there seems to be a shape, round and smooth, like... an apple?;
+
+:She turns the phone face-down on the desk. Then she picks it back up and looks again.;
+
+:She remembers the vending machine, the impossibly perfect red apples, and Emily's eyes.;
+
+changeBg:bg-apartment-night.jpg -next;
+changeFigure:char-anna.png -next;
+
+Anna:("If you eat this apple, tomorrow you might wake up as a completely different person." What did she mean by that?);
+
+:Anna throws the phone onto the pillow and lies flat on the creaking single bed, staring at a long crack running across the ceiling.;
+
+Anna:(Become a completely different person... as if the person I am now is so worth clinging to.);
 
 changeFigure:none -next;
 
-:She pulls out her phone. The screen still shows the photo she took at the subway station — if you could call it a photo. Just a smear of golden light, no detail at all. But she remembers. She remembers that vending machine perfectly, those impossibly flawless red apples, and the unsettling calm in Emily's eyes.;
+:She thinks about her father taking extra night shifts for half a year just to cover her first-year living expenses. About his hand trembling slightly when he signed the loan papers. About her advisor telling Sarah, "you're on track," then turning to her and saying, "we need to talk." ;
 
 changeFigure:char-anna.png -next;
 
-Anna:("Anyone who eats this apple might wake up as a completely different person." What did she mean by that?);
+Anna:(The words "cognition" make me want to throw up now.);
 
-:Anna tosses the phone onto her pillow and lies back on the creaky twin bed, staring at a winding crack on the ceiling.;
-
-Anna:(Become a completely different person... as if the current me is so worth keeping.);
-
-:The thought cracks something open. Everything she spent the day pushing down comes flooding out —;
+:She sits up, opens her laptop, and stares at Philip's comments blinking on the screen. She can't type a single word.;
 
 changeFigure:none -next;
-
-:She thinks of her mother's face at the airport the day she left for New York. Smiling, but with red-rimmed eyes. Her father wasn't there — he couldn't get time off. He'd been pulling double shifts at the factory for six months to cover her first year's living expenses.;
-
-:She remembers her fingers trembling as she signed the student loan papers. A hundred and twenty thousand dollars. The number was so large it felt unreal, like a phone number instead of a debt.;
-
-:She remembers last month's department seminar. Sarah — same cohort — already had two first-author publications and delivered her talk with effortless confidence. Afterward, the advisor told Sarah, "You're on track for a great career," then turned to Anna: "We need to talk about your progress.";
-
 changeFigure:char-anna.png -next;
 
-Anna:(What am I even doing? Do I actually love psychology? Or was it just because when I was filling out college applications, my mom said "psychology sounds respectable"?);
+Anna:(...Forget it. I should just sleep first.);
 
-Anna:(No. That's not fair. I did love it once. Sophomore year, I read about cognitive dissonance theory and was so excited I stayed up all night. But now...);
-
-Anna:(Now the word "cognition" makes me nauseous.);
-
-:She sits up and opens her laptop. The thesis document is still there, the cursor blinking in the middle of Chapter 3. Philip's comments line the margins like red scars: "This argument lacks empirical support." "Your foundational hypothesis is fundamentally flawed." "Come see me in my office.";
-
-:Anna's hands rest on the keyboard, but she can't type a single word. The cursor blinks on and on, like a heart waiting for a heartbeat.;
+:She places the phone face-down on the desk.;
 
 changeFigure:none -next;
 
-:She thinks of Emily. That girl in the subway station, eating an apple with a face as calm as still water. And the people Emily mentioned — the ones who ate the apple and "changed.";
+:4 a.m. New York lies silent outside the window, interrupted only by the occasional distant siren. Anna never closed the curtains. She collapses onto the bed still wearing her clothes.;
 
-:What kind of person buys an unmarked apple from a vending machine in a midnight subway station? And what kind of person becomes "completely different" after eating one?;
+:Her mind loops the same images over and over: the bright yellow vending machine, the flawless red apples, Emily's expression.;
 
-changeFigure:char-anna.png -next;
+:At some point, the horizon outside the window turns pale gray. Only then does she finally sink into sleep from sheer exhaustion.;
 
-Anna:(If those apples really have some kind of... power, what exactly do they change? Do they help you see something clearly, or do they make you forget?);
-
-Anna:(Emily said "you can only see this platform when you need it" — so am I someone who "needs" that machine? What do I even need?);
-
-Anna:(... Forget it. I can't even finish my own thesis.);
-
-:Her phone buzzes, cutting off the thought. A message from her mother.;
-
-changeFigure:none -next;
-
-:"Sweetheart, how's the thesis going? Your dad got his checkup results back from last month — everything's fine. Don't worry about us. Focus on your studies. Good night.";
-
-:Anna stares at the message for a long time.;
-
-changeFigure:char-anna.png -next;
-
-:She knows what "everything's fine" means. It means her father's knee is acting up again but he doesn't want her to know. It means her mother is skimping on meals but insists "we have everything we need." It means they've compressed all their expectations into one breezy "don't worry about us.";
-
-Anna:(Don't worry about you... how can I not worry? I'm here burning through every penny you scraped together, and I can't even finish a single paper.);
-
-:Her eyes sting. She types a few words — "Mom, the thesis is going great, don't worry" — and hits send.;
-
-Anna:(When did I start lying to my family as a reflex?);
-
-:She flips the phone face-down on the desk. Closes the laptop. Walks to the window. Most of the lights across the street are off, but a few windows still glow — maybe another grad student pulling a late night, maybe another person who can't sleep.;
-
-changeFigure:none -next;
-
-:4 AM. New York is silent outside the window, broken only by the occasional distant siren. Anna doesn't close the curtains. She collapses onto the bed fully clothed.;
-
-:Her mind cycles through the same images: the bright yellow vending machine, the flawless red apples, the look on Emily's face when she said "you can only see this platform when you need it," and the period at the end of her mother's message.;
-
-:At some point, a line of gray-white creeps along the horizon outside the window. She finally sinks into an exhausted sleep. In her dream there is an apple tree, and someone sits beneath it, drawing.;
-
-; End scene, transition to lab
 changeScene:ch2_lab.txt;

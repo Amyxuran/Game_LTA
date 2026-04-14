@@ -1,8 +1,8 @@
 ; ===========================
-; Chapter 3: Emily reveals the truth
+; Chapter 3: Emily Reveals the Truth
 ; ===========================
 
-changeBg:bg-subway.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=1500 -next;
 
 changeFigure:none -left -next;
@@ -12,37 +12,28 @@ changeFigure:none -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-playEffect:se-dramatic.wav -next;
-Emily:That machine isn't an ordinary vending machine. The apples contain a substance called "EDEN compound" that resets the brain's dopamine reward pathways.;
 
-Emily:Simply put, it makes you stop feeling excited about socially programmed goals — promotions, publications, money. Instead, you feel the most primal joys — drawing, walking, watching sunsets.;
+Emily:That vending machine is not an ordinary vending machine. The apples contain a substance called EDEN. It modulates dopamine circuits associated with reward in the human brain.;
 
-; Anna speaks
+Emily:Simply put, it makes you stop getting excited by the goals society trained you to chase: promotions, publications, money. In their place, you feel drawn to simpler, more fundamental pleasures: drawing, walking, watching the sunset.;
+
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:So it's... a drug? Why disguise it as apples?;
+Anna:So it's... a drug? Why shape it like an apple?;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:Because it's an experiment. A social experiment observing what humans do when freed from desire. As for who's behind it—;
+Emily:Because this was an experiment. A social experiment to observe what human beings would do after being freed from desire. As for who was behind it--;
 
-; Restore brightness
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:Emily stops mid-sentence. The machine's screen flickers.;
+:Emily abruptly stops. The vending machine screen flickers a few times.;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:... That's all I know. But you need to make a choice.;
-
-; Restore brightness
-setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:...That's all I can tell you right now. But you need to make a choice.;
 
 changeScene:ch4.txt;

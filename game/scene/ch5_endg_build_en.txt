@@ -1,10 +1,10 @@
 ; ===========================
-; Chapter 5: Redesign -> Ending C (Emily path)
+; Chapter 5: Build Together -> Ending G
 ; ===========================
 
 setVar:humanity=humanity+1 -next;
 
-changeBg:bg-apartment.jpg -next;
+changeBg:bg-lab-night.jpg -next;
 bgm:bgm-misty.mp3 -enter=2000 -next;
 
 changeFigure:none -left -next;
@@ -13,38 +13,162 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-:That night, Anna opens her thesis document. But she doesn't follow the professor's instructions — she opens a new file and starts writing what she truly wants. Not for graduation. Not for the degree. But to answer the question that found her on that subway platform: What is true success?;
+:That night, Anna does not open the dissertation document.;
+
+:Instead, she opens a blank file and starts writing something else entirely: a study protocol for IRB review. The title reads, "An Ethical Framework for Intervention in Reward-Related Dopamine Circuits and a Voluntary Experimental Design." ;
+
+:She writes all night.;
 
 changeFigure:none -next;
-
-changeBg:bg-city.jpg -next;
 
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-:Six months later, Anna graduates. Not with the highest GPA or the most publications — but with a thesis that left the defense committee silent for three full minutes.;
+:Two weeks later, Anna sends the protocol draft to Emily.;
 
-:On the acknowledgments page, she wrote: "Thanks to a vending machine in a late-night subway station, and a girl named Emily. You taught me that life isn't a multiple-choice test.";
-
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:You're the smartest person I've ever met — because you learned to make peace with yourself.;
+Emily:You're really going to do this?;
 
-; Restore brightness
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:When Philip did it, it was secret, coercive, and eventually weaponized. I want to know whether things change if everything is transparent, if the participants volunteer, if the outcome isn't hidden from them.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:Maybe they do. Maybe they don't. Are you prepared for "don't" to be the answer?;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:That would still be an answer.;
+
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:Anna didn't abandon academia, and academia didn't consume her. She found a third path — with passion, with clarity, at her own pace.;
+:Emily is silent for a while. Then she closes her laptop and pushes it aside.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:I can help you rewrite the nanocarrier formulation. This time the dosage can be controlled, and the effect can be made reversible. But I have one condition.;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:What condition?;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:The first participant is me.;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Anna freezes. Emily's face is calm, but there is something in her eyes Anna has never seen before, the look of someone who genuinely wants to know the answer, no matter what it is.;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
+changeFigure:none -next;
 
-changeBg:bg-campus.jpg -next;
+changeBg:bg-office.jpg -next;
 
-:— Ending C · Balance —;
+changeFigure:char-anna.png -left -next;
+changeFigure:char-philip.png -right -next;
 
-:Anna chose to redesign, not simply destroy or expose. She found her own third path. With passion, with clarity, at her own pace. Life isn't a multiple-choice test.;
+:Anna goes to Philip. To tell him what she is about to do.;
 
-setVar:ending_c=true -global -next;
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Philip:You do understand the IRB is not going to rubber-stamp a neural intervention study, right? The ethics review alone could take three to six months, and they still might reject it.;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:I know.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Philip:And your dissertation?;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:This is my dissertation.;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Philip says nothing for a long time. At last he gives her only one sentence.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Philip:I won't help you. But I won't stop you either.;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeBg:bg-lab-night.jpg -next;
+changeFigure:char-anna.png -next;
+
+:The next two months are the strangest of Anna's doctoral life.;
+
+:By day she revises the IRB submission. Draft one is rejected: insufficient risk assessment. Draft two: ambiguous language in the informed-consent form. Draft three sits three weeks without an answer. At night she and Emily work over video calls, lowering the EDEN concentration again and again until the effect remains measurable but reversible.;
+
+:One night, Anna stares at the screen and suddenly thinks the whole thing may simply never happen.;
+
+Anna:(Philip spent two years creating something that the military turned into a weapon. If I spend two years building this, what will it become?);
+
+:She sends the question to Emily.;
+
+:Emily replies with only one line: "I don't know. But while you're making it, you'll know why you're making it." ;
+
+:Anna looks at the sentence for a long time, then opens draft four of the submission.;
+
+changeFigure:none -next;
+
+changeBg:bg-irb-office.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:Three months later, the IRB approves the protocol.;
+
+changeBg:bg-lab.jpg -next;
+
+:Anna sits in the lab and stares at the approval email on her screen. She doesn't cheer. She doesn't jump. She only pushes her chair back, leans into it, and closes her eyes.;
+
+:Outside the window is an autumn campus. People are playing soccer. Someone is reading on a bench. Life is continuing in every direction at once.;
+
+:Her phone vibrates. A text from Emily:;
+
+changeFigure:none -next;
+
+:"Approved?";
+
+:Anna replies with two words:;
+
+:"Approved.";
+
+:A few seconds later, another message arrives:;
+
+:"Then let's begin.";
+
+changeFigure:char-anna.png -next;
+
+:Anna sets the phone down and opens her laptop again. On the screen is a blank experimental logsheet, the first row waiting for a date.;
+
+:She remembers the first night the vending machine appeared on that hidden platform. She remembers Emily saying, "You can only see this platform when you need it." ;
+
+:Maybe she doesn't need that platform anymore.;
+
+:But she still has questions she wants to answer.;
+
+changeFigure:none -next;
+
+changeBg:bg-city-dusk.jpg -next;
+
+:-- Ending G: Build --;
+
+:Anna and Emily decide to begin again from scratch, transparent, voluntary, reversible. This is not an ending. It's the first step.;
+
+setVar:ending_g=true -global -next;
 end;

@@ -1,5 +1,5 @@
 ; ===========================
-; Chapter 5: Public truth -> Ending D (Emily path)
+; Chapter 5: Public Truth -> Ending D
 ; ===========================
 
 changeBg:bg-newsroom.jpg -next;
@@ -9,39 +9,41 @@ changeFigure:none -left -next;
 changeFigure:none -right -next;
 changeFigure:none -next;
 
+:Anna hands all the evidence to the media. The exposure of Project EDEN ignites a nationwide debate about free will, the meaning of happiness, and the ethical boundary of technology. The machine is removed, but most of the people who already ate the apples do not choose to return to who they were before.;
+
+changeBg:bg-subway-dawn.jpg -next;
+
 changeFigure:char-anna.png -next;
 
-:Anna gives all the evidence to the press. Project EDEN's exposure sparks a nationwide debate — about free will, the definition of happiness, and the boundaries of technology. The machines are removed. But most people who ate the apples... choose not to go back.;
+:After the press conference, Anna stands alone on the platform. It is five in the morning. Train service has not started yet.;
 
-:After the press conference, Anna stands alone on the platform. Five in the morning. The trains haven't started running yet.;
+:The city is waking up. A sanitation worker pushes a cart in the distance. Sparrows peck along the tracks. A pale blue-gray veil lies over the skyline as if the day has just begun pulling itself into existence.;
 
-:The city is waking up. In the distance, a sanitation worker pushes a cart past. A few sparrows peck at crumbs beside the tracks. The skyline is draped in a thin blue-grey, like a veil just lifted.;
-
-:Her phone buzzes. A text from Emily:;
+:Her phone vibrates. A text from Emily:;
 
 :"You made the right choice.";
 
-:Anna stares at the message for a long time. The right choice. She flips the phone face-down.;
+:Anna stares at the message for a long time. The right choice. She turns the phone face-down.;
 
-:What does "right" even mean? Will Jonathan still sit on that bench and smile? The people who ate the apples — they'll be labeled victims, forced into "treatment," forced back into a world of anxiety and competition. Is that salvation?;
+:What does "right" even mean? Will Jonathan still sit on that bench smiling? Will the people who ate the apples now be classified as victims, forced into treatment, forced back into a world of anxiety and competition? Is that rescue?;
 
-:A commuter walks past her, hurried steps, eyes sweeping over the corner where the vending machine once stood — now just a clean tile and four screw holes in the wall. He notices nothing. Head down, he keeps walking.;
+:A commuter passes by her quickly, glancing at the corner where the vending machine once stood. There is nothing there now except clean tile and four screw holes in the wall. He notices nothing and keeps moving.;
 
-:That's how the world works. Someone changes everything. Someone else doesn't notice a thing.;
+:That is how the world works. Some people change everything. Some people never even realize it happened.;
 
-:Anna stands up and pulls her jacket zipper to the top. The wind on the platform is cold. She doesn't know if what she did was right, but she knows one thing —;
+:Anna rises and zips her coat to the top. She doesn't know whether what she did was right. But she knows one thing:;
 
-:The moment truth is spoken aloud, it no longer belongs to you. It grows its own roots, blooms flowers you can't predict. Whether those flowers are beautiful or ugly is no longer yours to decide.;
+:The moment truth is spoken aloud, it no longer belongs to the person who carried it. It grows roots of its own and blooms in ways no one can predict. Whether those flowers will be beautiful or monstrous is no longer hers to decide.;
 
-:That is the cost of truth. And its meaning.;
+:The wind on the platform is cold.;
 
 changeFigure:none -next;
 
-changeBg:bg-subway.jpg -next;
+changeBg:bg-subway-platform-empty.jpg -next;
 
-:— Ending D · Truth —;
+:-- Ending D: Truth --;
 
-:Anna chose to let the truth be known to the world. Project EDEN was terminated, but the questions remain. Maybe some questions simply have no right answer.;
+:Anna chooses to bring the truth into the open. Project EDEN ends, but the problem behind it remains. Maybe some questions were never meant to have clean answers.;
 
 setVar:ending_d=true -global -next;
 end;

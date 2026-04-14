@@ -2,9 +2,7 @@
 ; Chapter 4: The Abyss
 ; ===========================
 
-; intro:Chapter Four|The Abyss;
-
-changeBg:bg-subway.jpg -next;
+changeBg:bg-subway-night-deep.jpg -next;
 bgm:bgm-misty.mp3 -enter=2000 -next;
 
 changeFigure:none -left -next;
@@ -13,25 +11,24 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-:The subway platform is quiet in a way that feels intentional, as if the city has drawn a breath and is holding it. Night wind blows from deep in the tunnel, carrying a cocktail of rust, damp concrete, and something sweeter — the faint, impossible scent of apples.;
+:A few nights later, just past midnight, Anna stands alone on the platform.;
 
-:The vending machine pulses. Not flickering — pulsing, with the slow, steady rhythm of a heartbeat. Its yellow light swells and dims, swells and dims, casting Anna's shadow long across the tiles, then pulling it close again. The word "EDEN" glows at its center, patient and eternal.;
+:She has come here several times now, but the air tonight feels different. Denser. Colder. Charged in a way that tightens the skin, like the last few minutes before a storm breaks.;
 
-:Anna stands before it. She thinks about everything that has led her here — the thesis that feels like a prison sentence, Jonathan's hollow smile, Philip's three seconds of vulnerability, the blurry photo that appeared on her phone like a message from nowhere. Emily's calm, knowing eyes.;
+:Night wind pours out from the tunnel carrying rust and apple scent together. By now she can tell them apart, the chill of metal and the sweetness of fruit woven into a single dissonant, irresistible chord.;
 
-:She thinks about the apple. The weight of it. The warmth. The silence it promises.;
+:The vending machine's glow pulses on and off, slower than before, like the heartbeat of something gathering itself. Whenever it brightens, a warm yellow veil spreads over the walls and floor of the platform. Whenever it dims, darkness pours back in from both ends of the tunnel and surrounds her again.;
 
-:She thinks about the truth. The manila folder, the redacted documents, the scope of something much larger than one vending machine in one subway station.;
+:Anna stands exactly on that border between light and dark and feels everything converging into this one moment.;
 
-:She thinks about balance — the possibility that there's a path between surrender and obsession, between the apple and the abyss.;
+:Jonathan's sketchbook. Emily's words. Philip's brief hesitation. The inexplicable photograph still in her phone. The stranger in the hallway carrying instant noodles. Her own reflection in the subway window.;
 
-:And she thinks about Emily. The woman who stands at the threshold every night, guarding a door she won't walk through herself.;
+:All of those fragments whirl through her mind like a shattered kaleidoscope. Every angle makes a different pattern, and none of them are whole.;
 
-:The vending machine pulses. Anna's reflection stares back from its screen, superimposed over the golden glow. She barely recognizes herself. She looks older. She looks awake.;
-
-:It's time to choose.;
+:She knows she is standing at a crossroads. Not the kind with clear road signs, but the kind you find in an empty field at midnight where every direction is equally dark.;
 
 changeFigure:none -next;
 
-; Four choices, last one requires trust>=3
-choose:I'm going all the way — the truth about EDEN must be exposed:ch4_inv.txt|Give me an apple — I'm ready:ch4_eat.txt|I don't want the apple or the investigation. I want to find balance:ch4_bal.txt|(trust>2)->Emily — what about you? Why are you always here?:ch4_emily.txt;
+:The vending machine screen brightens. The word "EDEN" pulses slowly in the yellow light, as if waiting for her answer.;
+
+choose:I want to investigate all the way to the end. The truth behind Project EDEN has to be exposed:ch4_inv.txt|Give me an apple. I'm ready:ch4_eat.txt|I don't want to eat the apple, but I don't want to investigate either:ch4_bal.txt|(trust>2)->Emily, what about you? Why are you still here?:ch4_emily.txt;

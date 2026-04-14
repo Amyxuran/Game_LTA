@@ -1,12 +1,10 @@
 ; ===========================
-; Chapter 5: Resist -> Ending A
+; Chapter 5: Awakening -> Ending A
 ; ===========================
 
 setVar:humanity=humanity+2 -next;
 
-; intro:Chapter Five|Awakening;
-
-changeBg:bg-street.jpg -next;
+changeBg:bg-street-night.jpg -next;
 bgm:bgm-misty.mp3 -enter=1500 -next;
 
 changeFigure:none -left -next;
@@ -15,57 +13,54 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-Anna:No. This isn't my choice. The apple is choosing for me.;
+Anna:No. This isn't my choice. It's the apple choosing for me.;
 
-:The moment she realizes this, a wave of clarity crashes through her mind. The apple's effect begins to dissipate like fog — but the lightness leaves with it.;
+:The instant she realizes that, a violent clarity crashes through her mind. The effect of the apple begins to recede like mist, but the feeling of ease recedes with it.;
 
-:The anxiety returns. The thesis pressure returns. But this time, Anna isn't afraid—;
+:The anxiety comes back. The pressure of the dissertation comes back. But for the first time, Anna isn't afraid of that return.;
 
-Anna:True freedom isn't the absence of pain. It's the ability to choose for yourself even when it hurts.;
+Anna:...I don't want this kind of ease. Not like this.;
 
 changeFigure:none -next;
 
-changeBg:bg-subway.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-:She returns to the platform. Emily sees her eyes and pauses — then smiles.;
+:She comes back to the platform. The moment Emily sees the look in her eyes, she freezes for half a beat, then smiles.;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:You resisted? The EDEN compound is irreversible for most people.;
+Emily:You resisted it? For most people, the effects of EDEN are irreversible.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Maybe because I never fully believed in it. The apple makes you forget pain — but it also makes you forget why pain exists.;
+Anna:Maybe because I never trusted it completely. The apple can make people forget pain, but it makes them forget something else too: what pain means.;
 
-; Restore brightness
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
-changeBg:bg-city.jpg -next;
+changeBg:bg-lab.jpg -next;
 
 changeFigure:char-anna.png -next;
 
-:Anna returns to the office and picks up her thesis. But this time, she's not writing what Philip assigned — she's writing what she truly wants to research: psychological resilience and autonomous choice under pressure.;
+:Anna goes back to the office and picks up her dissertation again. But this time she isn't writing Philip's assigned topic. She begins working on the subject she actually wants to study: psychological resilience and autonomous choice under pressure.;
 
-:The thesis is still hard. The advisor is still demanding. Delayed graduation is still possible. But Anna isn't afraid anymore. Because this path is hers. Not the apple's. Not the advisor's. Not society's.;
+:The dissertation is still hard. Her advisor is still demanding. Delayed graduation is still a real possibility. But she is no longer afraid, because this path belongs to her. Not to the apple. Not to her advisor. Not to society.;
 
-:Hers.;
+:To her.;
 
 changeFigure:none -next;
 
-changeBg:bg-city.jpg -next;
+changeBg:bg-campus-autumn.jpg -next;
 
-:— Ending A · Awakening —;
+:-- Ending A: Awakening --;
 
-:Anna resisted the apple's temptation and found herself. True freedom isn't the absence of pain, but the ability to choose for yourself even when it hurts. This path is hers.;
+:Anna resists the apple's effect and takes the paper back into her own hands. The road is no shorter, but the way she walks it is different.;
 
 setVar:ending_a=true -global -next;
 end;

@@ -1,5 +1,5 @@
 ; ===========================
-; Chapter 4: Investigation path
+; Chapter 4: Investigation Path
 ; ===========================
 
 setVar:investigation=investigation+3 -next;
@@ -13,15 +13,15 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-:For the next week, Anna becomes a detective. By day she pretends to write her thesis. By night she searches subway stations. In a decade-old library journal, she finds a retracted paper: "Dopamine Pathway Reset and Social Behavior Deprogramming.";
+:For the next week, Anna becomes a detective. By day she pretends to work on her dissertation. By night she wanders from subway station to subway station. In a ten-year-old journal tucked away in the library, she finds a retracted paper titled "Dopamine Circuit Reset and the Deprogramming of Social Behavior." ;
 
 setVar:investigation=investigation+2 -next;
 
-:The corresponding author's name is redacted — but a footnote contains a name: Philip Morrison. Her advisor's full name.;
+:The corresponding author's name has been blacked out, but in the footnote one name remains: Philip Morrison. Philip's full name.;
 
-Anna:(... Impossible. Philip? He's connected to this?);
+Anna:(...No way. Philip? He's involved in this?);
 
-:Anna realizes she needs more evidence. She remembers Jonathan mentioning two other people who "changed" — a trader from the business school and a med student. Perhaps they hold more clues.;
+:Anna realizes she needs more evidence. She remembers Jonathan mentioning the other two people who had "changed," a former trader from the business school and a med student. Maybe they can tell her more.;
 
 changeFigure:none -next;
 

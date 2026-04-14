@@ -5,11 +5,9 @@
 setVar:investigation=investigation+2 -next;
 setVar:humanity=humanity+1 -next;
 
-; ========== PART 1: Street Musician ==========
 changeBg:bg-street-guitar.jpg -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
-; Show Anna (left) and Marco (right)
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 changeFigure:none -next;
@@ -17,192 +15,162 @@ changeFigure:none -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-trader.png -right -next;
 
+:Lower Manhattan at dusk. The streetlights have just come on, staining the sidewalk with warm yellow light.;
 
-:Lower Manhattan, dusk. The streetlamps have just flickered on, washing the sidewalk in amber.;
+:Anna hears the guitar before she sees the player. Not the lazy strumming common in subway tunnels, but a layered, warm melody, like autumn wind moving through a narrow alley.;
 
-:Anna hears the guitar from half a block away — not the sloppy busking you hear in subway tunnels, but a layered, warm melody, like autumn wind threading through a narrow alley.;
+:A man sits on a folding chair at the corner with an open guitar case at his feet. A few bills and coins lie scattered inside. He is wearing a faded flannel shirt with the sleeves rolled to his elbows, his fingers leaping deftly over the strings.;
 
-:A man sits on a folding chair at the corner, an open guitar case at his feet with a scattering of bills and coins. He wears a washed-out flannel shirt, sleeves rolled to the elbows, fingers dancing across the strings.;
+:This is Marco, the former Wall Street trader Jonathan mentioned.;
 
-:This is Marco. The former Wall Street trader Jonathan mentioned.;
-
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Hi... are you Marco? Jonathan sent me.;
+Anna:Hi... are you Marco? Jonathan told me to find you.;
 
-; Marco speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Marco:Oh, Jonathan. How's the kid doing?;
+Marco:Ah, Jonathan. That kid. Is he doing all right?;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:He's... drawing in the park. He seems good.;
+Anna:He is... painting in the park. He looks good.;
 
-; Marco speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Marco:Good to hear. You're here about the apple, right?;
+Marco:Good. Then you're here to ask about the apple too, huh?;
 
-:He leans the guitar against the chair back and gestures for Anna to sit. There's a low wall nearby.;
+:He leans the guitar against the back of the chair and gestures for Anna to sit. There's a low wall nearby.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:You really used to be a Wall Street trader?;
+Anna:You really were a Wall Street trader before?;
 
-; Marco speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Marco:Derivatives. Three hundred grand a year. Midtown apartment, custom suits, up at five every morning to check the Asian markets.;
+Marco:Derivatives trading. Three hundred thousand a year. A Midtown apartment, custom suits, waking up at five every morning to watch the Asian markets.;
 
-Marco:You know what that life feels like?;
+Marco:Do you know what that kind of life feels like?;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:... Glamorous?;
+Anna:...Glossy?;
 
-; Marco speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Marco:Hell.;
+Marco:Like hell.;
 
-Marco:I used to have panic attacks at 4 AM because I dreamed the Asian markets crashed. Heart rate a hundred and eighty, palms soaked, fumbling for my phone in the dark to check the numbers. Even when everything was fine, it took half an hour for my heart to settle.;
+Marco:I used to wake up at four in the morning because I'd dreamed the Asian markets had crashed. Heart pounding at one-eighty, palms drenched, grabbing my phone in the dark to check prices. Even if everything was normal, it would still take half an hour for my pulse to come down.;
 
-Marco:Now I still wake up at 4 AM. But it's because I dreamed a melody and I need to play it before I forget.;
+Marco:Now I still wake up at four in the morning. But it's because I dreamed a melody and want to get up before I lose it.;
 
-; Restore both
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:He smiles as he says this — not a bitter smile, but the kind that reaches every wrinkle on his face.;
+:When he says that, he smiles. Not a bitter smile. A real one, the kind that reaches even the lines around the eyes.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:How did you find the vending machine? Did Emily tell you about it?;
+Anna:How did you find the vending machine? Did Emily tell you about it too?;
 
-; Marco speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Marco:No. I didn't know Emily back then. Three months ago, late night, worked until almost midnight, took the last subway home. The train stopped at a platform I'd never seen before.;
+Marco:No. I didn't know Emily back then. Three months ago, one night, I was leaving work close to midnight and taking the last train home. The train stopped at a strange platform I'd never seen before.;
 
-Marco:Nothing there but that machine. I don't know why — like something had me under a spell — I walked over, dropped a coin in. Ate one apple.;
+Marco:There was only that vending machine there. I still don't know why, but I walked right up to it as if I were hypnotized, dropped in a coin, and ate one apple.;
 
-Marco:Then dropped another coin. Ate a second.;
+Marco:Then I put in another coin. And ate another one.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Two? Does the effect... compound?;
+Anna:Two? Do the effects... stack?;
 
-; Marco speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Marco:I don't know. I just know the effect was immediate. That night I slept the whole way through for the first time without an alarm jolting me awake. Monday morning I walked into the office, looked at those six screens of jumping numbers, and it felt like reading a foreign language — I recognized every digit, but couldn't understand why any of it once made me shake with excitement.;
+Marco:I don't know. I only know the effect was immediate. That night I got home and, for the first time in forever, slept straight through without an alarm. Monday morning I walked into the office, looked at six monitors full of moving numbers, and it felt like reading a foreign language. I recognized every symbol, but I couldn't understand why they had ever made me tremble with excitement.;
 
-Marco:I handed in my resignation that same day.;
+Marco:I resigned the same day.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Do you ever... miss your old life?;
-
-; Marco speaks
-setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-
-:Marco goes quiet for a few seconds. His fingers idly pluck two notes on the guitar strings.;
+Anna:Do you... ever miss your old life?;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Marco:Sometimes... I miss the rush. When a good trade lands, your whole body lights up. That adrenaline high — honestly, nothing else comes close.;
 
-Marco:But I don't miss the person I was during that rush. That person was terrifying. He could lie without blinking for an extra half percent.;
+:Marco is quiet for a few seconds, his fingers absently brushing two strings on the guitar.;
 
-; Restore both
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Marco:Sometimes... I miss the surge. When a trade went right, it felt like my whole body had electricity running through it. That adrenaline rush, honestly, nothing replaces it.;
+
+Marco:But I don't miss the person I was inside that rush. He was frightening. The kind of person who could lie without blinking for an extra half percent.;
+
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:Under the streetlight, a passerby drops a five-dollar bill into the guitar case. Marco nods his thanks, then turns back to Anna.;
+:Someone passing by drops a five-dollar bill into the guitar case. Marco nods his thanks, then turns back to Anna.;
 
-; ========== PART 2: Baker ==========
 changeBg:bg-dessert-cart.jpg -next;
 
-; Marco speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Marco:Hey — want to meet Lily? She's right up at the next corner. Come on.;
+Marco:By the way, do you want to meet Lily? She's right up at the next corner. Come on, I'll take you.;
 
-; Clear characters, transition
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
-:Anna follows Marco less than fifty meters to a small pastry cart decorated with warm string lights. Behind it stands a young Asian woman, piping a cherry blossom pattern onto a cake with surgical precision.;
+:Anna follows Marco less than fifty meters before they stop in front of a dessert cart wrapped in little strings of warm lights. Behind it stands an Asian girl piping cherry blossom patterns onto a cake with focused, practiced motions, as precise as surgery.;
 
-; Show Anna (left) and Lily (right)
 changeFigure:char-anna.png -left -next;
 changeFigure:char-baker.png -right -next;
 
-; Marco introduces (narration)
-:Marco waves to Lily: "Lily, this is Anna. Friend of Jonathan's. She wants to talk." Then he picks up his guitar and retreats to his corner.;
+:Marco waves at Lily. "Lily, this is Anna. Jonathan's friend. She wanted to talk." Then he picks up his guitar and heads back toward his corner.;
 
-; Lily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Lily:Hi. Want a slice of cinnamon apple cake? Made it myself.;
+Lily:Hi. Want a slice of cinnamon apple cake? I made it myself.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Thanks... You used to be in medical school?;
+Anna:Thanks... You used to be in med school?;
 
-; Lily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Lily:Third year. Top of my class.;
+Lily:Third year. Top of the class.;
 
-:She says it with no pride and no regret — just stating a fact.;
+:There is no pride in her voice and no regret. She states it like a weather report.;
 
-Lily:Two years straight, I never slept more than four hours. Into the hospital at six, home at eleven, up at two memorizing anatomy.;
+Lily:I hadn't slept more than four hours a night in two years. In the hospital by six every morning, home by eleven, still memorizing anatomy at two.;
 
-Lily:Know what I did after first semester ended? I sat on the floor of my dorm bathroom for three hours without moving. My roommate thought I was meditating. I'd just forgotten how to stand up.;
+Lily:Do you know what I did after my first semester ended? I sat in the dorm bathroom for three hours and didn't move. My roommate thought I was meditating. I had actually forgotten how to stand back up.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:... How did you find the vending machine?;
+Anna:...How did you find the vending machine?;
 
-; Lily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Lily:A friend of a friend told me about it. Said there was something that could "make the pain stop." I assumed it was some new antidepressant. Got to the platform and — it's a machine that sells apples.;
+Lily:A friend of a friend told me about it. Said there was something that could make you stop hurting. At first I thought it was some new antidepressant. Then I got to the platform and saw... an apple vending machine.;
 
-Lily:I figured, whatever. If things kept going the way they were, I was headed for a collapse or worse.;
+Lily:At that point I thought, what does it matter? If things kept going like they were, I'd either collapse or drop dead anyway.;
 
-; Restore both
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:Lily sets the finished cake carefully onto the display shelf. Her hands are steady — hands that practiced thousands of sutures.;
+:Lily carefully places the decorated cake into the display case. Her hands are steady. They are the hands of someone who has practiced sutures thousands of times.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 Anna:Are you... happy now?;
 
-; Lily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:Lily doesn't answer right away. She rearranges the pastries on the cart for a while before speaking.;
+:Lily doesn't answer at once. She keeps arranging pastries on the cart, only speaking after a long while.;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Lily:Most of the time, yes. Making pastries gives me peace. When someone eats my cake and smiles, I feel fulfilled.;
+Lily:Most of the time, yes. Making desserts calms me down. When someone smiles after tasting one of my cakes, it makes me feel full in a way medicine never did.;
 
 Lily:But...;
 
@@ -210,53 +178,42 @@ Lily:But...;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Lily:My parents spent their life savings on medical school. They still think I'm doing a residency. I can't bring myself to tell them.;
+Lily:My parents spent all their savings getting me into medical school. They still think I'm doing my hospital internship. I haven't had the courage to tell them the truth.;
 
-Lily:Sometimes at night I wonder — am I just being selfish? They sacrificed everything, and I threw it away for my own "happiness"?;
+Lily:Sometimes, late at night, I wonder if I'm selfish. They sacrificed so much, and I threw it all away just to chase my own happiness.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 Anna:...;
 
-; Lily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Lily:But I can't go back. Not because the apple won't let me — because I finally saw something clearly.;
+Lily:But I can't go back. Not because the apple won't let me. Because I finally saw something clearly.;
 
-Lily:The apple didn't take anything from me. It just showed me what was already missing.;
+Lily:The apple didn't take anything away from me. It only showed me what had already been missing.;
 
-; Restore both
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:The words pierce something deep in Anna. She thinks of her own nights staring at the thesis document, the blinking cursor, her mother's message.;
+:The sentence slides into Anna like a needle.;
 
-:— "The apple didn't take anything from me. It just showed me what was already missing.";
-
-; Clear characters
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
-; ========== Ending ==========
-
-
-:Anna says goodbye to them both. Walking down the Manhattan streets, Marco's guitar fades behind her, dissolving into the noise of the city.;
+:Anna says goodbye to both of them. As she walks the streets of Manhattan, Marco's guitar grows fainter behind her until it dissolves into the city's noise.;
 
 changeFigure:char-anna.png -next;
 
-:She begins assembling the fragments she's gathered — Jonathan, Marco, Lily. Three people from completely different worlds, three completely different trajectories, but one common thread: they were all people crushed under extreme pressure.;
+:She starts sorting through the fragments she has gathered. Jonathan. Marco. Lily. Three people from completely different worlds, three completely different lives, and yet all of them share one thing: each one was collapsing under extreme pressure. Then the vending machine appeared like an exit door.;
 
-Anna:(A psychology grad student, a Wall Street trader, a top med student... all people the system ground down to the breaking point. Then the vending machine appeared, like an exit.);
+Anna:(A psychology PhD student. A Wall Street trader. A top med student... all of them were people on the verge of breaking. Then that vending machine appeared like a way out.);
 
-Anna:(They all say they're happier now. But... Lily's eyes still held guilt. Marco's fingers hesitated when he said he didn't miss the rush. Jonathan still wakes up at 3 AM.);
-
-Anna:(Is this happiness whole? Or did they just switch off the pain channel while the TV keeps playing?);
+Anna:(They all say they're happier now. But Lily's eyes still carried guilt. Marco's fingers hesitated when he said he didn't miss that old drive. Jonathan still wakes at three in the morning sometimes.);
 
 changeFigure:none -next;
 
-:And the bigger question — who built that machine? Why does it appear on an invisible platform? How much does Emily know? And that retracted paper... Philip's name.;
+:The bigger question is this: who built the machine? Why is it hidden on an invisible platform? How much does Emily know? And that retracted paper... Philip's name is on it.;
 
-:Anna's pace quickens without her realizing it.
+:Anna starts walking faster without noticing.;
 
-choose:Confront Philip directly:ch5_confront.txt|Tell Emily about this discovery first:ch5_tell_e.txt;
+choose:Go confront Philip directly:ch5_confront.txt|Tell Emily what you've found first:ch5_tell_e.txt;

@@ -1,5 +1,5 @@
 ; ===========================
-; Chapter 2: Fracture (refused the apple)
+; Chapter 2: Fracture (Refuse the Apple)
 ; ===========================
 
 setVar:curiosity=curiosity+2 -next;
@@ -15,52 +15,47 @@ bgm:bgm-misty.mp3 -enter=1000 -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-:Anna's gaze falls on the apple. Its polished skin catches the vending machine's yellow glow, like a tiny sun trapped in amber. Her hand rises, then drops.;
+:Anna's gaze settles on the apple. Its smooth skin reflects the yellow light of the vending machine, the deep red growing even richer in the glow, even less like something real. She lifts her hand, then lowers it again.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:...No. I don't take things from strangers.;
+Anna:...No. I don't eat things strangers hand me.;
 
-:Her voice doesn't sound as firm as she'd like. The sweet scent drifting from the apple clings to her like an invisible hand wrapped around her ankle.;
+:Her voice isn't firm when she says it. The sweet scent drifting from the apple clings to her like an invisible hand around her ankle.;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:This isn't "giving." It's you choosing whether or not to take it.;
+Emily:This isn't me giving it to you. It's you deciding whether or not to take it.;
 
-:There's no disappointment in Emily's tone, no urgency. She simply states a fact, then places the apple back in the vending machine's tray. The machine lets out a soft click, like a sigh.;
+:There is no disappointment in Emily's tone, no pressure. She simply states it like a fact, then places the apple back into the tray. The machine makes a soft sound, almost like a sigh.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:What if I change my mind? Can I come back?;
+Anna:If I change my mind... can I come back?;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:The platform appears when you need it.;
-
-:Emily smiles — barely. The expression is shallow, like a ripple on still water that vanishes before it can spread.;
+Emily:The platform will appear when you need it.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:Anna takes one last look at the apples. They sit in neat rows inside the machine, each one flawless, like a line of silent promises. She burns the image into her memory, then turns toward the exit.;
+:Anna gives the apples one last look. They sit in perfect rows inside the machine, each one flawless. She burns the image into her memory.;
 
 changeFigure:none -right -next;
 
-:At the foot of the staircase she glances up at the station name plate. The characters are still illegible — half-erased, or perhaps never fully written in the first place.;
+:Line 3, second-to-last stop, up the stairs at the south exit, then left. She repeats it in her head once, then again, like memorizing a spell.;
 
-:But she memorizes the route — Line 3, second-to-last stop, south exit, up the stairs, turn left. She repeats it in her head once, then again, like committing a spell to memory.;
-
-:From deep in the tunnel comes the sound of wind. The last train is almost here.;
+:Wind stirs in the depths of the tunnel. The last train is almost here.;
 
 changeFigure:none -left -next;
 changeFigure:none -next;
 
-; — Back at the apartment —
 changeBg:bg-apartment.jpg -next;
 
 changeFigure:char-anna.png -next;
 
-:Anna takes the last train home. When she pushes open her apartment door, familiar smells wash over her — cheap detergent, the mustiness of old books. She doesn't turn on the lights. She just stands in the dark for a while, her mind filled with the vending machine and Emily's words.;
+:Anna catches the last train home. The moment she opens the apartment door, familiar smells rush toward her: cheap detergent, the damp odor of old books. She leaves the lights off and stands in the dark for a while, her mind still full of the vending machine and Emily's words.;
 
 changeFigure:none -next;
 

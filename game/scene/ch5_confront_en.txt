@@ -1,12 +1,10 @@
 ; ===========================
-; Chapter 5: Confront Professor -> Ending D
+; Chapter 5: Endgame (Confront Philip)
 ; ===========================
 
 setVar:investigation=investigation+2 -next;
 
-; intro:Chapter Five|Endgame;
-
-changeBg:bg-office.jpg -next;
+changeBg:bg-office-night.jpg -next;
 bgm:bgm-misty.mp3 -enter=1500 -next;
 
 changeFigure:none -left -next;
@@ -16,34 +14,28 @@ changeFigure:none -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-philip.png -right -next;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Philip. I found a retracted paper. Corresponding author: Philip Morrison. About dopamine pathway resets.;
+Anna:Philip. I found a retracted paper. The corresponding author was Philip Morrison. It was about modulating dopamine circuits.;
 
-; Restore brightness
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:The office air freezes. Philip removes his glasses, slowly polishes them, and stays silent for a long time.;
+:The air in the office freezes. Philip removes his glasses and slowly wipes the lenses. He is silent for a very long time.;
 
-; Philip speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 playEffect:se-dramatic.wav -next;
-Philip:... How much do you know?;
+Philip:...How much did you find out?;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Project EDEN. The EDEN compound. The subway apple machine. And Jonathan — he ate the apple.;
+Anna:Project EDEN. The EDEN compound. The apple vending machine in the subway. And Jonathan, who ate one of the apples.;
 
-; Philip speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Philip:That was twenty years ago. I was like you — full of idealism. Project EDEN started with good intentions: helping people consumed by anxiety.;
+Philip:That was twenty years ago. Back then I was just like you, full of idealism. Project EDEN began with a good intention: to help people being devoured by anxiety.;
 
-; === Philip's flashback ===
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
@@ -51,160 +43,123 @@ changeBg:bg-lab-flashback.jpg -next;
 
 changeFigure:char-philip.png -next;
 
-:Twenty years ago. A cramped university lab, fluorescent lights flickering, the desk buried under papers and petri dishes. A young Philip Morrison, thirty-two, dark-haired, with a light in his eyes that bordered on obsession.;
+:Twenty years earlier. A cramped university laboratory. Flickering fluorescent lights. Papers and petri dishes piled everywhere. A young Philip Morrison, thirty-two years old, dark-haired, with a nearly obsessive kind of light in his eyes.;
 
-:He wasn't working for the military. He wasn't chasing academic prestige. He was studying dopamine circuits because of his sister — Margaret.;
+:He wasn't working for the military. He wasn't chasing prestige. He studied dopamine circuitry because of his sister, Margaret.;
 
-:Margaret had severe generalized anxiety disorder. She was a brilliant architect, but anxiety was an invisible hand around her throat, squeezing every hour of every day. She couldn't finish projects, couldn't leave the house, and eventually couldn't get out of bed. The medications available then — SSRIs, benzodiazepines — either came with devastating side effects or merely suppressed the symptoms, like putting a Band-Aid over a wound.;
+:Margaret suffered from severe generalized anxiety disorder. She was a gifted architect, but anxiety held her throat in an invisible fist. She couldn't finish projects. She couldn't leave the house. Eventually she couldn't even get out of bed. The medications available at the time, SSRIs and benzodiazepines, either carried unbearable side effects or merely smothered the symptoms like bandages over a wound.;
 
-:Philip wanted a real solution. Not symptom suppression — a reset of the circuit itself.;
+:Philip wanted a true solution. Not symptom suppression. Direct modulation of the circuit itself.;
 
-:The discovery was accidental. He was testing a batch of rare fruit extracts imported from South America. A compound in one tropical berry showed an unexpected, remarkable affinity for the dopamine D2 receptor. At low doses, it could temporarily quiet anxiety and bring the brain into a state resembling deep meditation. Not numbness — clarity.;
+:The discovery was accidental. He was testing a batch of rare fruit extracts imported from South America when one tropical berry compound unexpectedly showed an extremely high affinity for dopamine D2 receptors. In low doses, it could temporarily quiet anxiety and induce a subjective state resembling meditation. Not numbness. Clarity.;
 
-:He tested it on Margaret. The results exceeded anything he'd imagined. Within three days, she walked out of her room for the first time in months, stood in the yard, looked up at the sky, and said: "The sky is so blue." It was the first sentence she'd spoken in two years that had nothing to do with fear.;
+:He tested it on Margaret. The result surpassed all expectation. Within three days she walked out of her room for the first time, stood in the yard, looked up at the sky, and said, "The sky is so blue." It was the first sentence she'd spoken in two years that had nothing to do with fear.;
 
-:Philip stayed up all night, electrified. He wrote the paper and published it in Frontiers in Neuroscience. That paper changed everything.;
+:Philip was so exhilarated he didn't sleep. He wrote the paper and published it in Frontiers in Neuroscience. That paper changed everything.;
 
-:First came the media coverage. Then the calls from pharmaceutical companies. And finally — the military.;
+:First came the media. Then pharmaceutical companies. Finally the military.;
 
-:Two men in dark suits appeared in his lab. They didn't need to introduce themselves; their bearing said everything. They expressed "great interest" in PTSD treatment. Post-traumatic stress in veterans was a massive social problem, wasn't it?;
+:Two men in dark suits appeared in his lab. They didn't need to introduce themselves. Their posture and their eyes made their purpose obvious. They said they were very interested in the treatment's potential for PTSD. For traumatized veterans. A social good, wasn't it?;
 
-:Philip agreed. He believed he was doing good.;
+:Philip agreed. He thought he was doing the right thing.;
 
-:But three months later, at a classified briefing, he saw the real project proposal. They didn't just want to treat trauma — they wanted to know what happens when high-achievers lose their competitive drive. Could the compound be weaponized? If enemy scientists, engineers, and military commanders all ingested it, would they still be capable of fighting?;
+:Three months later, at a classified meeting, he saw the real project brief. They didn't want to treat trauma. They wanted to know what would happen if high-achieving people lost their drive to compete. Could the compound be weaponized? If enemy scientists, engineers, commanders all lost ambition after consuming it, would they still be effective?;
 
-:Philip slammed his fist on the table. He said no.;
+:Philip slammed his hand on the table. He said no.;
 
-:They said fine. Then they pulled all his funding, retracted his paper, and erased two years of research records. Overnight, he went from rising academic star to a nameless researcher with an unexplained gap on his CV.;
+:They said fine. Then they withdrew every dollar of support, buried the paper, erased two years of research records. Overnight he went from rising academic star to a nobody with a blank stretch in his CV.;
 
-:It took him five years to rebuild his career. From scratch. Starting as a teaching assistant. Starting by grading undergrad homework. He buried everything about EDEN in the deepest corner of his memory, like burying a body.;
+:It took him five years to rebuild his career from the ground up, beginning again as a teaching assistant, grading undergraduate assignments. He buried everything about EDEN as deeply as he could, as if burying a corpse.;
 
-changeBg:bg-office.jpg -next;
+changeBg:bg-office-night.jpg -next;
 
+changeFigure:none -left -next;
+changeFigure:none -right -next;
 changeFigure:none -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-philip.png -right -next;
 
-; Philip speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Philip:But someone got hold of my original notes. Maybe a research assistant from the old lab. Maybe the military kept a copy. I don't know who.;
+Philip:But someone got hold of my original notes. Maybe an assistant from the lab. Maybe the military kept a copy. I don't know who.;
 
-Philip:I thought it was over. Until I heard about the vending machine.;
+Philip:I thought it was over. Then I heard about the vending machine.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Your sister... what happened to her?;
+Anna:Your sister... what happened to her afterward?;
 
 :Philip is silent for a long time.;
 
-; Philip speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Philip:She lives by the sea in Maine now. Two cats, watercolor painting every day. She's at peace.;
+Philip:She lives by the sea in Maine now. She has two cats. She paints watercolors every day. She's calm.;
 
 :He takes off his glasses and rubs the bridge of his nose.;
 
-Philip:She's at peace. But she doesn't draw architecture anymore.;
+Philip:She's calm. But she doesn't draw architectural plans anymore.;
 
-; === Resume original dialogue ===
-
-Philip:But the military noticed. They wanted to turn it into a social control tool. I withdrew. The paper was retracted. I thought it was over.;
-
-Philip:Until recently, when the machines reappeared. Someone got my formula and restarted the experiment. And I... pretended not to know.;
-
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:You lied to me all this time... you knew all along?;
+Anna:You lied to me all this time... You knew all along?;
 
-; Philip speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Philip:I tried to bury it all. I thought the project died when I resigned.;
+Philip:I tried to bury it all. I believed the project died when I resigned.;
 
-Philip:Every day I walk into the lab, see those young faces... I wonder what they'd think if they knew what I'd done—;
+Philip:Every day I walked into the lab and saw those young faces... I kept thinking, if they knew what I had done--;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Margaret... is she really okay now?;
+Anna:Margaret... is she really all right now?;
 
-; Philip speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Philip:She's at peace. But that peace... it wasn't her choice. It was mine.;
+Philip:She's peaceful. But that peace... wasn't her choice. It was a choice I made for her.;
 
-Philip:She used to be able to sketch the structural plan of an entire building freehand. Now she paints cats and ocean waves. They're beautiful, but... that's not her.;
+Philip:She used to be able to sketch the structural framework of an entire building by hand. Now she paints cats and waves. It's beautiful, but... it isn't her.;
 
-:Silence falls between them like a wall. From the corridor outside, the sound of students passing by drifts in — a world away.;
+:Silence rises like a wall between them. Somewhere beyond the office windows, students' footsteps pass in the hallway, impossibly distant.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:The person who restarted the experiment... do you know who it is?;
+Anna:Do you know who restarted the experiment?;
 
-; Philip speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Philip:I'm not certain. But I suspect it was a former research assistant. He... believed in the EDEN compound's potential more than I ever did. He thought I was a coward for walking away.;
+Philip:Not for certain. But I suspect it was one of my former research assistants. He... believed in EDEN more than I did. He thought abandoning it was cowardice.;
 
-Philip:Maybe he was right. Maybe I am a coward. Just a coward who happened to stumble onto a dangerous discovery.;
+Philip:Maybe he was right. Maybe I am a coward. Just a coward who happened to make a dangerous discovery.;
 
-:Anna looks at the hunched man before her — her advisor, the creator of Project EDEN, a man crushed by his own invention. He is both perpetrator and victim. The realization lodges in her chest like a thorn she cannot pull out.;
+:Anna looks at the broken shape of the man in front of her: her advisor, the creator of Project EDEN, a man crushed by his own invention. He is the origin of the harm and one of its victims. That realization lodges in her like a thorn she cannot pull free.;
 
-; Restore brightness
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
+changeFigure:none -next;
 
-choose:We must go public and stop the experiment:label_endD1|But... are the people who ate the apple really unhappy?:label_endD2;
+changeBg:bg-street-night.jpg -next;
 
-; ---- Ending D1: Go public ----
+changeFigure:char-anna.png -next;
+
+:After leaving Philip's office, Anna walks the city for a long time.;
+
+:She thinks of Jonathan slipping a maple leaf into his sketchbook in the park. Of Marco pausing over the strings when he said the old version of himself had been terrifying. Of Lily saying she couldn't go back, not because of the apple, but because she had finally seen what had always been missing.;
+
+:She now holds enough evidence to destroy everything.;
+
+Anna:(If I go public, Jonathan will be written up as an experimental subject. Marco and Lily will be classified as victims. Their lives now will be dragged into the spotlight, dissected, doubted, judged, and asked to prove whether their happiness is "real.");
+
+Anna:(But if I don't go public, more people will walk up to that machine. Maybe the next one will be someone crying over data at three in the morning.);
+
+:Neither choice is clean.;
+
+choose:We have to expose the truth and stop the experiment:label_endD1|But... are the people who ate the apples truly unhappy now?:label_endD2;
+
 label:label_endD1;
+changeScene:ch5_endd_truth.txt;
 
-changeBg:bg-city.jpg -next;
-
-changeFigure:char-anna.png -next;
-
-:Anna gives all the evidence to the press. Project EDEN's exposure sparks a nationwide debate — about free will, the definition of happiness, and the boundaries of technology. The machines are removed. But most people who ate the apples... choose not to go back.;
-
-:Anna stands on the empty platform, staring at the dust outline where the machine stood. She holds the truth, but feels more lost than ever — maybe some questions simply have no right answer.;
-
-changeFigure:none -next;
-
-changeBg:bg-subway.jpg -next;
-
-:— Ending D · Truth —;
-
-:Anna revealed the truth in her own way. Not through confrontation, but through understanding. When we lose the drive to compete, what remains may be our truest selves.;
-
-setVar:ending_d=true -global -next;
-end;
-
-; ---- Ending D2: Compassion ----
 label:label_endD2;
-
-setVar:humanity=humanity+2 -next;
-
-changeBg:bg-city.jpg -next;
-
-changeFigure:char-anna.png -next;
-
-:Anna spent three months interviewing everyone who ate the apples. Nearly all said they were happier than before. She wrote a paper: "When We Lose the Drive to Compete." It was never published in any journal, but went viral online, resonating with millions.;
-
-:The truth was revealed, but it brought reflection, not panic.;
-
-changeFigure:none -next;
-
-changeBg:bg-subway.jpg -next;
-
-:— Ending D · Truth —;
-
-:Anna revealed the truth in her own way. Not through confrontation, but through understanding. When we lose the drive to compete, what remains may be our truest selves.;
-
-setVar:ending_d=true -global -next;
-end;
+changeScene:ch5_ende_humanity.txt;

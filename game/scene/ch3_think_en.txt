@@ -1,11 +1,9 @@
 ; ===========================
-; Chapter 3: Think path
+; Chapter 3: Choice (Reflection Path)
 ; ===========================
 
 setVar:curiosity=curiosity+2 -next;
 setVar:rebellion=rebellion+1 -next;
-
-; intro:Chapter Three|Crossroads;
 
 changeBg:bg-street-rain.jpg -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
@@ -16,35 +14,55 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-:That night, Anna doesn't go home. She takes the subway to Midtown and walks until she finds a bench — one of those uncomfortable metal ones designed to discourage sleeping, bolted to the sidewalk near a shuttered newsstand.;
+:That night, Anna does not go back to her apartment.;
 
-:She sits. Manhattan at midnight moves around her like a river around a stone. A businesswoman in heels clicks past, phone pressed to her ear, arguing about quarterly projections in a voice that could cut glass. A couple on the opposite corner fights in hushed, vicious whispers. A golden retriever trots by without an owner, tags jingling, perfectly content.;
+:Instead, she sits on a bench somewhere in Midtown Manhattan, both hands shoved into her coat pockets, watching the world flow past her like a river that never stops.;
 
-:A street vendor is packing up his cart — knockoff handbags and scarves folded into a duffel bag with practiced speed. He catches Anna watching and gives her a brief nod, one night-dweller to another.;
+:A woman in a gray trench coat passes on the right, heels striking the pavement in a sharp urgent rhythm, phone pressed to one ear, voice brittle with frustration: "I said before Friday, not next Friday. Do you not understand English?" Her figure disappears at the corner, but the anxiety lingers in the air like smoke.;
 
-:She pulls out her phone. The blurry photo stares back at her — that dense yellow glow at its center, edges bleeding outward like a watercolor left in the rain. She pinches to zoom in for the hundredth time. The shape at the center is still ambiguous. An apple? A light source? A flaw in the lens?;
+:On the left, a couple is arguing at the intersection. The woman is crying. The man has his arms folded and his face turned away. Their voices are drowned in traffic, leaving only fragments: "You never--" "I already--" "Then why did you--" Like a song torn apart, leaving only the dissonant notes.;
 
-:She swipes to the photo details again. No GPS. No device model. A filename that looks like someone mashed a keyboard: XR7N_EDEN_0023.;
+:A golden retriever slips its leash and charges gleefully toward a flock of pigeons in the square. The pigeons explode upward, circle once low in the air, then settle calmly back where they started. The dog is caught by its owner. The pigeons go back to walking. Nothing has changed.;
 
-:Anna locks the phone and tilts her head back. The sky above Manhattan is its usual washed-out amber, too bright for stars. Somewhere a siren wails and fades.;
+:Across the street, a hot dog vendor is packing up his cart. Steam rises from the hot-water tray and turns gold in the streetlight. His motions are slow, as if he is performing a task he has already done ten thousand times. Watching him place the hot dogs back into their heated case one by one, Anna suddenly wonders whether he once had some other dream.;
 
-:She thinks about why she chose psychology. It wasn't the textbooks or the career prospects. It was a specific moment — sophomore year, sitting in a lecture hall, listening to a professor describe how the brain constructs reality from incomplete data. How everything we see is an educated guess. She'd felt the floor shift under her feet that day, and she'd liked it.;
+:She takes out her phone.;
 
-:She wanted to understand people. Not in the abstract, statistical way Philip demanded — not as data points feeding regression models. She wanted to understand the messy, irrational, heartbreaking way people navigate being alive.;
+:The photo is still there in her gallery, a blurred yellow flare with light bleeding outward at the edges, like some hidden light source underwater. She zooms in, then farther. The pixels break apart into mosaic squares, but the center of the yellow shape still seems to glow. Something round is hiding beneath the blur.;
 
-:Somewhere between qualifying exams and methodology seminars, that curiosity got buried under layers of academic machinery. She stopped asking "why do people suffer?" and started asking "is the p-value significant?" The questions got smaller. The wonder dried up. She kept going anyway, because stopping felt like dying.;
+:An apple? A light? Something else entirely?;
 
-:A memory surfaces, unbidden. She's seven years old, crouching in the backyard. A dead bird lies in the grass — a sparrow, tiny and perfect, its eyes like dark beads. She'd run inside to ask her mother why it died.;
+:She stares at the photo for a long time, until the screen dims on its own.;
 
-:Her mother had knelt beside her, touched the bird's wing with one finger, and said: "Some questions don't have answers, Anna. But that doesn't mean they're not worth asking.";
+:She slips the phone back into her pocket and tilts her head to look at the sky. There are never any stars over Manhattan, only the warning lights atop skyscrapers blinking in rhythm, red, dark, red, dark, like distress signals with no one answering them.;
 
-:Anna had thought about that sentence for weeks. It was, she realizes now, the first time she understood that not-knowing could be its own kind of knowledge.;
+:She remembers why she chose psychology in the first place.;
 
-:She looks at the blurry photo again. The yellow glow pulses in her memory like a second heartbeat. She doesn't know what the machine is, or what Emily wants, or what any of it means.;
+:Freshman year, Intro to Psychology, the very first lecture. The professor had written a single question on the board: "What makes a person human?" She still remembers the surge that ran through her then, the feeling of having found an entrance, as though this field could lead her to a place she had always wanted to go but never knew how to reach.;
 
-:But she knows the question is worth asking.;
+:But what happened after that? Statistics. Experimental design. p-values and effect sizes. Sample sizes of n greater than or equal to 30. Paper after paper after paper, all saying "This study finds..." and then concluding things any person with an ounce of intuition could have guessed already.;
 
-:Anna puts her phone away and watches the city breathe. The couple has stopped fighting. The dog is gone. The street vendor has vanished. Manhattan is quieter now, and so is she.;
+:She wanted to understand people. But after five years in a doctoral program, she does not understand people any better than a taxi driver does.;
+
+:A pigeon lands on the other end of the bench. Gray, plump, head tilted, as if evaluating whether she is the type to scatter crumbs.;
+
+:Looking at it, she suddenly thinks of Jonathan's sketchbooks, if only she had seen them. There must be something in those drawings she has never seen in an academic paper: something real. Not the reality of data, but something softer and more fragile.;
+
+:The pigeon waits. No crumbs come. It flaps away.;
+
+:Then she remembers something else.;
+
+:Autumn, when she was eight years old. She found a dead bird by the flowerbed in her apartment complex, a sparrow, tiny, brown-gray feathers like fallen leaves. One eye half-closed, claws curled under its chest, as if it had fallen asleep in a dream that was too cold.;
+
+:She ran home and asked her mother, "Why did it die?" ;
+
+:Her mother had been cutting vegetables in the kitchen. She set down the knife, looked at Anna, and said, "Some questions don't have answers." ;
+
+:Anna has carried that sentence for twenty years. She chose psychology because she refused to believe it. She believed every question should have an answer, even if no one had found it yet.;
+
+:But now she is here on a Manhattan bench, across from a hot dog vendor finishing his shift, beside the empty place where a pigeon just sat, with an inexplicable photo in her phone:;
+
+:The wind rises. Anna stands and zips her coat all the way to her throat.;
 
 changeFigure:none -next;
 

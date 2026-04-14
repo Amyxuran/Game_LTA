@@ -1,5 +1,5 @@
 ; ===========================
-; Chapter 3: Go to buy apple
+; Chapter 3: Buy the Apple Path
 ; ===========================
 
 setVar:rebellion=rebellion+2 -next;
@@ -15,29 +15,21 @@ changeFigure:none -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-:Anna returns with resolve. Emily's first words:;
+:Anna returns to the platform with determination. The first thing Emily says when she sees her is:;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 Emily:Your eyes are different this time. Last time it was curiosity. This time it's... desire?;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:I want to try it. These past few days have been suffocating. If the apple can really set me free...;
+Anna:I want to try it. These last few days have been suffocating me. If the apple can really set me free...;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:Wait. Before you decide, there's something I need to tell you.;
+Emily:Wait. Before you decide, there are some things you need to know.;
 
-; Restore brightness
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-
-changeFigure:none -left -next;
-changeFigure:none -right -next;
-changeFigure:none -next;
 
 changeScene:ch3_reveal.txt;

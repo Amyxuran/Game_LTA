@@ -1,10 +1,10 @@
 ; ===========================
-; Chapter 5: Destroy -> Ending C
+; Chapter 5: End It -> Ending F
 ; ===========================
 
 setVar:trust=trust+1 -next;
 
-changeBg:bg-subway.jpg -next;
+changeBg:bg-city-rain.jpg -next;
 bgm:bgm-misty.mp3 -enter=1500 -next;
 
 changeFigure:none -left -next;
@@ -14,23 +14,78 @@ changeFigure:none -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-:They reach the platform before dawn. Emily removes the core module from a hidden panel behind the machine — a chip engraved with "EDEN.";
-
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:Sure?;
+Emily:I know who restarted the experiment.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Sure.;
+Anna:Who?;
 
-; Restore brightness
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:Philip's research assistant from back then. His name was Daniel Reyes. When the project was shut down, he never gave up. He believed EDEN could truly change the world, and that Philip was too cowardly to keep going.;
+
+Emily:He found me two years ago. He wanted my technical support. I was the only engineer still alive who had participated fully in the original experiment.;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:And you refused him?;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:I did. But he found another route on his own. He dug enough residual data out of Philip's old lab archives to synthesize the EDEN compound again. He built the machine.;
+
+Emily:He isn't a villain, Anna. He just believes too much in being right.;
+
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:The moment the chip snaps, the machine's light dies. The platform plunges into darkness. Then, the first ray of dawn breaks through the tunnel entrance.;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeBg:bg-library.jpg -next;
+
+:For the next week, Anna becomes more like a detective than she has ever been in her life.;
+
+:Emily gives her Daniel Reyes's file, a name tucked inside the acknowledgments of three retracted papers, a man who has effectively vanished from the academic record for eight years. But data does not lie. One small biotech company registered under his name used an address in Brooklyn, and its business license expired only three months ago.;
+
+:Anna finds him, not face-to-face, but through an email. The wording is exact. The attachments contain everything she has, original EDEN documents, Jonathan's records, statements from Marco and Lily, and Emily's own technical analysis explaining in detail the irreversible risks of using EDEN outside any ethical framework.;
+
+changeFigure:char-anna.png -next;
+
+Anna:(I didn't threaten him. I only made him look directly at the thing he believed in and see what it really became.);
+
+:At the bottom of the email, she writes one sentence: "You want to change the world, but the way you're changing it leaves no one any chance to choose.";
+
+:His reply arrives the next morning. One line only:;
+
+:"I'll remove the machine.";
+
+changeFigure:none -next;
+
+changeBg:bg-subway-night-deep.jpg -next;
+
+changeFigure:char-anna.png -left -next;
+changeFigure:char-emily.png -right -next;
+
+:They reach the platform before dawn. Emily opens an encrypted folder on a portable drive, the entire remaining record of Project EDEN: formulas, lab notes, Philip's handwritten notebooks, backups of backups of backups.;
+
+:This is everything Emily has kept hidden in case she ever needed it. That's what she once said.;
+
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:If we delete it, it's gone for real. Are you sure?;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+Anna:I'm sure.;
+
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:Emily presses delete. As the progress bar finishes, the machine's screen flashes once and goes dark. The platform drops into total blackness. Then the first strand of morning light slips in from the mouth of the tunnel.;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
@@ -40,20 +95,18 @@ changeBg:bg-subway-dawn.jpg -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-:Project EDEN is over. The apple's effects will naturally metabolize within months.;
+:The machine will never dispense another apple. The people who already ate them will not revert simply because the data that created them is gone.;
 
-:As for Anna and Emily — they watch the light brighten on the empty platform. Two people nearly crushed by this city's pressure, finding each other at dawn.;
-
-:No apples needed. No EDEN compound. Sometimes, someone who understands you is the best remedy of all.;
+:The two of them stand on the empty platform and watch the light grow stronger. Neither speaks.;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
-changeBg:bg-campus.jpg -next;
+changeBg:bg-subway-dawn.jpg -next;
 
-:— Ending C · Balance —;
+:-- Ending F: End It --;
 
-:Anna and Emily together ended Project EDEN. No apples needed. No EDEN compound. Sometimes, someone who understands you is the best remedy of all.;
+:Anna and Emily bring Project EDEN to an end. The machine's light goes out, and the platform becomes an ordinary place again.;
 
-setVar:ending_c=true -global -next;
+setVar:ending_f=true -global -next;
 end;

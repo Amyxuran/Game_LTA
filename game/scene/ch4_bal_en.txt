@@ -1,5 +1,5 @@
 ; ===========================
-; Chapter 4: Balance path
+; Chapter 4: Balance Path
 ; ===========================
 
 setVar:humanity=humanity+3 -next;
@@ -15,39 +15,32 @@ changeFigure:none -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:I don't want to become like Jonathan. He looks happy, but I'm not sure if that's real happiness or just giving up. But I can't keep living like this either.;
+Anna:I don't want to become like Jonathan. He looks happy, but I can't tell whether it's real happiness or just surrender. But I don't want to keep living like this either.;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:So you want a middle ground?;
+Emily:So you want some kind of middle ground?;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Not a middle ground. I want to redefine the rules. Why must academia mean suffering? Why must pursuing happiness mean giving up?;
+Anna:Not a middle ground. A new definition of the rules. Why does academia have to mean suffering? Why does pursuing happiness have to mean giving up?;
 
 setVar:humanity=humanity+1 -next;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:What you're saying... reminds me of someone I once knew. He also refused to eat the apple, and refused to give up.;
+Emily:What you're saying sounds a lot like someone I once knew. He wouldn't eat the apple, and he wouldn't give up either.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 Anna:What happened to him?;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:He... created that vending machine.;
+Emily:He... built the vending machine.;
 
-; Restore brightness
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 

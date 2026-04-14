@@ -4,9 +4,7 @@
 
 setVar:rebellion=rebellion+2 -next;
 
-; intro:Final Chapter|Liberation;
-
-changeBg:bg-juice-shop.jpg -next;
+changeBg:bg-apartment-night.jpg -next;
 bgm:bgm-misty.mp3 -enter=2000 -next;
 
 changeFigure:none -left -next;
@@ -15,76 +13,89 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-:Three months later, Anna drops out. She tells no one, leaving only a note on the office whiteboard: "Gone to Vermont.";
+:The apple's effect begins to ebb on the morning of the third day. Not all at once, more like curtains being slowly drawn apart so that light leaks back in together with the dust floating inside it.;
 
-; === Vermont juice shop scene ===
-changeBg:bg-vermont-night.jpg -next;
+:The pressure of the paper returns. Her advisor's comments return. The hundred-and-twenty-thousand-dollar loan returns.;
 
-changeFigure:char-anna.png -next;
+:Anna sits on the edge of the bed and takes each of these things back into herself one by one, like reclaiming items from a lost-and-found office.;
 
-:Vermont, October. The maples along Main Street have caught fire — deep crimson, amber, burnt orange — the whole town looks like it was painted by someone who only believes in warm colors. Anna's juice shop, "One A Day," sits on the corner, wedged between a secondhand bookstore and the post office.;
+Anna:(Still here. All of it is still here.);
 
-:The space is small, but every detail carries her fingerprint. A hand-painted menu board covers the wall behind the counter, decorated with watercolor illustrations of fruit — apples, blueberries, pomegranates — vivid but gentle. A row of glass jars lines the counter, filled with fresh fruit delivered from the farm that morning. Sunlight pours through the floor-to-ceiling windows and scatters in dappled patterns across the wooden floor.;
+:She sits for a long time. Outside, the sky changes from dark gray to pale gray to white.;
 
-:The wind chime on the door rings. Anna looks up and sees a familiar figure stepping inside.;
+:Then she opens her laptop, opens the dissertation document, and stares at the words for ten full minutes.;
 
-:It's old Mr. Wilson. Every Tuesday at ten a.m., without fail.;
+:She closes the computer.;
 
-Anna:Good morning, Mr. Wilson! Apple juice again today?;
+Anna:(I don't want to write this anymore.);
 
-:The old man removes his plaid flat cap, revealing a crown of silver-white hair. He settles onto his usual stool at the bar, as naturally as if he were sitting in his own living room.;
-
-Wilson:Of course. Best apple juice in all of Vermont. I'm telling you, I've lived seventy-three years and I've had — what, eight hundred glasses of apple juice? A thousand? Yours is special.;
-
-Anna:It's because I add a little ginger. Secret recipe.;
-
-Wilson:No, it's not the ginger. It's because every time you smile, the whole shop lights up.;
-
-:Anna pauses for a moment, then smiles. Not the polite, transactional kind — a real smile, the kind that starts in her eyes and spills outward.;
-
-:She turns and begins juicing. The apples crack and hiss in the machine, filling the air with a tart sweetness. She slides a glass of golden juice across the counter.;
-
-:Mr. Wilson takes the glass, sips, and nods with quiet satisfaction. Neither of them speaks again. The shop holds only the occasional hum of the juicer and the soft rustle of wind through fallen leaves outside. The silence isn't awkward — it's the understanding between two people who are content with the present moment.;
-
-:At five-thirty, the last customer leaves. Anna flips the door sign from OPEN to CLOSED and begins wiping down the counter.;
-
-:The sunset has turned the entire shop a deep amber-orange. She unties her apron, pushes open the back door, and steps into the alley, drawing in a long, slow breath.;
-
-:The New England autumn air is crisp and clean, carrying the scent of pine and damp earth. The hills in the distance are a painter's palette — red, orange, yellow, green — layered all the way to the horizon. She stands there, wind moving through her hair, thinking about nothing at all. Just looking.;
-
-:She takes out her phone. Zero unread emails. No Slack notifications. No deadline reminders. The screen shows only a photo she took yesterday — a maple grove at sunset, light filtering through the leaves like scattered gold coins.;
-
-:She puts the phone back in her pocket.;
-
-:Sometimes she thinks about her old life. The nights she stayed up until three a.m. The days she ate cold sandwiches in the library while racing to finish a paper. The moments she cried in the bathroom because a proof wouldn't come together. Those memories feel distant now, like recalling someone else's story, or a dream she once had.;
-
-:The anxiety is gone. The fear is gone. That feeling of living like a string pulled so tight it might snap at any second — completely gone.;
-
-:But something else vanished with them. A sharpness. A drive. That impulse to push forward even through the pain. The thrill of a sudden breakthrough at midnight, writing three thousand words in one sitting. The full-body tremor of satisfaction after solving an impossible problem.;
-
-:She doesn't miss those things. At least that's what she tells herself.;
-
-:But sometimes, in the quiet of night, in that single moment between turning off the light and closing her eyes, a thought surfaces: if peace is a lake, did she choose to live by its shore — or did she sink to the bottom?;
-
-:She doesn't have an answer. Maybe she doesn't need one.;
-
-:She locks the shop door and walks slowly home along a path carpeted with fallen leaves. The sky above shifts from burnt orange to deep violet, and the first star has already appeared.;
-
-changeBg:bg-city.jpg -next;
-
-; === Resume original ending narration ===
-
-:She opens a juice bar in a small town called "One A Day." Sunrises, sunsets, occasional sketching. Customers say the owner looks like a twenty-year-old — not because of her face, but her eyes.;
-
-:Those eyes hold no anxiety, no fear — only pure love for the present moment. Perhaps not every surrender is defeat. Sometimes letting go is its own kind of courage.;
+:Not because of the apple. Not because of EDEN. It is her own voice saying it, clearly, unmistakably.;
 
 changeFigure:none -next;
 
-changeBg:bg-street.jpg -next;
+changeBg:bg-vermont.jpg -next;
 
-:— Ending B · Liberation —;
+:Three months later, Anna leaves the program. She tells no one directly. On the office whiteboard she leaves only a single line: "Gone to Vermont." ;
 
-:Anna let go of everything and chose a simple life. No thesis, no degree, no anxiety. She found her own peace in a small Vermont town. Perhaps not every surrender is defeat.;
+:Vermont, October. The leaves in the small town have already burned themselves into deep crimson and amber, turning the whole street into a warm oil painting. Anna's juice shop, One A Day, sits on the corner between a used bookstore and a post office.;
+
+changeBg:bg-juice-shop.jpg -next;
+
+:The place isn't big, but every detail bears her touch. The hand-painted menu board is covered in watercolor fruit, apples, blueberries, pomegranates, bright without being aggressive. Glass jars filled with fresh fruit delivered from local farms that morning line the counter. Sunlight pours through the front windows and lays broken shadows over the wooden floor.;
+
+:The wind chime over the door rings. Anna looks up and sees a familiar figure pushing inside.;
+
+:Mr. Wilson. Every Tuesday at ten in the morning, without fail.;
+
+changeFigure:char-anna.png -next;
+
+Anna:Morning, Mr. Wilson. Apple juice again today?;
+
+:The old man takes off his plaid cap, revealing a head of silver hair. He sits at the counter as if settling into his own living room.;
+
+Mr. Wilson:Of course. You make the best apple juice in the whole of Vermont. I'm telling you, seventy-three years on this earth and I've had at least eight hundred glasses of apple juice, probably more. Yours is special.;
+
+Anna:That's because I add a little ginger. Trade secret.;
+
+Mr. Wilson:No, that's not it. It's because the whole place gets brighter every time you smile.;
+
+:Anna pauses, then laughs. Not the social kind of smile she learned in academic settings, but something that spills out through her eyes.;
+
+:She turns and starts juicing. The apples crackle inside the machine. The air fills with a sweet sharp fragrance. She slides a glass of golden juice toward him.;
+
+:Mr. Wilson takes a sip and nods with quiet satisfaction. They don't say anything else. The only sounds in the shop are the occasional hum of the juicer and the rustling of leaves outside the window. The silence isn't awkward. It feels like an agreement between two people content to exist in the same moment.;
+
+:At five-thirty, the last customer leaves. Anna flips the sign on the door from OPEN to CLOSED and starts wiping down the counter.;
+
+:The sunset paints the whole shop orange-red. She unties her apron, steps out the back door, and takes a deep breath in the alley.;
+
+:New England autumn air is cold and startlingly clear, carrying pine and soil and distance. The hills beyond town look like a palette spilled across the horizon, layered red, orange, gold, and green. She stands there with the wind moving through her hair and thinks about nothing at all. She just looks.;
+
+:She checks her phone. No unread emails. No Slack messages. No deadline reminders. Only a photograph she took yesterday, the sun filtering through a stand of red maples and scattering itself like broken gold across the ground.;
+
+:She slips the phone away.;
+
+:Sometimes she still thinks about her old life. Those nights working until three in the morning. Those lunches eaten in libraries while chasing drafts. Those moments crying in a bathroom because a formula refused to resolve. The memories already feel remote, like scenes from someone else's life, or from a dream she once had.;
+
+:The anxiety is gone. The fear is gone. That feeling of living like a wire pulled so tight it might snap at any moment is gone too.;
+
+:But other things vanished with it. A certain sharpness. A certain drive. That violent urge to rush forward even while it hurts. The thrill of a sudden breakthrough at two in the morning. The electric satisfaction of solving something impossible.;
+
+:She tells herself she does not miss those things. At least that is what she tells herself.;
+
+:And yet sometimes, in the last second before sleep, one question rises like a stone through dark water: if peace is a lake, did she choose to live beside it, or sink beneath it?;
+
+:She has no answer. Maybe she doesn't need one.;
+
+changeFigure:none -next;
+
+changeBg:bg-vermont-night.jpg -next;
+
+:She locks the shop and walks home along a path covered in leaves. The sky deepens from orange to violet. The first star has already appeared.;
+
+:-- Ending B: Liberation --;
+
+:Anna puts everything down and finds a quiet life of her own in a small Vermont town.;
 
 setVar:ending_b=true -global -next;
 end;

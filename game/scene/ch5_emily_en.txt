@@ -1,10 +1,8 @@
 ; ===========================
-; Chapter 5: Emily path choices
+; Chapter 5: Choice (Emily Path)
 ; ===========================
 
-; intro:Chapter Five|Choice;
-
-changeBg:bg-city.jpg -next;
+changeBg:bg-city-rain.jpg -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:none -left -next;
@@ -14,19 +12,17 @@ changeFigure:none -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:Now that you know all this... what do you want to do?;
+Emily:Now that you know all of this... what do you want to do?;
 
-; Restore brightness
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:New York's lights stretch out below them. The distant subway lines glow like luminous veins. Anna thinks for a long time.;
+:The lights of New York spread beneath them. In the distance, the subway lines look like glowing blood vessels. Anna thinks for a long time.;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 changeFigure:none -next;
 
-choose:Help Emily destroy all EDEN data — end this for good:ch5_endf_destroy.txt|The truth should be made public — let everyone choose for themselves:ch5_endd_truth.txt|Neither destroy nor publish. I want to redesign the experiment — a better version:ch5_endg_build.txt;
+choose:Help Emily destroy every remaining piece of Project EDEN and bring it all to an end:ch5_endf_destroy.txt|The truth should be made public so everyone can choose for themselves:ch5_endd_truth.txt|I want to redesign the experiment and build a better version:ch5_endg_build.txt;

@@ -1,0 +1,29 @@
+; ===========================
+; Chapter 5: Compassion -> Ending E
+; ===========================
+
+setVar:humanity=humanity+2 -next;
+
+changeBg:bg-city-dusk.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -next;
+
+:Over the next three months, Anna visits the people who ate the apples one by one. Almost all of them say they are happier than they used to be. In the end she writes a paper titled "When We Lose the Desire to Compete." It is never published in an academic journal, but it resonates with millions online.;
+
+:The truth does come out, but what it produces is not panic. It is reflection.;
+
+changeFigure:none -next;
+
+changeBg:bg-campus.jpg -next;
+
+:-- Ending E: Compassion --;
+
+:Anna chooses not exposure, but understanding. She spends three months alongside those whose lives changed and finally writes the thing she truly wanted to write.;
+
+setVar:ending_e=true -global -next;
+end;

@@ -1,12 +1,12 @@
 ; ===========================
-; Chapter 3 merge & decision
+; Chapter 3: Convergence and Choice
 ; ===========================
 
 changeBg:bg-city-night.jpg -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
-:Late at night, her phone buzzes. A text from an unknown number: "If you still want answers, 11:45 tonight. Same platform. — E";
+:Late at night, Anna's phone vibrates. An unknown number texts her: "If you still want answers, tonight at 11:45. Same platform. --E" ;
 
-:Anna stares at the "E" on her screen. Emily. How does she have my number?;
+:Anna stares at the "E" on the screen. Emily. How does she even have her number?;
 
-choose:Go — I need to find the truth:ch3_go.txt|Don't go — investigate the platform alone:ch3_solo.txt|Go — and this time, I'm buying an apple:ch3_apple.txt;
+choose:Go meet her. I have to know the truth:ch3_go.txt|Don't go. Investigate the platform on my own:ch3_solo.txt|Go meet her, but this time I'm buying an apple:ch3_apple.txt;

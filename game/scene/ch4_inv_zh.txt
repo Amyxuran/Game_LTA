@@ -14,7 +14,7 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-:接下来一周，安娜变成了侦探。白天假装写论文，晚上游走于各个地铁站。她在图书馆的一份十年前的期刊里找到一篇被撤回的论文——《多巴胺回路重置与社会行为去编程化》。;
+:接下来一周，安娜变成了侦探。白天假装写论文，晚上游走于各个地铁站。她在图书馆的一份十年前的期刊里找到一篇被撤回的论文——《多巴胺回路调节与社会行为去条件化》。;
 
 setVar:investigation=investigation+2 -next;
 

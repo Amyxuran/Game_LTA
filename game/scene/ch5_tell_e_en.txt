@@ -1,11 +1,11 @@
 ; ===========================
-; Chapter 5: Tell Emily -> Ending D
+; Chapter 5: Tell Emily
 ; ===========================
 
 setVar:trust=trust+2 -next;
 setVar:investigation=investigation+1 -next;
 
-changeBg:bg-subway.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=1500 -next;
 
 changeFigure:none -left -next;
@@ -15,141 +15,119 @@ changeFigure:none -next;
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Emily, I found it — the EDEN paper's corresponding author is my advisor, Philip Morrison.;
+Anna:Emily, I found out who wrote the EDEN paper. The corresponding author was my advisor, Philip Morrison.;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:... I know.;
+Emily:...I know.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:You knew? Why didn't you tell me?;
+Anna:You knew? Then why didn't you tell me?;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:Because you needed to find the truth yourself. You only truly believe what you see with your own eyes. Anna... Philip isn't a bad man. He's just someone trapped by his own creation.;
+Emily:Because I needed you to find the truth yourself. Truth only changes people when they've seen it with their own eyes. Anna... Philip isn't evil. He's a man trapped by his own invention.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:You knew from the very beginning, didn't you? You were using me?;
+Anna:You knew from the beginning, didn't you? You were using me.;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:I needed someone who would discover the truth on their own. Because truth you're told doesn't change you — truth you discover does.;
+Emily:I needed someone capable of discovering the truth on her own. Truth told to you by someone else doesn't really change you. Truth you uncover yourself does.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Then what am I to you? A test subject?;
+Anna:Then what was I to you? A test subject?;
 
-:Emily is quiet for a moment. For the first time, a crack appears in her composure — not the ever-composed guide, but someone equally wounded by the truth.;
+:Emily is quiet for a moment.;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:You're the first person who made me think... maybe this world doesn't need the EDEN compound for people to find a way forward.;
+Emily:Not a test subject. The only person I've ever met who heard the truth and didn't run away.;
 
-Emily:I've seen so many people, Anna. They hear the truth and either break down or pretend they never heard it. But you... you hear the truth and you keep thinking.;
-
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:... So what now? The truth is in my hands. Then what?;
+Anna:...So what now? I have the truth in my hands. What then?;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:That's your decision. Not mine, not Philip's. Yours.;
+Emily:That decision is yours. Not mine. Not Philip's. Yours.;
 
-:They hold each other's gaze for a long time. No longer guide and follower, but two people standing in the same ruins, bearing the weight of truth as equals.;
-
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:If we go public... what happens to the people who ate the apples? They'll be treated as victims, as lab subjects. The peace they have now will be torn apart.;
+Anna:If I make it public... what happens to the people who ate the apples? They'll be turned into victims. Lab specimens. Their peace will be torn apart.;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:But if we don't... more people will walk up to that machine.;
+Emily:But if you don't make it public... more people will keep walking up to that machine.;
 
-; Restore brightness
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
-choose:Go public with everything:label_public|Stay silent and protect everyone who ate the apples:label_silence;
+choose:Expose everything to the world:label_public|Stay silent and protect everyone who already ate an apple:label_silence;
 
-; ---- Go public ----
 label:label_public;
+changeScene:ch5_endd_truth.txt;
 
-changeBg:bg-city.jpg -next;
-
-changeFigure:char-anna.png -next;
-
-:Anna gives all the evidence to the press. Project EDEN's exposure sparks a nationwide debate — about free will, the definition of happiness, and the boundaries of technology. The machines are removed. But most people who ate the apples... choose not to go back.;
-
-:Anna stands on the empty platform, staring at the dust outline where the machine stood. She holds the truth, but feels more lost than ever — maybe some questions simply have no right answer.;
-
-changeFigure:none -next;
-
-changeBg:bg-subway.jpg -next;
-
-:— Ending D · Truth —;
-
-:Anna and Emily together exposed Project EDEN. The truth was laid bare, but the answer remains unsettled. Perhaps the pursuit of truth is its own meaning.;
-
-setVar:ending_d=true -global -next;
-end;
-
-; ---- Stay silent ----
 label:label_silence;
 
 setVar:humanity=humanity+2 -next;
 
-changeBg:bg-subway.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
+
+changeFigure:char-anna.png -next;
+
+:Anna stands on the platform for a long time without speaking.;
+
+:She thinks of Lily saying, "My parents still think I'm doing my residency," those hands trained by thousands of hours of surgical practice now used to pipe frosting onto cakes. She thinks of Marco waking at four in the morning, not in panic, but in delight because a melody came to him in a dream. She thinks of Jonathan sliding a maple leaf into his sketchbook with an expression that wasn't satisfaction but something quieter.;
+
+:What would happen to them if the truth came out? The media would turn them into headlines. Legislators would turn them into hearing evidence. Researchers would turn them into data. Their peace would be judged from the outside until even they began doubting whether it was real.;
+
+Anna:(I don't have the right to decide for them whether they should know. But I also don't have the right to decide for the whole world whether it should know.);
+
+:She has neither right. But she still has to choose one side.;
+
+Anna:(...Then I choose to protect the people who are already here.);
+
+changeFigure:none -next;
+
+changeBg:bg-subway-night-deep.jpg -next;
 
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
-:Anna and Emily spent the whole night destroying evidence. Paper backups, lab records, Philip's original notes — everything reduced to ashes under the delete icon on Emily's laptop.;
+:Anna and Emily spend the whole night destroying evidence. Backup copies of the paper, experimental records, Philip's original notes, every last trace is deleted as if it had never existed.;
 
-; Anna speaks
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Is this really... the right thing to do?;
+Anna:Doing this... is it really the right thing?;
 
-; Emily speaks
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:Maybe not. But sometimes, protecting takes more courage than exposing.;
+Emily:Maybe not. But sometimes protecting people takes more courage than exposing them.;
 
-; Restore brightness
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:They walk out of the subway station as dawn breaks. The city hasn't woken up yet. Anna glances back at the corner where the vending machine stood — by tomorrow, someone will quietly remove it, as if it never existed.;
+:When they walk out of the station, dawn is just breaking. The city still hasn't woken up. Anna looks back once at the corner where the vending machine used to stand. By tomorrow it will be quietly removed, as if it were never there at all.;
 
-:And the people who ate the apples will go on with their peaceful lives. Never knowing that someone once made an agonizing choice about their fate.;
+:And the people who ate the apples will continue living their calm lives, never knowing someone once made a brutal choice over the shape of their futures.;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
-changeBg:bg-subway.jpg -next;
+changeBg:bg-subway-night-deep.jpg -next;
 
-:— Ending D · Silence —;
+:-- Ending H: Silence --;
 
-:Anna chose silence. The truth was buried, but perhaps some truths were never meant for this world. She and Emily carry the secret forward, and keep walking.;
+:Anna chooses silence. She and Emily carry the secret forward and keep walking.;
 
-setVar:ending_d=true -global -next;
+setVar:ending_h=true -global -next;
 end;

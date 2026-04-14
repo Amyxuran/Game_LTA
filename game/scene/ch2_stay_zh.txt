@@ -137,7 +137,7 @@ changeBg:bg-apartment.jpg -next;
 
 changeFigure:char-anna.png -next;
 
-:安娜错过了末班车，走出地铁站。她在昏暗的街道上走了十五分钟，终于推开了公寓的门。;
+:安娜错过了末班车。她在深夜的街道上走了三十分钟，终于推开了公寓的门。;
 
 changeFigure:none -next;
 

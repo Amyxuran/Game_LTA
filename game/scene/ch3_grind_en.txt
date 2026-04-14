@@ -1,10 +1,8 @@
 ; ===========================
-; Chapter 3: Grind path
+; Chapter 3: Choice (Grind Path)
 ; ===========================
 
 setVar:rebellion=rebellion-1 -next;
-
-; intro:Chapter Three|Crossroads;
 
 changeBg:bg-library.jpg -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
@@ -15,41 +13,51 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-; — Day 1 —
+:Day one. Library.;
 
-:Day one. The university library, third floor, her usual desk by the window. Anna spreads her notes across the table like a general planning a campaign — highlighters color-coded, laptop charging, noise-canceling earbuds in. She will brute-force her way through this thesis if it kills her.;
+:Anna takes her usual old seat by the fifth-floor window. In front of her lie three reference books, two printed papers, and a laptop with a crack in one corner of the screen. She makes herself a rule: today she will write at least two thousand words of literature review.;
 
-:For three hours, it almost works. Words accumulate on the screen, paragraphs take shape, citations slot into place. The familiar rhythm of academic labor wraps around her like armor.;
+:The coffee comes from the vending machine on the first floor, served in paper cups stamped with the library crest. The first cup is gone by ten in the morning, the second by two in the afternoon, the third by six in the evening. Each one tastes more bitter than the last and helps less than the last.;
 
-:Then, around midnight, the cursor stops. She stares at a sentence she's written and realizes she's read it four times without understanding it. Behind the words, in the dark space between thoughts, a yellow glow flickers.;
+:Outside the window, the sky changes from gray-white to dark blue to absolute black. She writes fourteen hundred words, deletes six hundred, and ends with a net gain of eight hundred. Half her goal is still missing, but she can no longer read the words on her screen, not because her eyes are tired, but because the letters have begun to slide across her retina like reflections on water.;
 
-; — Day 2 —
+changeBg:bg-lab.jpg -next;
 
-changeBg:bg-library.jpg -next;
+:Day two. Lab.;
 
-:Day two. The lab. She moves to a different location, thinking a change of scenery will help. The fluorescent lights buzz overhead. She types, deletes, types again. Her coffee grows cold. She microwaves it. It grows cold again.;
+:Anna sits in the corner of the lab, surrounded by used noodle bowls and empty coffee cups. She tries to run a new set of data analyses, but the SPSS output is nothing like what she expected. The effect size is too small, the p-value hovering at the threshold of significance like it can't decide which side to fall on.;
 
-:Sometime past one in the morning, her head drops onto her forearm. She sleeps for twenty minutes and dreams of nothing — or rather, she dreams of a hum, low and steady, like a machine running in an empty room.;
+:She falls asleep with her head on the desk. When she wakes, the marks of the keyboard are imprinted across her cheek, and the screensaver has turned the monitor into a rotating field of stars. Staring at those artificial stars, for one dazed second she thinks they are glowing yellow.;
 
-:She jolts awake to the sound of her phone buzzing. A notification from the department group chat: Marcus Li has had his paper accepted at a top-tier journal. Three people have already sent congratulations. Anna stares at the screen, then locks it and turns it face-down.;
+:The vending machine is in her head again.;
 
-:In the hallway, she passes another PhD student — someone from the cognitive science cohort. The girl's eyes are glassy, her shirt wrinkled. They exchange a nod, the silent acknowledgment of two soldiers in the same trench.;
+:She shakes herself hard and drags the cursor back to the data table.;
 
-; — Day 3 —
+:Her phone vibrates. The lab group chat. She doesn't want to look, but her thumb has already opened it.;
 
-changeBg:bg-library.jpg -next;
+:"Congrats, Liu!!! JPSP accepted the paper!!!";
 
-:Day three. Coffee and instant noodles keep her running like a wound-up machine, but the spring is losing tension. She prints out her thesis outline and tries to reorganize it on the desk, physically moving pages around, hoping the act of touching paper will jumpstart something.;
+:A flood of congratulatory messages follows, emojis, and a screenshot Liu posts of the editor's email: "We are pleased to inform you..." ;
 
-:The pages blur. Not from tears — from exhaustion. The words swim and rearrange themselves into meaningless patterns. For a fleeting second, she could swear the margin notes rearrange into the shape of an apple.;
+:Anna flips the phone face-down. Something contracts in her chest, like a hand closing around it. Not jealousy, or not only jealousy. More like a reminder: look, everyone else is moving, and you are still standing still.;
 
-:She blinks hard. They're just words again. But the image of the vending machine keeps intruding — that warm yellow light, Emily's calm voice, the impossibly smooth skin of the fruit. It surfaces every time her focus wavers, which is more and more often.;
+changeBg:bg-lab-night.jpg -next;
 
-:At 2 AM on the third night, something clicks. A connection between two theoretical frameworks she hadn't seen before. Her hands fly across the keyboard, excitement flooding her veins like caffeine. For forty-five minutes she writes with a clarity she hasn't felt in months.;
+:2:13 a.m. After staring at the outline of her paper for forty straight minutes, Anna suddenly has an idea.;
 
-:Then she rereads what she's written. It's circular. The "breakthrough" is an elaborate restatement of her original hypothesis dressed in different vocabulary. She's been running in place.;
+:She starts typing with a rush of excitement, fingers flying over the keyboard, her thoughts pouring out like a pipe suddenly cleared. One paragraph, then two, then three.;
 
-:Anna closes her laptop. The lab is silent except for the hum of equipment on standby. She sits in the dark for a long time, listening to that hum, thinking about a different hum in a different underground place.;
+:Then she stops.;
+
+:She flips back to Philip's comments from last month. On page three, in red ink: "I discussed this direction at a conference in 2019. The conclusion was that it is not feasible. Rethink." ;
+
+:The exact same idea. She has spent three days walking a giant circle just to return to the point her advisor rejected long ago.;
+
+:Anna shuts the laptop. The snap of the screen closing sounds unnaturally loud in the empty office.;
+
+:She closes her eyes. What rises in her mind is not the data table, not the structure of her paper, but the screen of the vending machine, the perfect red apples, Emily's voice, that yellow light.;
+
+:She does not open the computer again.;
 
 changeFigure:none -next;
 

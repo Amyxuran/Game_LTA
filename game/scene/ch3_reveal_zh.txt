@@ -17,7 +17,7 @@ changeFigure:char-emily.png -right -next;
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-艾米丽:那台贩卖机不是普通的贩卖机。苹果里含有一种叫做"EDEN素"的物质，能重置人脑的多巴胺奖励回路。;
+艾米丽:那台贩卖机不是普通的贩卖机。苹果里含有一种叫做"EDEN素"的物质，能调节人脑与奖赏相关的多巴胺回路。;
 
 艾米丽:简单来说，它会让你不再为社会规训的目标兴奋——升职、发论文、赚钱。取而代之的是最原始的快乐——画画、散步、看日落。;
 

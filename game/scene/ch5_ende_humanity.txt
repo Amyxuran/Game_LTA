@@ -1,30 +1,3 @@
-; ===========================
-; 第五章 · 关怀 → 结局E
-; Chapter 5: Humanity → Ending E
-; ===========================
-
-setVar:humanity=humanity+2 -next;
-
-changeBg:bg-city-dusk.jpg -next;
-bgm:bgm-misty.mp3 -enter=1500 -next;
-
-changeFigure:none -left -next;
-changeFigure:none -right -next;
-changeFigure:none -next;
-
-changeFigure:char-anna.png -next;
-
-:安娜花了三个月回访吃过苹果的人。几乎所有人都说自己比以前更快乐了。她最终写了一篇论文：《当我们失去竞争的欲望》。没有发表在任何期刊上，但在网上引发了百万人的共鸣。;
-
-:真相被揭露了，但带来的不是恐慌，而是反思。;
-
-changeFigure:none -next;
-
-changeBg:bg-campus.jpg -next;
-
-:— 结局E · 关怀 Humanity —;
-
-:安娜没有选择曝光，而是选择理解。她花了三个月陪在那些人身边，写下了她真正想写的东西。;
-
-setVar:ending_e=true -global -next;
-end;
+setVar:_lang=Default_Language -next;
+changeScene:ch5_ende_humanity_en.txt -when=_lang==1;
+changeScene:ch5_ende_humanity_zh.txt;
