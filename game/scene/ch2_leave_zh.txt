@@ -7,7 +7,7 @@ setVar:investigation=investigation+1 -next;
 
 ; intro:第二章|裂痕;
 
-changeBg:bg-subway.jpg -next;
+changeFigure:cg-vending.png -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:none -left -next;

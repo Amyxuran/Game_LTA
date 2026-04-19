@@ -19,7 +19,7 @@ changeFigure:char-jonathan.png -right -next;
 
 :秋天的中央公园铺满了金红色的落叶。安娜在Bethesda Fountain附近找到了Jonathan——他坐在一张长椅上，膝盖上摊着速写本，铅笔在纸面上沙沙地移动。;
 
-:他看起来和三个月前判若两人。实验室里的Jonathan总是皱着眉头，衬衫扣到最上面一颗，走路像赶飞机。现在他穿着一件沾着颜料的旧卫衣，头发比以前长了，表情……安娜找不到合适的词。不是快乐，不是悲伤，是一种她在学术圈里从未见过的东西——安宁。;
+:他看起来和三个月前判若两人。实验室里的Jonathan总是皱着眉头，衬衫扣到最上面一颗，走路像赶飞机。现在他穿着一件沾着颜料的旧卫衣，头发比以前长了，表情……安娜找不到合适的词。不是快乐，不是悲伤，或许是……安宁。;
 
 ; 安娜说话，高亮安娜，暗化Jonathan
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
@@ -114,7 +114,7 @@ setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 ; Jonathan说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-乔纳森:犹豫了。犹豫了整整两个星期。然后有一天晚上我在实验室加班到凌晨，突然发现自己在对着一组数据哭。不是因为做错了，是因为做对了也没有任何感觉。;
+乔纳森:犹豫了。犹豫了整整两个星期。然后有一天晚上我在实验室加班到凌晨，突然发现自己即使做对了也没有任何感觉。;
 
 乔纳森:第二天我就去了那个站台。;
 
@@ -168,7 +168,7 @@ setVar:investigation=investigation+2 -next;
 ; Jonathan说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-乔纳森:可以。那个做金融的叫Marco，他现在经常在曼哈顿下城街头弹吉他。还有那个医学院的女生叫Lily，她在旁边卖甜点。;
+乔纳森:可以。那个做金融的叫Marco，他现在经常在曼哈顿下城街头弹吉他。还有那个医学院的女生叫Lily，她在附近一家蛋糕店卖甜点。;
 
 乔纳森:你去找他们吧。他们的故事和我的不太一样。也许能帮你找到你想要的答案。;
 
@@ -217,7 +217,7 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 :他挥了挥手，转身沿着小路走远了。安娜看着他的背影——他走几步就会停下来，对着什么东西端详一会儿，然后翻开速写本快速画几笔。;
 
-:一个曾经为了在Nature上发文可以连续工作四十八小时的人，现在停下来画一片落叶。;
+:一个曾经在学校可以连续工作四十八小时的人，现在停下来画一片落叶。;
 
 ; 清除角色
 changeFigure:none -left -next;

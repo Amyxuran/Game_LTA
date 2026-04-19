@@ -5,7 +5,7 @@
 
 ; intro:第二章|谜团;
 
-changeBg:bg-subway.jpg -next;
+changeFigure:cg-vending.png -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:none -left -next;
@@ -53,11 +53,11 @@ setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 安娜:我没有在逃避。我只是……;
 
-:她停下来。那个"只是"后面的话在舌尖上搅成了一团。只是什么？只是她已经连续三个月没有一天不焦虑？;
+:她停下来。那个"只是"后面的话在舌尖上搅成了一团。只是什么？;
 
-安娜:……我的毕业卡了很久。导师觉得我的方向有问题。同期的同学都在发论文，而我连一稿都交不出来。;
+安娜:……没什么。;
 
-安娜:我不知道自己在做什么。甚至不确定自己为什么还在继续。;
+安娜:……只是，我不知道自己在做什么。甚至不确定自己为什么还在继续。;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
@@ -74,7 +74,7 @@ setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-艾米丽:曾经在一个很好的实验室，做很前沿的项目，每天工作十六个小时，觉得自己在改变世界。;
+艾米丽:曾经觉得自己在改变世界。;
 
 :她的声音变得很轻，像是在复述一个很久以前的故事。;
 

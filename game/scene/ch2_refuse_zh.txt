@@ -10,7 +10,7 @@ changeFigure:none -left -next;
 changeFigure:none -right -next;
 changeFigure:none -next;
 
-changeBg:bg-subway.jpg -next;
+changeFigure:cg-vending.png -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:char-anna.png -left -next;
