@@ -1,0 +1,3 @@
+setVar:_lang=Default_Language -next;
+changeScene:ch5_balance_en.txt -when=_lang==1;
+changeScene:ch5_balance_zh.txt;

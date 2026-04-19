@@ -1,0 +1,64 @@
+; ===========================
+; 第五章 · 销毁 → 结局C
+; Chapter 5: Destroy → Ending C
+; ===========================
+
+setVar:trust=trust+1 -next;
+
+changeBg:bg-subway.jpg -next;
+bgm:bgm-misty.mp3 -enter=1500 -next;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:none -next;
+
+changeFigure:char-anna.png -left -next;
+setTransform:{"position":{"x":180,"y":350},"scale":{"x":1.3,"y":1.3}} -target=fig-left -duration=0 -next;
+changeFigure:char-emily.png -right -next;
+setTransform:{"position":{"x":-180,"y":350},"scale":{"x":1.3,"y":1.3}} -target=fig-right -duration=0 -next;
+
+:她们在黎明前赶到站台。Emily从贩卖机后的隐藏面板取出核心模块——一块刻有"EDEN"字样的芯片。;
+
+; Emily说话
+setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+Emily:确定吗？;
+
+; 安娜说话
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
+安娜:确定。;
+
+; 恢复亮度
+setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+:芯片折断的瞬间，贩卖机的灯熄灭了。站台陷入完全的黑暗。然后，第一缕晨光从隧道口照了进来。;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+changeBg:bg-subway-dawn.jpg -next;
+
+changeFigure:char-anna.png -left -next;
+setTransform:{"position":{"x":180,"y":350},"scale":{"x":1.3,"y":1.3}} -target=fig-left -duration=0 -next;
+changeFigure:char-emily.png -right -next;
+setTransform:{"position":{"x":-180,"y":350},"scale":{"x":1.3,"y":1.3}} -target=fig-right -duration=0 -next;
+
+:EDEN计划终结了。苹果的效果会在几个月内被自然代谢。;
+
+:至于安娜和Emily——她们在空荡荡的站台上看着天光变亮。两个被这座城市的压力差点压碎的人，在黎明中找到了彼此。;
+
+:不需要苹果，不需要EDEN素。有时候，一个能理解你的人，就是最好的解药。;
+
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+
+changeBg:bg-campus.jpg -next;
+
+:— 结局C · 平衡 Balance —;
+
+:安娜和Emily一起终结了EDEN计划。不需要苹果，不需要EDEN素。有时候，一个能理解你的人，就是最好的解药。;
+
+setVar:ending_c=true -global -next;
+end;

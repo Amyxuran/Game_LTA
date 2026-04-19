@@ -1,31 +1,32 @@
 {
-  "name": "末班车苹果 Last Train Apple",
-  "short_name": "Last Train Apple",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "name": "WebGAL",
+  "short_name": "WebGAL",
+  "start_url": ".",
+  "display": "fullscreen",
+  "description": "WebGAL DEMO",
+  "dir": "auto",
+  "orientation": "landscape",
   "icons": [
     {
       "src": "./icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "./icons/icon-192-maskable.png",
-      "sizes": "192x192",
       "type": "image/png",
-      "purpose": "maskable"
+      "sizes": "192x192"
     },
     {
       "src": "./icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./icons/icon-192-maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
     },
     {
       "src": "./icons/icon-512-maskable.png",
-      "sizes": "512x512",
       "type": "image/png",
+      "sizes": "512x512",
       "purpose": "maskable"
     }
   ]
