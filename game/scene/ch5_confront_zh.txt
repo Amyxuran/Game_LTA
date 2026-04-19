@@ -20,7 +20,7 @@ changeFigure:char-philip.png -right -next;
 ; 安娜说话
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-安娜:Philip。我找到了一篇被撤回的论文，通讯作者是Philip Morrison。关于多巴胺回路重置。;
+安娜:Philip。我找到了一篇被撤回的论文，通讯作者是你。关于多巴胺回路重置。;
 
 ; 恢复亮度
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
@@ -31,7 +31,7 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 ; 菲利普说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-playEffect:se-dramatic.wav -next;
+
 菲利普:……你查到了多少？;
 
 ; 安娜说话
@@ -42,7 +42,7 @@ setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 ; 菲利普说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-菲利普:那是二十年前的事了。当时我和你一样——充满理想主义。EDEN计划的初衷是好的：帮助被焦虑吞噬的人。;
+菲利普:那是二十年前的事了。当时我和你一样充满理想主义。EDEN计划的初衷是好的：帮助被焦虑吞噬的人。;
 
 ; === 菲利普的回忆 ===
 changeFigure:none -left -next;
@@ -52,17 +52,17 @@ changeBg:bg-lab-flashback.jpg -next;
 
 changeFigure:char-philip.png -next;
 
-:二十年前。一间逼仄的大学实验室，荧光灯闪烁不定，桌上堆满了论文和培养皿。年轻的菲利普·莫里森，三十二岁，黑发，眼睛里带着一种近乎偏执的光。;
+:二十年前。一间逼仄的大学实验室，荧光灯闪烁不定，桌上堆满了论文和培养皿。年轻的菲利普·莫里森，三十二岁，眼睛里带着一种近乎偏执的光。;
 
-:他不是为了军方工作。不是为了学术声望。他研究多巴胺回路，是因为他的姐姐——玛格丽特。;
+:他研究多巴胺回路，是因为他的姐姐——玛格丽特。;
 
 :玛格丽特患有严重的广泛性焦虑障碍。她是一个才华横溢的建筑师，但焦虑像一只看不见的手，时刻掐着她的喉咙。她无法完成项目，无法出门，最后甚至无法从床上起来。当时的药物——SSRIs、苯二氮卓——要么副作用太大，要么只是把症状压下去，像在伤口上贴创可贴。;
 
 :菲利普想找到根本的解决方案。不是抑制症状，而是直接调节相关回路本身。;
 
-:发现是偶然的。他在测试一批从南美进口的稀有水果提取物——其中一种热带浆果的化合物意外地展现出对多巴胺D2受体的高度亲和力。低剂量下，它能暂时平息焦虑，并诱发一种接近冥想的主观平静体验。不是麻木，是清明。;
+:发现是偶然的。他在测试一批从南美进口的稀有水果提取物——其中一种热带浆果的化合物意外地展现出对多巴胺D2受体的高度亲和力。低剂量下，它能暂时平息焦虑，并诱发一种接近冥想的主观平静体验。;
 
-:他在玛格丽特身上测试了。效果超出想象。三天内，她第一次走出房间，站在院子里，抬头看天空，说了一句："天好蓝。"那是她两年来说的第一句与恐惧无关的话。;
+:他在玛格丽特身上测试了。效果超出想象。三天后，她第一次走出房间，站在院子里，抬头看天空，说了一句："天好蓝。"那是她两年来说的第一句与恐惧无关的话。;
 
 :菲利普激动得彻夜未眠。他写了论文，发表在《神经科学前沿》上。那篇论文改变了一切。;
 
@@ -78,7 +78,7 @@ changeFigure:char-philip.png -next;
 
 :他们说好。然后他们撤走了所有资助，撤回了他的论文，抹去了他两年的研究记录。一夜之间，他从学术新星变成了一个简历上有空白期的无名研究员。;
 
-:他花了五年时间重建自己的职业。从零开始。从助教做起。从给本科生改作业开始。他把EDEN的一切埋在了记忆最深处，像埋一具尸体。;
+:他花了五年时间重建自己的职业。从零开始。从助理做起。他把EDEN的一切埋在了记忆最深处，像埋一具尸体。;
 
 changeBg:bg-office-night.jpg -next;
 
@@ -161,17 +161,16 @@ changeFigure:none -next;
 
 changeBg:bg-street-night.jpg -next;
 
-changeFigure:char-anna.png -next;
 
 :走出菲利普的办公室，安娜在街头走了很久。;
 
-:她想起Jonathan在公园里把枫叶夹进速写本的样子。想起Marco说"那个人太可怕了，为了多赚百分之零点五可以不眨眼地说谎"时手指无意识拨动琴弦的停顿。想起Lily说"我回不去了"——不是因为苹果，是因为她终于看清了原本就缺失的东西。;
+:她想起Jonathan在公园里把枫叶夹进速写本的样子。想起Marco手指无意识拨动琴弦的停顿。想起Lily说"我回不去了"。;
 
 :她手里握着足够毁掉一切的证据。;
 
 安娜:（如果我公开——Jonathan会被写成实验品。Marco和Lily会被当成受害者。他们现在的生活会被放在聚光灯下，被解剖，被质疑，被要求证明自己是否"真的快乐"。）;
 
-安娜:（但如果我不公开——还会有更多人走到那台贩卖机前面。也许是下一个凌晨三点哭着跑数据的人。）;
+安娜:（但如果我不公开——还会有更多人走到那台贩卖机前面。）;
 
 :没有一个选择是干净的。;
 

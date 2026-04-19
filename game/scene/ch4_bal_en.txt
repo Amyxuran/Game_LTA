@@ -5,7 +5,7 @@
 setVar:humanity=humanity+3 -next;
 setVar:trust=trust+1 -next;
 
-changeBg:bg-bar.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=1500 -next;
 
 changeFigure:none -left -next;
@@ -19,13 +19,7 @@ setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 Anna:I don't want to become like Jonathan. He looks happy, but I can't tell whether it's real happiness or just surrender. But I don't want to keep living like this either.;
 
-setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:So you want some kind of middle ground?;
-
-setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Not a middle ground. A new definition of the rules. Why does academia have to mean suffering? Why does pursuing happiness have to mean giving up?;
+Anna:Why does pursuing happiness have to mean giving up?;
 
 setVar:humanity=humanity+1 -next;
 

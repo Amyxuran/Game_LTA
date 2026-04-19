@@ -4,7 +4,7 @@
 
 setVar:trust=trust+1 -next;
 
-changeBg:bg-city-rain.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=1500 -next;
 
 changeFigure:none -left -next;
@@ -45,7 +45,7 @@ changeFigure:none -left -next;
 changeFigure:none -right -next;
 changeFigure:none -next;
 
-changeBg:bg-library.jpg -next;
+changeBg:bg-city-rain.jpg -next;
 
 :For the next week, Anna becomes more like a detective than she has ever been in her life.;
 
@@ -65,14 +65,14 @@ Anna:(I didn't threaten him. I only made him look directly at the thing he belie
 
 changeFigure:none -next;
 
-changeBg:bg-subway-night-deep.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
 :They reach the platform before dawn. Emily opens an encrypted folder on a portable drive, the entire remaining record of Project EDEN: formulas, lab notes, Philip's handwritten notebooks, backups of backups of backups.;
 
-:This is everything Emily has kept hidden in case she ever needed it. That's what she once said.;
+:This is everything Emily has kept hidden.;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
@@ -85,24 +85,16 @@ Anna:I'm sure.;
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:Emily presses delete. As the progress bar finishes, the machine's screen flashes once and goes dark. The platform drops into total blackness. Then the first strand of morning light slips in from the mouth of the tunnel.;
+:Emily presses delete. Then the first strand of morning light slips in from the mouth of the tunnel.;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
 changeBg:bg-subway-dawn.jpg -next;
-
-changeFigure:char-anna.png -left -next;
-changeFigure:char-emily.png -right -next;
 
 :The machine will never dispense another apple. The people who already ate them will not revert simply because the data that created them is gone.;
 
 :The two of them stand on the empty platform and watch the light grow stronger. Neither speaks.;
-
-changeFigure:none -left -next;
-changeFigure:none -right -next;
-
-changeBg:bg-subway-dawn.jpg -next;
 
 :-- Ending F: End It --;
 

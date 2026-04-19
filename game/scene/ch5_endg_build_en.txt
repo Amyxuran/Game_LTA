@@ -15,7 +15,7 @@ changeFigure:char-anna.png -next;
 
 :That night, Anna does not open the dissertation document.;
 
-:Instead, she opens a blank file and starts writing something else entirely: a study protocol for IRB review. The title reads, "An Ethical Framework for Intervention in Reward-Related Dopamine Circuits and a Voluntary Experimental Design." ;
+:Instead, she opens a blank file and starts writing something else entirely: a study protocol for IRB review. The title reads, "An Ethical Framework for Reward-Related Dopamine Circuit Intervention and a Participant Protection Plan." ;
 
 :She writes all night.;
 
@@ -49,7 +49,7 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:I can help you rewrite the nanocarrier formulation. This time the dosage can be controlled, and the effect can be made reversible. But I have one condition.;
+Emily:I can help you rewrite the nanocarrier formulation. This time the dosage will be controllable and the effect reversible. But I have one condition.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
@@ -77,7 +77,7 @@ changeFigure:char-philip.png -right -next;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Philip:You do understand the IRB is not going to rubber-stamp a neural intervention study, right? The ethics review alone could take three to six months, and they still might reject it.;
+Philip:You know the IRB is not going to approve a neural-intervention study lightly, right? Just the protocol review, risk assessment, and revisions to the informed-consent documents can easily take three to six months, and it still may not be approved in the end.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
@@ -112,7 +112,9 @@ changeFigure:char-anna.png -next;
 
 :The next two months are the strangest of Anna's doctoral life.;
 
-:By day she revises the IRB submission. Draft one is rejected: insufficient risk assessment. Draft two: ambiguous language in the informed-consent form. Draft three sits three weeks without an answer. At night she and Emily work over video calls, lowering the EDEN concentration again and again until the effect remains measurable but reversible.;
+:By day she revises the IRB submission. The first version is returned with a request to add participant risk stratification and a follow-up plan after discontinuation. The second version of the informed-consent form is sent back for revision because its language overstates the potential benefits and could affect participants' independent judgment.;
+
+:After the third submission, the committee asks for an additional dose-escalation design and an adverse-event response plan. At night she and Emily work over video calls, lowering the EDEN concentration again and again until the effect remains measurable, controllable, and reversible.;
 
 :One night, Anna stares at the screen and suddenly thinks the whole thing may simply never happen.;
 
@@ -128,11 +130,11 @@ changeFigure:none -next;
 
 changeBg:bg-irb-office.jpg -next;
 
-changeFigure:char-anna.png -next;
-
-:Three months later, the IRB approves the protocol.;
+:Three months later, the IRB grants conditional approval for the study. Only after Anna submits the final informed-consent form and participant safety-monitoring sheet does the project formally begin.;
 
 changeBg:bg-lab.jpg -next;
+
+changeFigure:char-anna.png -next;
 
 :Anna sits in the lab and stares at the approval email on her screen. She doesn't cheer. She doesn't jump. She only pushes her chair back, leans into it, and closes her eyes.;
 
@@ -168,7 +170,7 @@ changeBg:bg-city-dusk.jpg -next;
 
 :-- Ending G: Build --;
 
-:Anna and Emily decide to begin again from scratch, transparent, voluntary, reversible. This is not an ending. It's the first step.;
+:Anna and Emily decide to begin again from scratch. This is not an ending. It is the first step.;
 
 setVar:ending_g=true -global -next;
 end;

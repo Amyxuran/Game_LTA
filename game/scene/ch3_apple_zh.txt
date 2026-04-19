@@ -6,7 +6,7 @@
 setVar:rebellion=rebellion+2 -next;
 setVar:trust=trust+1 -next;
 
-changeBg:bg-subway.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:none -left -next;

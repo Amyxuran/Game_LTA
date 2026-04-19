@@ -1,5 +1,5 @@
 ; ===========================
-; Chapter 5: Endgame (Confront Philip)
+; Chapter 5: Confront Professor -> Ending D
 ; ===========================
 
 setVar:investigation=investigation+2 -next;
@@ -16,7 +16,7 @@ changeFigure:char-philip.png -right -next;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Philip. I found a retracted paper. The corresponding author was Philip Morrison. It was about modulating dopamine circuits.;
+Anna:Philip. I found a retracted paper. You were the corresponding author. It was about dopamine circuit resetting.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
@@ -25,7 +25,6 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-playEffect:se-dramatic.wav -next;
 Philip:...How much did you find out?;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
@@ -45,13 +44,13 @@ changeFigure:char-philip.png -next;
 
 :Twenty years earlier. A cramped university laboratory. Flickering fluorescent lights. Papers and petri dishes piled everywhere. A young Philip Morrison, thirty-two years old, dark-haired, with a nearly obsessive kind of light in his eyes.;
 
-:He wasn't working for the military. He wasn't chasing prestige. He studied dopamine circuitry because of his sister, Margaret.;
+:He studied dopamine circuitry because of his sister, Margaret.;
 
 :Margaret suffered from severe generalized anxiety disorder. She was a gifted architect, but anxiety held her throat in an invisible fist. She couldn't finish projects. She couldn't leave the house. Eventually she couldn't even get out of bed. The medications available at the time, SSRIs and benzodiazepines, either carried unbearable side effects or merely smothered the symptoms like bandages over a wound.;
 
 :Philip wanted a true solution. Not symptom suppression. Direct modulation of the circuit itself.;
 
-:The discovery was accidental. He was testing a batch of rare fruit extracts imported from South America when one tropical berry compound unexpectedly showed an extremely high affinity for dopamine D2 receptors. In low doses, it could temporarily quiet anxiety and induce a subjective state resembling meditation. Not numbness. Clarity.;
+:The discovery was accidental. He was testing a batch of rare fruit extracts imported from South America when one tropical berry compound unexpectedly showed an extremely high affinity for dopamine D2 receptors. In low doses, it could temporarily quiet anxiety and induce a subjective state resembling meditation.;
 
 :He tested it on Margaret. The result surpassed all expectation. Within three days she walked out of her room for the first time, stood in the yard, looked up at the sky, and said, "The sky is so blue." It was the first sentence she'd spoken in two years that had nothing to do with fear.;
 
@@ -69,7 +68,7 @@ changeFigure:char-philip.png -next;
 
 :They said fine. Then they withdrew every dollar of support, buried the paper, erased two years of research records. Overnight he went from rising academic star to a nobody with a blank stretch in his CV.;
 
-:It took him five years to rebuild his career from the ground up, beginning again as a teaching assistant, grading undergraduate assignments. He buried everything about EDEN as deeply as he could, as if burying a corpse.;
+:It took him five years to rebuild his career from the ground up. He buried everything about EDEN as deeply as he could, as if burying a corpse.;
 
 changeBg:bg-office-night.jpg -next;
 
@@ -142,17 +141,15 @@ changeFigure:none -next;
 
 changeBg:bg-street-night.jpg -next;
 
-changeFigure:char-anna.png -next;
-
 :After leaving Philip's office, Anna walks the city for a long time.;
 
-:She thinks of Jonathan slipping a maple leaf into his sketchbook in the park. Of Marco pausing over the strings when he said the old version of himself had been terrifying. Of Lily saying she couldn't go back, not because of the apple, but because she had finally seen what had always been missing.;
+:She thinks of Jonathan slipping a maple leaf into his sketchbook in the park. Of Marco's fingers pausing unconsciously on the guitar strings. Of Lily saying, "I can't go back." ;
 
 :She now holds enough evidence to destroy everything.;
 
 Anna:(If I go public, Jonathan will be written up as an experimental subject. Marco and Lily will be classified as victims. Their lives now will be dragged into the spotlight, dissected, doubted, judged, and asked to prove whether their happiness is "real.");
 
-Anna:(But if I don't go public, more people will walk up to that machine. Maybe the next one will be someone crying over data at three in the morning.);
+Anna:(But if I don't go public, more people will walk up to that machine.);
 
 :Neither choice is clean.;
 

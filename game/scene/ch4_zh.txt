@@ -5,7 +5,7 @@
 
 ; intro:第四章|深渊;
 
-changeBg:bg-subway-night-deep.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=2000 -next;
 
 changeFigure:none -left -next;
@@ -14,7 +14,7 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-:几天后的午夜。安娜独自站在站台上。;
+:安娜站在站台上。;
 
 :这个地方她已经来过好几次了，但今夜的空气不一样。更稠，更冷，带着一种让皮肤发紧的电荷感，像暴风雨来临前的最后几分钟。;
 
@@ -24,15 +24,15 @@ changeFigure:char-anna.png -next;
 
 :安娜站在那片明暗交替的边界上，感到一切都汇聚到了这个时刻。;
 
-:Jonathan的素描本。艾米丽的话。菲利普那个短暂的停顿。手机里那张无法解释的照片。那个在走廊里端着泡面擦肩而过的陌生男生。地铁车窗里她自己的倒影。;
+:Jonathan的素描本。艾米丽的话。菲利普那个短暂的停顿。手机里那张无法解释的照片。地铁车窗里她自己的倒影。;
 
 :所有这些碎片在她的脑海里旋转，像一个被打碎的万花筒，每一个角度都能拼出一个不同的图案，但没有一个是完整的。;
 
-:她知道自己站在了一个十字路口。不是那种路牌清晰的十字路口——而是深夜旷野中的那种，四个方向都一样黑。;
+:她知道自己站在了一个十字路口。不是那种路牌清晰的十字路口，而是深夜旷野中的那种，四个方向都一样深不见底。;
 
 changeFigure:none -next;
 
 :贩卖机的屏幕亮了起来。"EDEN"的字样在黄光中缓缓脉动，像是在等待她的回答。;
 
 ; 四选一，最后一项需要trust>=3
-choose:我要追查到底——EDEN计划的真相必须被揭露:ch4_inv.txt|给我一个苹果——我已经准备好了:ch4_eat.txt|我不想吃苹果，也不想追查:ch4_bal.txt|(trust>2)->Emily，你自己呢？你为什么一直在这里？:ch4_emily.txt;
+choose:我要追查到底——EDEN计划的真相必须被揭露:ch4_inv.txt|给我一个苹果——我已经准备好了:ch4_eat.txt|我不想吃苹果，也不想追查，还是多关心自己吧:ch4_bal.txt|(trust>2)->Emily，你自己呢？你为什么一直在这里？:ch4_emily.txt;

@@ -5,7 +5,7 @@
 
 ; intro:第五章|和解;
 
-changeBg:bg-bar.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=2000 -next;
 
 changeFigure:none -left -next;
@@ -43,7 +43,7 @@ changeBg:bg-lab-night.jpg -next;
 
 changeFigure:char-anna.png -next;
 
-:那天晚上，安娜打开了论文文档。但她没有按照菲利普的要求修改——她打开了一个新文件，开始写一份新的论文提案。不是为了毕业，不是为了学位，而是为了回答那个在地铁站台上找到她的问题：什么是真正的成功？;
+:那天晚上，安娜打开了电脑。她打开了一个新文件，开始写一份新的项目提案。不是为了毕业，不是为了学位，而是为了回答那个在地铁站台上找到她的问题：什么是真正的成功？;
 
 changeFigure:none -next;
 
@@ -70,12 +70,12 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-安娜:我知道。但原来的方向我已经写不下去了。不是能力问题——是我不再相信它。这个新方向，我有数据，有方法论，有真正想回答的问题。;
+安娜:我知道。但原来的方向我已经写不下去了，我不再相信它。这个新方向，我有数据，有方法论，有真正想回答的问题。;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:又是一段沉默。菲利普翻了翻提案，表情从不耐烦慢慢变成了某种安娜读不懂的东西。;
+:又是一段沉默。菲利普翻了翻提案，表情慢慢变成了某种安娜读不懂的东西。;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
@@ -89,15 +89,15 @@ changeFigure:none -right -next;
 
 changeFigure:char-anna.png -next;
 
-:两周后，安娜站在委员会面前做了新方向的提案陈述。Prof. Zhang质疑了方法论的可行性，Dr. Roberts对样本量提出了担忧，菲利普全程只问了一个问题："你确定这是你想做的？";
+:两周后，安娜站在委员会面前做了新方向的提案陈述。菲利普全程只问了一个问题："你确定这是你想做的？";
 
 :委员会以附条件通过了新提案——要求她在一年内完成数据收集和论文写作。;
 
-:接下来的一年多，安娜像换了一个人。不是苹果那种"换了一个人"——她依然焦虑，依然失眠，依然在凌晨三点怀疑自己。但这一次，每次她重新坐到电脑前，她知道自己为什么在写。;
+:接下来的一年多，安娜像换了一个人。不是苹果那种"换了一个人"。她依然焦虑，依然失眠，依然在凌晨三点怀疑自己。但这一次，每次她重新坐到电脑前，她知道自己为什么在写。;
 
-:菲利普每两周和她见一次面，审阅章节草稿。他的红笔批注依然犀利，但性质变了——不再是"方向错误"，而是"这段论证可以更严密"。;
+:菲利普每两周和她见一次面，审阅章节草稿。他的批注依然犀利，不再是"方向错误"，而是"这段论证可以更严密"。;
 
-:论文终稿在答辩前三周提交给了全体委员会成员。按照规定，他们需要在答辩前通读全稿。菲利普的书面反馈只有一句话："可以答辩。";
+:论文终稿在答辩前一个月提交给了全体委员会成员。按照规定，他们需要在答辩前通读全稿。菲利普的书面反馈只有一句话："准许答辩。";
 
 changeFigure:none -next;
 
@@ -107,15 +107,15 @@ changeBg:bg-defense-room.jpg -next;
 
 :答辩日。;
 
-:教学楼四层，406报告厅。荧光灯管在天花板上发出轻微的嗡鸣，像一首没有旋律的背景音乐。房间不大，三排听众席上零星坐着十几个人——几个同专业的研究生，两个旁听的本科生，还有一个显然走错了教室但决定留下来看热闹的人。;
+:教学楼四层，406报告厅。听众席上零星坐着十几个人——几个同专业的研究生，两个旁听的本科生，还有一个显然走错了教室但决定留下来看热闹的人。;
 
-:答辩委员会的长桌上坐着三个人。左边是Prof. Zhang，中间是Dr. Roberts，右边是菲利普。他们桌上的论文打印稿已经被翻得卷了边，空白处密密麻麻写满了批注。;
+:答辩委员会的长桌上坐着三个人。他们桌上的论文打印稿已经被翻得卷了边，空白处密密麻麻写满了批注。;
 
 changeFigure:char-anna.png -next;
 
 :安娜站在讲台上，投影仪在她身后投射出论文标题：《当我们重新定义成功：自主性、意义感与成就压力》。;
 
-:她的手指微微发抖。不是因为恐惧——是因为在意。这是她第一次为了自己真正相信的东西站在台上。;
+:她的手指微微发抖，这是她第一次为了自己真正相信的东西站在台上。;
 
 安娜:我们的社会构建了一套关于成功的叙事。这套叙事告诉我们：痛苦是有价值的，因为它通向成就；休息是可耻的，因为别人还在奔跑；放弃是懦弱的，即使你正在被压垮。;
 
@@ -129,7 +129,7 @@ changeFigure:char-anna.png -next;
 
 :他的表情无法解读。不是冷漠，也不是赞许。更像是一个人在镜子里看到了自己不愿意面对的倒影。;
 
-安娜:我的结论很简单。成功不应该只有一种定义。而我们的教育系统，需要给学生留出重新定义它的空间——不是作为失败者的退路，而是作为觉醒者的选择。;
+安娜:成功不应该只有一种定义。而我们的教育系统，需要给学生留出重新定义它的空间。不是作为失败者的退路，而是作为觉醒者的选择。;
 
 :她合上笔记本。投影仪的光束照在她身上，像一束孤独的聚光灯。;
 
@@ -149,7 +149,7 @@ changeFigure:char-philip.png -right -next;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-菲利普:Anna，我带过四十多个博士生。你知道他们大部分人的论文有什么共同点吗？;
+菲利普:Anna，我带过四十多个学生。你知道他们大部分人的论文有什么共同点吗？;
 
 ; 安娜说话
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
@@ -159,38 +159,29 @@ setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 ; 菲利普说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-菲利普:聪明，严谨，完整。但读完之后记不住任何一句话。;
+菲利普:聪明，严谨，完整。;
 
-:又一段沉默。安娜可以听见自己的呼吸，听见荧光灯管的嗡鸣，听见窗外不知道谁在打篮球。;
+:又一段沉默。安娜可以听见自己的呼吸，听见灯管的嗡鸣，听见窗外不知道谁在打篮球。;
 
-菲利普:你这篇不中规中矩。但这是我读过的最诚实的一篇。;
-
-; 恢复亮度
-setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-
-:Prof. Zhang点了点头。Dr. Roberts摘下眼镜擦了擦，但安娜注意到她的眼眶有一点红。;
-
-:委员会让安娜到走廊等候。三分钟的审议时间。;
+菲利普:你这篇不中规中矩。但是我看到了年轻时候的自己。;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
+:委员会让安娜到走廊等候。三十分钟的审议时间。;
+
+changeBg:bg-zoulang.jpg -next;
 changeFigure:char-anna.png -next;
 
-:走廊里，安娜靠着墙壁。她看着对面墙上的消防疏散图，数着上面的小箭头。一个、两个、三个……这三分钟比她经历过的任何三分钟都漫长。比期末考试的最后三分钟漫长。比等待体检报告的三分钟漫长。比在地铁站台上犹豫要不要按下贩卖机按钮的三分钟漫长。;
+:走廊里，安娜靠着墙壁。她看着对面墙上的消防疏散图，数着上面的小箭头。一个、两个、三个……这三十分钟比她经历过的任何三十分钟都漫长。;
 
 :门开了。;
-
-:Dr. Roberts走了出来，微笑着说：;
 
 :——"恭喜你，安娜。通过了。";
 
 :安娜没有欢呼，没有跳起来。她只是长长地呼了一口气，像是憋了一年多的一口气终于放了出来。;
 
 changeFigure:none -next;
-
-:答辩结束后，同学们渐渐散去。安娜走在走廊上，背着包，脚步轻快。;
 
 :一个声音从身后传来。;
 
@@ -204,15 +195,6 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 菲利普:Anna。;
 
 :她转过身。菲利普站在走廊尽头，逆光中看不清表情。;
-
-菲利普:你让我想起了年轻时的自己。;
-
-:他的声音很轻，像是在说给自己听。;
-
-; 安娜说话
-setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-安娜:菲利普……;
 
 ; 菲利普说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
@@ -232,14 +214,7 @@ changeFigure:none -right -next;
 
 changeBg:bg-campus-autumn.jpg -next;
 
-changeFigure:char-anna.png -left -next;
-changeFigure:char-emily.png -right -next;
-
-:她没有放弃，也没有被吞噬。她带着热爱，带着清醒，不急不缓地走自己的路。;
-
-changeFigure:none -left -next;
-changeFigure:none -right -next;
-
+:她没有放弃，也没有被吞噬。;
 
 :— 结局C · 平衡 Balance —;
 

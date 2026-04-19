@@ -16,7 +16,7 @@ changeFigure:char-anna.png -next;
 
 :那天晚上，安娜没有打开论文文档。;
 
-:她打开了一个新文件，开始写一份不一样的东西——提交IRB审查的研究方案。标题是：《关于奖赏相关多巴胺回路干预的伦理框架与自愿参与实验设计》。;
+:她打开了一个新文件，开始写一份不一样的东西——提交IRB审查的研究方案。标题是：《奖赏相关多巴胺回路干预的伦理框架与受试者保护方案》。;
 
 :她写了整整一夜。;
 
@@ -74,7 +74,7 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:安娜愣了一下。艾米丽的表情平静，但眼神里有一种安娜以前没见过的东西，是一个想要真正知道答案的人的眼神。;
+:安娜愣了一下。;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
@@ -91,7 +91,7 @@ changeFigure:char-philip.png -right -next;
 ; 菲利普说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-菲利普:你知道IRB不会轻易批准涉及神经干预的实验吗？光是伦理审查就要三到六个月，还不一定过。;
+菲利普:你知道IRB不会轻易批准涉及神经干预的研究吗？光是方案审查、风险评估和知情同意文件的修改，往往就要三到六个月，最后也未必能获批。;
 
 ; 安娜说话
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
@@ -133,7 +133,9 @@ changeFigure:char-anna.png -next;
 
 :接下来的两个月，安娜过的是她博士生涯里最奇怪的日子。;
 
-:白天修改提交给IRB的材料——第一稿被打回，说"风险评估不充分"；第二稿被打回，说"知情同意书措辞有歧义"；第三稿等了三周没有回音。晚上和艾米丽在视频里讨论配方，把EDEN素的浓度一次次往下压，直到效果可测但可逆。;
+:白天修改提交给IRB的材料——第一版方案被要求补充受试者风险分级与停药后的随访安排；第二版知情同意书被要求重写，说对潜在获益的表述过强，可能影响受试者自主判断。;
+
+:第三次提交后，委员会又要求补交剂量递增设计与不良事件处置预案。晚上她和艾米丽在视频里讨论配方，把EDEN素的浓度一次次往下压，直到效果可测、可控，而且可逆。;
 
 :有一个晚上，安娜对着屏幕发呆，突然觉得这件事也许根本做不成。;
 
@@ -150,12 +152,11 @@ changeFigure:none -next;
 ; === 提交申请那天 ===
 changeBg:bg-irb-office.jpg -next;
 
-changeFigure:char-anna.png -next;
-
-:三个月后，IRB批准了该研究方案。;
+:三个月后，IRB附条件批准了这项研究。安娜按要求补交最终版知情同意书和受试者安全监测表后，项目才正式启动。;
 
 changeBg:bg-lab.jpg -next;
 
+changeFigure:char-anna.png -next;
 
 :安娜坐在研究室里，看着屏幕上的批准邮件，没有欢呼，没有跳起来。她只是把椅子往后推了推，靠着椅背，闭上眼睛。;
 
@@ -191,7 +192,7 @@ changeBg:bg-city-dusk.jpg -next;
 
 :— 结局G · 共建 Build —;
 
-:安娜和艾米丽决定从头来过——透明的，自愿的，可逆的。这不是结束，是第一步。;
+:安娜和艾米丽决定从头来过。这不是结束，是第一步。;
 
 setVar:ending_g=true -global -next;
 end;

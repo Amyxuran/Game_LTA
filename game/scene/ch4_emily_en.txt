@@ -5,7 +5,7 @@
 setVar:trust=trust+3 -next;
 setVar:humanity=humanity+1 -next;
 
-changeBg:bg-bar.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:none -left -next;
@@ -16,9 +16,9 @@ changeFigure:char-emily.png -next;
 
 Emily:...You're the first person who's ever asked me that.;
 
-Emily:Two years ago, I was a postdoc in computer science at NYU. My research was neural networks and behavioral prediction. My advisor had a... very ambitious project.;
+Emily:Two years ago, I was a postdoc in computer science at NYU. My advisor had a... very ambitious project.;
 
-Emily:He convinced me to join a secret project, using AI models to design nanoscale delivery carriers that could encapsulate compounds modulating dopamine signaling inside natural fruit. We called it Project EDEN.;
+Emily:He convinced me to join a secret project, using AI to design nanocarriers that could encapsulate active compounds modulating dopamine signaling inside natural fruit. We called it Project EDEN.;
 
 Emily:The original idea was to treat severe anxiety disorders and addiction. But later the project was taken over by another institution. They wanted to study what would happen if high-performing elites collectively lost their desire to compete.;
 

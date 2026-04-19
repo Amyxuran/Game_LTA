@@ -2,7 +2,7 @@
 ; Chapter 5: Choice (Emily Path)
 ; ===========================
 
-changeBg:bg-city-rain.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:none -left -next;
@@ -19,10 +19,10 @@ Emily:Now that you know all of this... what do you want to do?;
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:The lights of New York spread beneath them. In the distance, the subway lines look like glowing blood vessels. Anna thinks for a long time.;
+:Anna thinks for a long time.;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 changeFigure:none -next;
 
-choose:Help Emily destroy every remaining piece of Project EDEN and bring it all to an end:ch5_endf_destroy.txt|The truth should be made public so everyone can choose for themselves:ch5_endd_truth.txt|I want to redesign the experiment and build a better version:ch5_endg_build.txt;
+choose:Help Emily destroy every remaining piece of Project EDEN and bring it all to an end:ch5_endf_destroy.txt|The truth should be made public so everyone can choose for themselves:ch5_endd_truth.txt|I want to redesign this experiment:ch5_endg_build.txt;

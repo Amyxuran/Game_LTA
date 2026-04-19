@@ -1,5 +1,5 @@
 ; ===========================
-; Chapter 5: Tell Emily
+; Chapter 5: Tell Emily -> Ending D
 ; ===========================
 
 setVar:trust=trust+2 -next;
@@ -17,7 +17,7 @@ changeFigure:char-emily.png -right -next;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Emily, I found out who wrote the EDEN paper. The corresponding author was my advisor, Philip Morrison.;
+Anna:Emily, I found out that one of the authors of the EDEN paper was my advisor, Philip Morrison.;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
@@ -37,7 +37,7 @@ Anna:You knew from the beginning, didn't you? You were using me.;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:I needed someone capable of discovering the truth on her own. Truth told to you by someone else doesn't really change you. Truth you uncover yourself does.;
+Emily:Because truth told to you by someone else doesn't change you. Only truth you discover for yourself does.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
@@ -51,11 +51,7 @@ Emily:Not a test subject. The only person I've ever met who heard the truth and 
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:...So what now? I have the truth in my hands. What then?;
-
-setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:That decision is yours. Not mine. Not Philip's. Yours.;
+Anna:...So what now?;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
@@ -86,7 +82,7 @@ changeFigure:char-anna.png -next;
 
 :Anna stands on the platform for a long time without speaking.;
 
-:She thinks of Lily saying, "My parents still think I'm doing my residency," those hands trained by thousands of hours of surgical practice now used to pipe frosting onto cakes. She thinks of Marco waking at four in the morning, not in panic, but in delight because a melody came to him in a dream. She thinks of Jonathan sliding a maple leaf into his sketchbook with an expression that wasn't satisfaction but something quieter.;
+:She thinks of Lily, those hands trained by thousands of hours of surgical practice now used to pipe frosting onto cakes. She thinks of Marco waking at four in the morning because a melody came to him in a dream. She thinks of Jonathan sliding a maple leaf into his sketchbook.;
 
 :What would happen to them if the truth came out? The media would turn them into headlines. Legislators would turn them into hearing evidence. Researchers would turn them into data. Their peace would be judged from the outside until even they began doubting whether it was real.;
 
@@ -98,12 +94,12 @@ Anna:(...Then I choose to protect the people who are already here.);
 
 changeFigure:none -next;
 
-changeBg:bg-subway-night-deep.jpg -next;
+changeBg:bg-subway-dawn.jpg -next;
+
+:Anna and Emily spend the whole night destroying evidence. Backup copies of the paper, experimental records, Philip's original notes, every last trace is deleted as if it had never existed.;
 
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
-
-:Anna and Emily spend the whole night destroying evidence. Backup copies of the paper, experimental records, Philip's original notes, every last trace is deleted as if it had never existed.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
@@ -116,14 +112,12 @@ Emily:Maybe not. But sometimes protecting people takes more courage than exposin
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:When they walk out of the station, dawn is just breaking. The city still hasn't woken up. Anna looks back once at the corner where the vending machine used to stand. By tomorrow it will be quietly removed, as if it were never there at all.;
+:They walk out of the station just as dawn breaks. The city still hasn't woken up. Anna looks back once at the corner where the vending machine stands. Tomorrow, it will be quietly removed, as if it had never existed.;
 
-:And the people who ate the apples will continue living their calm lives, never knowing someone once made a brutal choice over the shape of their futures.;
+:And the people who ate the apples will continue their calm lives, never knowing someone once made a difficult choice for their sake.;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
-
-changeBg:bg-subway-night-deep.jpg -next;
 
 :-- Ending H: Silence --;
 

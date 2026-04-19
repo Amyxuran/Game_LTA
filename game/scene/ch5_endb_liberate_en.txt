@@ -33,9 +33,9 @@ Anna:(I don't want to write this anymore.);
 
 changeFigure:none -next;
 
-changeBg:bg-vermont.jpg -next;
-
 :Three months later, Anna leaves the program. She tells no one directly. On the office whiteboard she leaves only a single line: "Gone to Vermont." ;
+
+changeBg:bg-vermont.jpg -next;
 
 :Vermont, October. The leaves in the small town have already burned themselves into deep crimson and amber, turning the whole street into a warm oil painting. Anna's juice shop, One A Day, sits on the corner between a used bookstore and a post office.;
 
@@ -63,11 +63,13 @@ Mr. Wilson:No, that's not it. It's because the whole place gets brighter every t
 
 :She turns and starts juicing. The apples crackle inside the machine. The air fills with a sweet sharp fragrance. She slides a glass of golden juice toward him.;
 
-:Mr. Wilson takes a sip and nods with quiet satisfaction. They don't say anything else. The only sounds in the shop are the occasional hum of the juicer and the rustling of leaves outside the window. The silence isn't awkward. It feels like an agreement between two people content to exist in the same moment.;
+:Mr. Wilson takes a sip and nods with quiet satisfaction. They don't say anything else. The only sounds in the shop are the occasional hum of the juicer and the rustling of leaves outside the window.;
 
 :At five-thirty, the last customer leaves. Anna flips the sign on the door from OPEN to CLOSED and starts wiping down the counter.;
 
 :The sunset paints the whole shop orange-red. She unties her apron, steps out the back door, and takes a deep breath in the alley.;
+
+changeBg:bg-vermont.jpg -next;
 
 :New England autumn air is cold and startlingly clear, carrying pine and soil and distance. The hills beyond town look like a palette spilled across the horizon, layered red, orange, gold, and green. She stands there with the wind moving through her hair and thinks about nothing at all. She just looks.;
 

@@ -5,7 +5,7 @@
 
 ; intro:第二章|谜团;
 
-changeFigure:cg-vending.png -next;
+
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:none -left -next;

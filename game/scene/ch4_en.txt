@@ -2,7 +2,7 @@
 ; Chapter 4: The Abyss
 ; ===========================
 
-changeBg:bg-subway-night-deep.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=2000 -next;
 
 changeFigure:none -left -next;
@@ -11,7 +11,7 @@ changeFigure:none -next;
 
 changeFigure:char-anna.png -next;
 
-:A few nights later, just past midnight, Anna stands alone on the platform.;
+:Anna stands on the platform.;
 
 :She has come here several times now, but the air tonight feels different. Denser. Colder. Charged in a way that tightens the skin, like the last few minutes before a storm breaks.;
 
@@ -21,7 +21,7 @@ changeFigure:char-anna.png -next;
 
 :Anna stands exactly on that border between light and dark and feels everything converging into this one moment.;
 
-:Jonathan's sketchbook. Emily's words. Philip's brief hesitation. The inexplicable photograph still in her phone. The stranger in the hallway carrying instant noodles. Her own reflection in the subway window.;
+:Jonathan's sketchbook. Emily's words. Philip's brief hesitation. The inexplicable photograph still in her phone. Her own reflection in the subway window.;
 
 :All of those fragments whirl through her mind like a shattered kaleidoscope. Every angle makes a different pattern, and none of them are whole.;
 
@@ -31,4 +31,4 @@ changeFigure:none -next;
 
 :The vending machine screen brightens. The word "EDEN" pulses slowly in the yellow light, as if waiting for her answer.;
 
-choose:I want to investigate all the way to the end. The truth behind Project EDEN has to be exposed:ch4_inv.txt|Give me an apple. I'm ready:ch4_eat.txt|I don't want to eat the apple, but I don't want to investigate either:ch4_bal.txt|(trust>2)->Emily, what about you? Why are you still here?:ch4_emily.txt;
+choose:I want to see this through. The truth behind Project EDEN has to be exposed:ch4_inv.txt|Give me an apple. I'm ready:ch4_eat.txt|I don't want to eat the apple, and I don't want to keep investigating either. I should care more about my own life:ch4_bal.txt|(trust>2)->Emily, what about you? Why are you still here?:ch4_emily.txt;

@@ -66,7 +66,7 @@ Marco:Now I still wake up at four in the morning. But it's because I dreamed a m
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:When he says that, he smiles. Not a bitter smile. A real one, the kind that reaches even the lines around the eyes.;
+:When he says that, he smiles.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
@@ -110,8 +110,6 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 :Someone passing by drops a five-dollar bill into the guitar case. Marco nods his thanks, then turns back to Anna.;
 
-changeBg:bg-dessert-cart.jpg -next;
-
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 Marco:By the way, do you want to meet Lily? She's right up at the next corner. Come on, I'll take you.;
@@ -119,7 +117,9 @@ Marco:By the way, do you want to meet Lily? She's right up at the next corner. C
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
-:Anna follows Marco less than fifty meters before they stop in front of a dessert cart wrapped in little strings of warm lights. Behind it stands an Asian girl piping cherry blossom patterns onto a cake with focused, practiced motions, as precise as surgery.;
+changeBg:bg-dessert-cart.jpg -next;
+
+:Anna follows Marco less than fifty meters before they stop in front of a dessert cart wrapped in little strings of warm lights. Behind it stands a blonde girl piping cherry blossom patterns onto a cake with focused, practiced motions, as precise as surgery.;
 
 changeFigure:char-anna.png -left -next;
 changeFigure:char-baker.png -right -next;
@@ -136,13 +136,11 @@ Anna:Thanks... You used to be in med school?;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Lily:Third year. Top of the class.;
+Lily:I was in my third year when I dropped out.;
 
-:There is no pride in her voice and no regret. She states it like a weather report.;
+:There is no regret in her voice. She is simply stating a fact.;
 
-Lily:I hadn't slept more than four hours a night in two years. In the hospital by six every morning, home by eleven, still memorizing anatomy at two.;
-
-Lily:Do you know what I did after my first semester ended? I sat in the dorm bathroom for three hours and didn't move. My roommate thought I was meditating. I had actually forgotten how to stand back up.;
+Lily:I hadn't slept more than six hours in two years. At the hospital by six every morning, home by eleven at night, still memorizing anatomy at two.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
@@ -157,7 +155,7 @@ Lily:At that point I thought, what does it matter? If things kept going like the
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:Lily carefully places the decorated cake into the display case. Her hands are steady. They are the hands of someone who has practiced sutures thousands of times.;
+:Lily carefully places the decorated cake into the display case. Her hands are steady, the hands of someone who has practiced sutures thousands of times.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
@@ -170,7 +168,7 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Lily:Most of the time, yes. Making desserts calms me down. When someone smiles after tasting one of my cakes, it makes me feel full in a way medicine never did.;
+Lily:Most of the time, yes. Making desserts calms me down. When someone smiles after tasting one of my cakes, I feel deeply satisfied.;
 
 Lily:But...;
 
@@ -188,9 +186,9 @@ Anna:...;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Lily:But I can't go back. Not because the apple won't let me. Because I finally saw something clearly.;
+Lily:But I can't go back.;
 
-Lily:The apple didn't take anything away from me. It only showed me what had already been missing.;
+Lily:I finally understood something: the apple didn't take anything away from me. It only showed me what had already been missing.;
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
@@ -199,6 +197,8 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
+
+changeBg:bg-city-rain.jpg -next;
 
 :Anna says goodbye to both of them. As she walks the streets of Manhattan, Marco's guitar grows fainter behind her until it dissolves into the city's noise.;
 

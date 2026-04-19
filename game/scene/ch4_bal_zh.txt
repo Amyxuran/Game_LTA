@@ -6,7 +6,7 @@
 setVar:humanity=humanity+3 -next;
 setVar:trust=trust+1 -next;
 
-changeBg:bg-bar.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=1500 -next;
 
 changeFigure:none -left -next;
@@ -21,15 +21,7 @@ setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 安娜:我不想变成Jonathan那样。他看起来快乐，但我不确定那是真正的快乐还是一种放弃。但我也不想继续像现在这样活着。;
 
-; Emily说话
-setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-艾米丽:所以你想找一个中间地带？;
-
-; 安娜说话
-setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-安娜:不是中间地带。是重新定义规则。为什么学术一定意味着痛苦？为什么追求快乐一定意味着放弃？;
+安娜:为什么追求快乐一定意味着放弃？;
 
 setVar:humanity=humanity+1 -next;
 

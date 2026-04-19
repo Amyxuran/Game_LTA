@@ -93,7 +93,6 @@ changeFigure:char-emily.png -right -next;
 ; Emily说话，高亮Emily，暗化安娜
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-playEffect:se-dramatic.wav -next;
 艾米丽:你也是被味道引来的？;
 
 ; 安娜说话，高亮安娜，暗化Emily

@@ -2,7 +2,7 @@
 ; Chapter 2: Mystery (Stay and Ask)
 ; ===========================
 
-changeBg:bg-subway.jpg -next;
+
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:none -left -next;
@@ -50,9 +50,9 @@ setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 Anna:I'm not trying to escape. I just...;
 
-:She stops. Everything after that "just" tangles itself on her tongue. Just what? Just that she hasn't had a single day without anxiety in three months?;
+:She stops. Everything after that "just" tangles itself on her tongue. Just what?;
 
-Anna:...My graduation is stalled. My advisor thinks my direction is wrong. Everyone in my cohort is publishing, and I can't even finish a first draft.;
+Anna:...Nothing.;
 
 Anna:I don't know what I'm doing. I'm not even sure why I'm still doing it.;
 
@@ -71,7 +71,7 @@ Anna:You?;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Emily:I was in a very good lab once, working on a cutting-edge project, sixteen hours a day, convinced I was changing the world.;
+Emily:I used to think I was changing the world.;
 
 :Her voice softens, as if she is retelling a story from another lifetime.;
 

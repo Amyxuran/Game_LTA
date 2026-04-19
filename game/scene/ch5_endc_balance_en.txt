@@ -1,8 +1,8 @@
 ; ===========================
-; Chapter 5: Reconciliation -> Ending C
+; Chapter 5: Balance -> Ending C
 ; ===========================
 
-changeBg:bg-bar.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=2000 -next;
 
 changeFigure:none -left -next;
@@ -36,7 +36,7 @@ changeBg:bg-lab-night.jpg -next;
 
 changeFigure:char-anna.png -next;
 
-:That night, Anna opens the dissertation file, but instead of revising what Philip assigned, she opens a new document and begins writing a new proposal. Not for graduation. Not for a degree. To answer the question that found her on that platform: what is success, really?;
+:That night, Anna opens her computer. She opens a new document and starts writing a new project proposal. Not for graduation. Not for a degree. To answer the question that found her on that subway platform: what is real success?;
 
 changeFigure:none -next;
 
@@ -62,12 +62,12 @@ Philip:"When We Redefine Success: Autonomy, Meaning, and Achievement Pressure"..
 
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:I know. But I can't keep writing the old one. It's not a problem of ability. I just don't believe in it anymore. This new direction, I have data, I have a methodology, and I have a real question I need to answer.;
+Anna:I know. But I can't keep writing the old one. I don't believe in it anymore. This new direction, I have data, I have a methodology, and I have a real question I need to answer.;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:Another long silence. Philip turns a few pages. His expression shifts slowly from impatience into something Anna can't quite read.;
+:Another long silence. Philip turns a few pages. His expression shifts slowly into something Anna can't quite read.;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
@@ -81,7 +81,7 @@ changeFigure:none -right -next;
 
 changeFigure:char-anna.png -next;
 
-:Two weeks later, Anna stands before the committee and presents the new direction. Professor Zhang questions the methodological feasibility. Dr. Roberts worries about the sample size. Philip asks only one thing: "Are you sure this is what you want to do?" ;
+:Two weeks later, Anna stands before the committee and presents the new direction. Philip asks only one question the whole time: "Are you sure this is what you want to do?" ;
 
 :The committee conditionally approves the proposal, requiring her to finish data collection and the dissertation within a year.;
 
@@ -89,7 +89,7 @@ changeFigure:char-anna.png -next;
 
 :Philip meets with her every two weeks to review chapters. His red-ink comments are still sharp, but the nature of them has changed. No longer "the direction is wrong," now "this argument could be more rigorous." ;
 
-:The final full dissertation is submitted to the entire committee three weeks before the defense. By protocol, they all have to read it beforehand. Philip's written feedback is one sentence long: "You may proceed to defense." ;
+:The full dissertation is submitted to the entire committee one month before the defense. By policy, they all have to read it beforehand. Philip's written feedback is only one sentence: "You may proceed to defense." ;
 
 changeFigure:none -next;
 
@@ -97,15 +97,15 @@ changeBg:bg-defense-room.jpg -next;
 
 :Defense day.;
 
-:Room 406, fourth floor. Fluorescent tubes hum overhead with the kind of sound that never becomes music. The room is small. A little over a dozen people are scattered in the audience rows, a few graduate students from the department, two undergraduates sitting in out of curiosity, and someone who clearly wandered into the wrong room but decided to stay and watch.;
+:Room 406 on the fourth floor of the building. A little over a dozen people are scattered in the audience rows: a few graduate students from the department, two undergraduates sitting in out of curiosity, and someone who clearly wandered into the wrong room but decided to stay and watch.;
 
-:Three committee members sit behind the long table. Professor Zhang on the left, Dr. Roberts in the center, Philip on the right. The printed copies of her dissertation are worn at the corners now, margins crowded with notes.;
+:Three committee members sit behind the long table. The printed copies of her dissertation are already worn at the corners, margins crowded with notes.;
 
 changeFigure:char-anna.png -next;
 
 :Anna stands at the lectern with the title of her dissertation projected behind her: "When We Redefine Success: Autonomy, Meaning, and Achievement Pressure." ;
 
-:Her fingers tremble slightly. Not from fear. From caring. This is the first time she has stood in front of a room for something she truly believes in.;
+:Her fingers tremble slightly. This is the first time she has stood in front of a room for something she truly believes in.;
 
 Anna:Our society has constructed a narrative about success. That narrative tells us pain is valuable because it leads to achievement. Rest is shameful because someone else is still running. Giving up is cowardice, even if you are being crushed while you persist.;
 
@@ -119,7 +119,7 @@ Anna:We are not discussing abstractions. These numbers are real. Every single pe
 
 :His expression is unreadable. Not cold, not approving. More like a man seeing in a mirror a reflection he has spent years trying not to look at.;
 
-Anna:My conclusion is simple. Success should not have only one definition. And our educational system has to make room for students to redefine it, not as a retreat for failures, but as a choice made by people who have finally woken up.;
+Anna:Success should not have only one definition. And our educational system has to make room for students to redefine it, not as a retreat for failures, but as a choice made by people who have finally woken up.;
 
 :She closes the laptop. The projector beam strikes across her body like a lonely spotlight.;
 
@@ -127,7 +127,7 @@ Anna:That concludes my presentation. Thank you.;
 
 :Silence.;
 
-:The kind of silence that can fall either way. The kind that might mean we need to think carefully, or might mean this student has gone completely mad. Anna can hear her own pulse in her ears.;
+:The kind of silence that can fall either way. It might mean we need to think carefully, or it might mean this student has gone completely mad. Anna can hear her own pulse in her ears.;
 
 :Philip speaks first.;
 
@@ -146,37 +146,29 @@ Anna:...What?;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-Philip:Intelligent. Rigorous. Complete. And impossible to remember a single sentence from once you've finished reading them.;
+Philip:Intelligent. Rigorous. Complete.;
 
 :Another silence. Anna can hear herself breathing, the fluorescent hum overhead, and someone bouncing a basketball somewhere outside the building.;
 
-Philip:Yours is not well-behaved. But it is the most honest dissertation I have ever read.;
-
-setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-
-:Professor Zhang nods. Dr. Roberts removes her glasses and wipes them, and Anna notices her eyes are a little red.;
-
-:The committee asks Anna to wait outside while they deliberate. Three minutes.;
+Philip:Yours is not well-behaved. But I can see my younger self in it.;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
+:The committee asks Anna to wait outside while they deliberate. Thirty minutes.;
+
+changeBg:bg-zoulang.jpg -next;
 changeFigure:char-anna.png -next;
 
-:In the hallway, Anna leans against the wall and stares at the fire evacuation map across from her, counting the arrows one by one. One. Two. Three. These three minutes are longer than any other three minutes she has ever lived through. Longer than the last three minutes of an exam. Longer than the three minutes waiting for medical results. Longer than the three minutes she stood on that subway platform deciding whether to press the machine's button.;
+:In the hallway, Anna leans against the wall and stares at the fire evacuation map across from her, counting the arrows one by one. One. Two. Three. These thirty minutes are longer than any thirty minutes she has ever lived through.;
 
 :The door opens.;
-
-:Dr. Roberts steps out smiling and says:;
 
 :-- "Congratulations, Anna. You passed." ;
 
 :Anna doesn't scream. She doesn't jump. She just lets out a long breath, like she has finally released something she has been holding for more than a year.;
 
 changeFigure:none -next;
-
-:After the defense, the students drift away one by one. Anna is walking down the corridor with her bag over one shoulder when a voice calls to her from behind.;
 
 :A voice comes from behind her.;
 
@@ -189,14 +181,6 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 Philip:Anna.;
 
 :She turns. Philip is standing at the end of the corridor, backlit by the window, his face difficult to read.;
-
-Philip:You remind me of who I used to be when I was young.;
-
-:His voice is soft, almost as if he were saying it to himself rather than to her.;
-
-setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
-setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
-Anna:Philip...;
 
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
@@ -212,17 +196,11 @@ changeFigure:none -right -next;
 
 changeBg:bg-campus-autumn.jpg -next;
 
-changeFigure:char-anna.png -left -next;
-changeFigure:char-emily.png -right -next;
-
-:She did not give up, and she was not consumed. She chose to walk her own path with passion and with clear eyes, neither rushing nor retreating.;
-
-changeFigure:none -left -next;
-changeFigure:none -right -next;
+:She did not give up, and she was not consumed.;
 
 :-- Ending C: Balance --;
 
-:Anna finds a road that belongs to her alone.;
+:Anna found a road of her own.;
 
 setVar:ending_c=true -global -next;
 end;

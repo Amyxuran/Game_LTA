@@ -16,7 +16,8 @@ changeFigure:char-emily.png -right -next;
 
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 艾米丽:记住吃之前的感觉。;
-setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -right -next;
 
 ; 展示苹果CG
 changeFigure:cg-apple.png -next;
@@ -30,7 +31,7 @@ setVar:rebellion=rebellion+2 -next;
 changeFigure:none -next;
 changeFigure:none -right -next;
 
-changeBg:bg-apartment.jpg -next;
+changeBg:bg-park.jpg -next;
 
 changeFigure:char-anna.png -next;
 

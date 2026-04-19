@@ -28,39 +28,27 @@ changeFigure:char-anna.png -next;
 
 :She takes out her phone.;
 
-:The photo is still there in her gallery, a blurred yellow flare with light bleeding outward at the edges, like some hidden light source underwater. She zooms in, then farther. The pixels break apart into mosaic squares, but the center of the yellow shape still seems to glow. Something round is hiding beneath the blur.;
+:The photo is still there in her gallery.;
 
 :An apple? A light? Something else entirely?;
 
 :She stares at the photo for a long time, until the screen dims on its own.;
 
-:She slips the phone back into her pocket and tilts her head to look at the sky. There are never any stars over Manhattan, only the warning lights atop skyscrapers blinking in rhythm, red, dark, red, dark, like distress signals with no one answering them.;
+:She slips the phone back into her pocket and tilts her head to look at the sky. Over Manhattan there are only the warning lights atop skyscrapers blinking in rhythm, red, dark, red, dark, like distress signals with no one answering them.;
 
 :She remembers why she chose psychology in the first place.;
 
 :Freshman year, Intro to Psychology, the very first lecture. The professor had written a single question on the board: "What makes a person human?" She still remembers the surge that ran through her then, the feeling of having found an entrance, as though this field could lead her to a place she had always wanted to go but never knew how to reach.;
 
-:But what happened after that? Statistics. Experimental design. p-values and effect sizes. Sample sizes of n greater than or equal to 30. Paper after paper after paper, all saying "This study finds..." and then concluding things any person with an ounce of intuition could have guessed already.;
+:But what happened after that? Statistics. Experimental design. p-values and effect sizes. Paper after paper after paper, all saying "This study finds..." and then concluding things any person with an ounce of intuition could have guessed already.;
 
 :She wanted to understand people. But after five years in a doctoral program, she does not understand people any better than a taxi driver does.;
 
 :A pigeon lands on the other end of the bench. Gray, plump, head tilted, as if evaluating whether she is the type to scatter crumbs.;
 
-:Looking at it, she suddenly thinks of Jonathan's sketchbooks, if only she had seen them. There must be something in those drawings she has never seen in an academic paper: something real. Not the reality of data, but something softer and more fragile.;
+:Looking at it, she suddenly thinks of Jonathan's sketchbooks, those drawings containing something she has never seen at school.;
 
 :The pigeon waits. No crumbs come. It flaps away.;
-
-:Then she remembers something else.;
-
-:Autumn, when she was eight years old. She found a dead bird by the flowerbed in her apartment complex, a sparrow, tiny, brown-gray feathers like fallen leaves. One eye half-closed, claws curled under its chest, as if it had fallen asleep in a dream that was too cold.;
-
-:She ran home and asked her mother, "Why did it die?" ;
-
-:Her mother had been cutting vegetables in the kitchen. She set down the knife, looked at Anna, and said, "Some questions don't have answers." ;
-
-:Anna has carried that sentence for twenty years. She chose psychology because she refused to believe it. She believed every question should have an answer, even if no one had found it yet.;
-
-:But now she is here on a Manhattan bench, across from a hot dog vendor finishing his shift, beside the empty place where a pigeon just sat, with an inexplicable photo in her phone:;
 
 :The wind rises. Anna stands and zips her coat all the way to her throat.;
 

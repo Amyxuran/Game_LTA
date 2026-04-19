@@ -127,7 +127,7 @@ setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 Jonathan:...I've asked myself that a lot too.;
 
-Jonathan:I'm not sure. But I do know the old me wasn't the real me either. The one obsessed with paper counts and impact factors, he was trained into existence. He wasn't born that way.;
+Jonathan:I'm not sure. But I do know the old me wasn't the real me either. The one obsessed with publication counts and journal impact factors, he was trained into existence. He wasn't born that way.;
 
 Jonathan:Maybe there is no such thing as the real me. Maybe there is only the me who exists right now. And right now, I want to draw this tree.;
 

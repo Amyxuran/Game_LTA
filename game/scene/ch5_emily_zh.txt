@@ -5,7 +5,7 @@
 
 ; intro:第五章|选择;
 
-changeBg:bg-city-rain.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:none -left -next;
@@ -24,10 +24,10 @@ setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:纽约的灯火在脚下蔓延。远处的地铁线路像一条发光的血管。安娜想了很久。;
+:安娜想了很久。;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 changeFigure:none -next;
 
-choose:帮Emily一起销毁EDEN计划的所有资料——让一切结束:ch5_endf_destroy.txt|真相应该被公开，让所有人自己选择:ch5_endd_truth.txt|我想重新设计这个实验——做一个更好的版本:ch5_endg_build.txt;
+choose:帮Emily一起销毁EDEN计划的所有资料——让一切结束:ch5_endf_destroy.txt|真相应该被公开，让所有人自己选择:ch5_endd_truth.txt|我想重新设计这个实验:ch5_endg_build.txt;

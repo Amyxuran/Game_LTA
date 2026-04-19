@@ -15,7 +15,8 @@ changeFigure:char-emily.png -right -next;
 
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 Emily:Remember how you feel before you eat it.;
-setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
+
+changeFigure:none -right -next;
 
 changeFigure:cg-apple.png -next;
 setTransform:{"position":{"x":0,"y":-40},"scale":{"x":0.68,"y":0.68}} -target=fig-center -duration=0 -next;
@@ -28,7 +29,7 @@ setVar:rebellion=rebellion+2 -next;
 changeFigure:none -next;
 changeFigure:none -right -next;
 
-changeBg:bg-apartment.jpg -next;
+changeBg:bg-park.jpg -next;
 
 changeFigure:char-anna.png -next;
 

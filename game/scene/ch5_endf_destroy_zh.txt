@@ -5,7 +5,7 @@
 
 setVar:trust=trust+1 -next;
 
-changeBg:bg-city-rain.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 bgm:bgm-misty.mp3 -enter=1500 -next;
 
 changeFigure:none -left -next;
@@ -28,9 +28,9 @@ setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 ; 艾米丽说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
-艾米丽:菲利普当年的研究助理。他叫Daniel Reyes。项目被叫停以后，他没有放弃——他相信EDEN素能真正改变世界，只是菲利普太懦弱了没有坚持下去。;
+艾米丽:菲利普当年的研究助理。他叫Daniel Reyes。项目被叫停以后，他没有放弃。他相信EDEN素能真正改变世界，只是菲利普太懦弱了没有坚持下去。;
 
-艾米丽:他找到了我。两年前。他想要我的技术支持——我是唯一还活着的、完整参与过那个实验的工程师。;
+艾米丽:他找到了我。两年前。他想要我的技术支持——我是唯一完整参与过那个实验的工程师。;
 
 ; 安娜说话
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
@@ -53,7 +53,7 @@ changeFigure:none -right -next;
 changeFigure:none -next;
 
 ; === 追查 ===
-changeBg:bg-library.jpg -next;
+changeBg:bg-city-rain.jpg -next;
 
 
 
@@ -76,14 +76,14 @@ changeFigure:char-anna.png -next;
 changeFigure:none -next;
 
 ; === 站台 ===
-changeBg:bg-subway-night-deep.jpg -next;
+changeBg:bg-vending-machine.jpg -next;
 
 changeFigure:char-anna.png -left -next;
 changeFigure:char-emily.png -right -next;
 
 :她们在黎明前赶到站台。艾米丽从随身的硬盘里调出一个加密文件夹——EDEN计划的全部原始数据：配方、实验记录、菲利普的笔记、所有备份的备份。;
 
-:这是艾米丽一直藏着的东西。以防万一，她说过。;
+:这是艾米丽一直藏着的东西。;
 
 ; 艾米丽说话
 setTransform:{"brightness":0.4} -target=fig-left -duration=300 -next;
@@ -99,24 +99,17 @@ setTransform:{"brightness":0.4} -target=fig-right -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-left -duration=300 -next;
 setTransform:{"brightness":1} -target=fig-right -duration=300 -next;
 
-:艾米丽按下删除键。进度条走完的时候，贩卖机的屏幕忽然闪了一下，然后熄灭了。站台陷入完全的黑暗。然后，第一缕晨光从隧道口照了进来。;
+:艾米丽按下删除键。然后，第一缕晨光从站台口照了进来。;
 
 changeFigure:none -left -next;
 changeFigure:none -right -next;
 
 changeBg:bg-subway-dawn.jpg -next;
 
-changeFigure:char-anna.png -left -next;
-changeFigure:char-emily.png -right -next;
 
-:贩卖机不会再分发新的苹果了。那些已经吃过的人——他们的改变不会因为这块数据的消失而复原。;
+:贩卖机不会再分发新的苹果了。那些已经吃过的人——他们的改变不会因为数据的消失而复原。;
 
 :她们在空荡荡的站台上看着天光变亮。什么都没说。;
-
-changeFigure:none -left -next;
-changeFigure:none -right -next;
-
-changeBg:bg-subway-dawn.jpg -next;
 
 :— 结局F · 终结 Ending —;
 

@@ -4,7 +4,6 @@
 
 setVar:investigation=investigation+1 -next;
 
-changeBg:bg-subway.jpg -next;
 bgm:bgm-misty.mp3 -enter=1000 -next;
 
 changeFigure:none -left -next;

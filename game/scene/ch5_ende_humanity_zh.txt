@@ -12,15 +12,11 @@ changeFigure:none -left -next;
 changeFigure:none -right -next;
 changeFigure:none -next;
 
-changeFigure:char-anna.png -next;
 
-:安娜花了三个月回访吃过苹果的人。几乎所有人都说自己比以前更快乐了。她最终写了一篇论文：《当我们失去竞争的欲望》。没有发表在任何期刊上，但在网上引发了百万人的共鸣。;
-
-:真相被揭露了，但带来的不是恐慌，而是反思。;
+:安娜花了三个月回访吃过苹果的人。几乎所有人都说自己比以前更快乐了。她最终写了一篇长文：《当我们失去竞争的欲望》。没有发表在任何期刊上，但在网上引发了百万人的共鸣。;
 
 changeFigure:none -next;
 
-changeBg:bg-campus.jpg -next;
 
 :— 结局E · 关怀 Humanity —;
 

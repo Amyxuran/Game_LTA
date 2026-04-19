@@ -29,8 +29,6 @@ changeFigure:char-anna.png -next;
 
 :A commuter passes by her quickly, glancing at the corner where the vending machine once stood. There is nothing there now except clean tile and four screw holes in the wall. He notices nothing and keeps moving.;
 
-:That is how the world works. Some people change everything. Some people never even realize it happened.;
-
 :Anna rises and zips her coat to the top. She doesn't know whether what she did was right. But she knows one thing:;
 
 :The moment truth is spoken aloud, it no longer belongs to the person who carried it. It grows roots of its own and blooms in ways no one can predict. Whether those flowers will be beautiful or monstrous is no longer hers to decide.;

@@ -7,7 +7,7 @@ setVar:humanity=humanity+2 -next;
 
 ; intro:第五章|觉醒;
 
-changeBg:bg-street-night.jpg -next;
+changeBg:bg-park.jpg -next;
 bgm:bgm-misty.mp3 -enter=1500 -next;
 
 changeFigure:none -left -next;
@@ -54,9 +54,9 @@ changeBg:bg-lab.jpg -next;
 
 changeFigure:char-anna.png -next;
 
-:安娜回到了办公室，重新拿起论文。但这次，她写的不再是菲利普布置的课题——而是自己真正想研究的方向：人类在压力下的心理韧性与自主选择。;
+:安娜回到了办公室，重新拿起论文。但这次，她不再焦虑了。;
 
-:论文依然很难写，导师依然严格，延毕依然可能。但安娜不再害怕了。因为这条路是她自己选的。不是苹果选的，不是导师选的，也不是社会选的。;
+:论文依然很难写，导师依然严格，延毕依然可能。但安娜不再害怕了。因为这条路不是苹果选的，不是导师选的，也不是社会选的。;
 
 :是她自己。;
 
